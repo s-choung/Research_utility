@@ -1,0 +1,45 @@
+{
+  "slab": "ZnO_100",
+  "metal": "Ir",
+  "n_metal": 40,
+  "best_energy": -5391.07381446019,
+  "best_energy_per_metal": -134.77684536150474,
+  "generations": 10,
+  "population_size": 10,
+  "total_structures": 24,
+  "duration_seconds": 2888.49488,
+  "duration_hours": 0.802359688888889,
+  "generation_best": [
+    -5377.871963569049,
+    -5383.300773688706,
+    -5388.922508307846,
+    -5390.266326972396,
+    -5391.07381446019,
+    -5391.07381446019,
+    -5391.07381446019,
+    -5391.07381446019,
+    -5391.07381446019,
+    -5391.07381446019
+  ],
+  "ga_parameters": {
+    "population_size": 10,
+    "n_iterations": 10,
+    "n_candidates_per_gen": 10,
+    "mutation_probability": 0.3,
+    "crossover_probability": 0.7,
+    "fmax_relaxation": 0.05,
+    "max_steps_relax": 200,
+    "covalent_ratio": 0.7,
+    "mutation_weights": [
+      1.0,
+      1.0,
+      0.5
+    ],
+    "description": "Mirror, Rattle, Permutation mutation weights",
+    "n_metal": 40
+  },
+  "timestamp": "2025-11-28T00:24:29.815803",
+  "output_dir": "/DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Ir_ZnO_100",
+  "atom_config": "M40",
+  "n_oxide": 0
+}

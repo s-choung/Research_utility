@@ -1,0 +1,1533 @@
+{
+  "Al2O3": {
+    "best": {
+      "filename": "Al2O3_001_5x5_relaxed.traj",
+      "material": "Al2O3",
+      "base_material": "Al2O3",
+      "polymorph": null,
+      "miller_index": [
+        0,
+        0,
+        1
+      ],
+      "termination": 0,
+      "source": "original",
+      "surface_energy": -4.261783463474364,
+      "slab_energy": -10341.4913,
+      "n_formula_units": 300.0,
+      "surface_area": 490.3453373241919,
+      "n_atoms": 1500,
+      "cell_volume": 20838.20710785377,
+      "n_terminations": 2,
+      "other_terminations": [
+        {
+          "filename": "Al2O3_001_5x5_relaxed.traj",
+          "material": "Al2O3",
+          "base_material": "Al2O3",
+          "polymorph": null,
+          "miller_index": [
+            0,
+            0,
+            1
+          ],
+          "termination": 1,
+          "source": "original",
+          "surface_energy": -4.010065764528661,
+          "slab_energy": -10094.6341,
+          "n_formula_units": 300.0,
+          "surface_area": 490.3453373241919,
+          "n_atoms": 1500,
+          "cell_volume": 20664.091689610887
+        }
+      ]
+    },
+    "all_surfaces": [
+      {
+        "filename": "Al2O3_001_5x5_relaxed.traj",
+        "material": "Al2O3",
+        "base_material": "Al2O3",
+        "polymorph": null,
+        "miller_index": [
+          0,
+          0,
+          1
+        ],
+        "termination": 0,
+        "source": "original",
+        "surface_energy": -4.261783463474364,
+        "slab_energy": -10341.4913,
+        "n_formula_units": 300.0,
+        "surface_area": 490.3453373241919,
+        "n_atoms": 1500,
+        "cell_volume": 20838.20710785377,
+        "n_terminations": 2,
+        "other_terminations": [
+          {
+            "filename": "Al2O3_001_5x5_relaxed.traj",
+            "material": "Al2O3",
+            "base_material": "Al2O3",
+            "polymorph": null,
+            "miller_index": [
+              0,
+              0,
+              1
+            ],
+            "termination": 1,
+            "source": "original",
+            "surface_energy": -4.010065764528661,
+            "slab_energy": -10094.6341,
+            "n_formula_units": 300.0,
+            "surface_area": 490.3453373241919,
+            "n_atoms": 1500,
+            "cell_volume": 20664.091689610887
+          }
+        ]
+      },
+      {
+        "filename": "Al2O3_110_5x5_relaxed.traj",
+        "material": "Al2O3",
+        "base_material": "Al2O3",
+        "polymorph": null,
+        "miller_index": [
+          1,
+          1,
+          0
+        ],
+        "termination": 2,
+        "source": "original",
+        "surface_energy": -3.509069144102239,
+        "slab_energy": -15505.6709,
+        "n_formula_units": 450.0,
+        "surface_area": 892.3550153643728,
+        "n_atoms": 2250,
+        "cell_volume": 33804.63173070069,
+        "n_terminations": 3,
+        "other_terminations": [
+          {
+            "filename": "Al2O3_110_5x5_relaxed.traj",
+            "material": "Al2O3",
+            "base_material": "Al2O3",
+            "polymorph": null,
+            "miller_index": [
+              1,
+              1,
+              0
+            ],
+            "termination": 1,
+            "source": "original",
+            "surface_energy": -3.417501944284759,
+            "slab_energy": -15342.25,
+            "n_formula_units": 450.0,
+            "surface_area": 892.3550153643728,
+            "n_atoms": 2250,
+            "cell_volume": 34106.14867448716
+          },
+          {
+            "filename": "Al2O3_110_5x5_relaxed.traj",
+            "material": "Al2O3",
+            "base_material": "Al2O3",
+            "polymorph": null,
+            "miller_index": [
+              1,
+              1,
+              0
+            ],
+            "termination": 0,
+            "source": "original",
+            "surface_energy": -3.2086931778277052,
+            "slab_energy": -14969.5869,
+            "n_formula_units": 450.0,
+            "surface_area": 892.3550153643728,
+            "n_atoms": 2250,
+            "cell_volume": 33630.516312457825
+          }
+        ]
+      },
+      {
+        "filename": "Al2O3_100_5x5_relaxed.traj",
+        "material": "Al2O3",
+        "base_material": "Al2O3",
+        "polymorph": null,
+        "miller_index": [
+          1,
+          0,
+          0
+        ],
+        "termination": 1,
+        "source": "original",
+        "surface_energy": -3.3464684984281803,
+        "slab_energy": -25749.6317,
+        "n_formula_units": 750.0,
+        "surface_area": 1545.6042249999998,
+        "n_atoms": 3750,
+        "cell_volume": 68320.20850244997,
+        "n_terminations": 2,
+        "other_terminations": [
+          {
+            "filename": "Al2O3_100_5x5_relaxed.traj",
+            "material": "Al2O3",
+            "base_material": "Al2O3",
+            "polymorph": null,
+            "miller_index": [
+              1,
+              0,
+              0
+            ],
+            "termination": 0,
+            "source": "original",
+            "surface_energy": -3.2564649595209283,
+            "slab_energy": -25471.412,
+            "n_formula_units": 750.0,
+            "surface_area": 1545.6042249999998,
+            "n_atoms": 3750,
+            "cell_volume": 69294.83017285824
+          }
+        ]
+      }
+    ]
+  },
+  "CaO": {
+    "best": {
+      "filename": "CaO_110_4x4_relaxed.traj",
+      "material": "CaO",
+      "base_material": "CaO",
+      "polymorph": null,
+      "miller_index": [
+        1,
+        1,
+        0
+      ],
+      "termination": 0,
+      "source": "original",
+      "surface_energy": -1.401571650739143,
+      "slab_energy": -1882.53703053454,
+      "n_formula_units": 160.0,
+      "surface_area": 261.7550912033613,
+      "n_atoms": 320,
+      "cell_volume": 8456.083626457143
+    },
+    "all_surfaces": [
+      {
+        "filename": "CaO_110_4x4_relaxed.traj",
+        "material": "CaO",
+        "base_material": "CaO",
+        "polymorph": null,
+        "miller_index": [
+          1,
+          1,
+          0
+        ],
+        "termination": 0,
+        "source": "original",
+        "surface_energy": -1.401571650739143,
+        "slab_energy": -1882.53703053454,
+        "n_formula_units": 160.0,
+        "surface_area": 261.7550912033613,
+        "n_atoms": 320,
+        "cell_volume": 8456.083626457143
+      },
+      {
+        "filename": "CaO_100_4x4_relaxed.traj",
+        "material": "CaO",
+        "base_material": "CaO",
+        "polymorph": null,
+        "miller_index": [
+          1,
+          0,
+          0
+        ],
+        "termination": 0,
+        "source": "original",
+        "surface_energy": -1.2313003241879907,
+        "slab_energy": -1145.0797988871323,
+        "n_formula_units": 96.0,
+        "surface_area": 185.08879999999996,
+        "n_atoms": 192,
+        "cell_volume": 5372.202419999996
+      },
+      {
+        "filename": "CaO_111_4x4_relaxed.traj",
+        "material": "CaO",
+        "base_material": "CaO",
+        "polymorph": null,
+        "miller_index": [
+          1,
+          1,
+          1
+        ],
+        "termination": 0,
+        "source": "original",
+        "surface_energy": -1.1932832333276602,
+        "slab_energy": -1071.8265640238506,
+        "n_formula_units": 96.0,
+        "surface_area": 160.29160275597715,
+        "n_atoms": 192,
+        "cell_volume": 5173.219348851611
+      }
+    ]
+  },
+  "CeO2": {
+    "best": {
+      "filename": "CeO2_111_4x4_relaxed.traj",
+      "material": "CeO2",
+      "base_material": "CeO2",
+      "polymorph": null,
+      "miller_index": [
+        1,
+        1,
+        1
+      ],
+      "termination": 1,
+      "source": "original",
+      "surface_energy": -2.1638729024860033,
+      "slab_energy": -1889.8846,
+      "n_formula_units": 80.0,
+      "surface_area": 202.85031505118138,
+      "n_atoms": 240,
+      "cell_volume": 6561.13923085346,
+      "n_terminations": 2,
+      "other_terminations": [
+        {
+          "filename": "CeO2_111_4x4_relaxed.traj",
+          "material": "CeO2",
+          "base_material": "CeO2",
+          "polymorph": null,
+          "miller_index": [
+            1,
+            1,
+            1
+          ],
+          "termination": 0,
+          "source": "original",
+          "surface_energy": -1.947871266062886,
+          "slab_energy": -1802.2526,
+          "n_formula_units": 80.0,
+          "surface_area": 202.85031505118138,
+          "n_atoms": 240,
+          "cell_volume": 6750.307280442711
+        }
+      ]
+    },
+    "all_surfaces": [
+      {
+        "filename": "CeO2_111_4x4_relaxed.traj",
+        "material": "CeO2",
+        "base_material": "CeO2",
+        "polymorph": null,
+        "miller_index": [
+          1,
+          1,
+          1
+        ],
+        "termination": 1,
+        "source": "original",
+        "surface_energy": -2.1638729024860033,
+        "slab_energy": -1889.8846,
+        "n_formula_units": 80.0,
+        "surface_area": 202.85031505118138,
+        "n_atoms": 240,
+        "cell_volume": 6561.13923085346,
+        "n_terminations": 2,
+        "other_terminations": [
+          {
+            "filename": "CeO2_111_4x4_relaxed.traj",
+            "material": "CeO2",
+            "base_material": "CeO2",
+            "polymorph": null,
+            "miller_index": [
+              1,
+              1,
+              1
+            ],
+            "termination": 0,
+            "source": "original",
+            "surface_energy": -1.947871266062886,
+            "slab_energy": -1802.2526,
+            "n_formula_units": 80.0,
+            "surface_area": 202.85031505118138,
+            "n_atoms": 240,
+            "cell_volume": 6750.307280442711
+          }
+        ]
+      },
+      {
+        "filename": "CeO2_110_4x4_relaxed.traj",
+        "material": "CeO2",
+        "base_material": "CeO2",
+        "polymorph": null,
+        "miller_index": [
+          1,
+          1,
+          0
+        ],
+        "termination": 0,
+        "source": "original",
+        "surface_energy": -2.118594764880524,
+        "slab_energy": -3022.782494804801,
+        "n_formula_units": 128.0,
+        "surface_area": 331.2531773588033,
+        "n_atoms": 384,
+        "cell_volume": 10067.294777967656
+      },
+      {
+        "filename": "CeO2_miller100_term0_restarted.traj",
+        "material": "CeO2",
+        "base_material": "CeO2",
+        "polymorph": null,
+        "miller_index": [
+          1,
+          0,
+          0
+        ],
+        "termination": 0,
+        "source": "restarted",
+        "surface_energy": -2.0950439570924053,
+        "slab_energy": -2195.8500241797747,
+        "n_formula_units": 96.0,
+        "surface_area": 234.23136799999995,
+        "n_atoms": 288,
+        "cell_volume": 7467.354569681993,
+        "n_terminations": 2,
+        "other_terminations": [
+          {
+            "filename": "CeO2_100_4x4_relaxed.traj",
+            "material": "CeO2",
+            "base_material": "CeO2",
+            "polymorph": null,
+            "miller_index": [
+              1,
+              0,
+              0
+            ],
+            "termination": 0,
+            "source": "original",
+            "surface_energy": -2.094047903972972,
+            "slab_energy": -2195.3834104102434,
+            "n_formula_units": 96.0,
+            "surface_area": 234.23136799999995,
+            "n_atoms": 288,
+            "cell_volume": 7467.354569681993
+          }
+        ]
+      }
+    ]
+  },
+  "MgO": {
+    "best": {
+      "filename": "MgO_110_5x5_relaxed.traj",
+      "material": "MgO",
+      "base_material": "MgO",
+      "polymorph": null,
+      "miller_index": [
+        1,
+        1,
+        0
+      ],
+      "termination": 0,
+      "source": "original",
+      "surface_energy": -1.6751383071637949,
+      "slab_energy": -2698.2088777234976,
+      "n_formula_units": 250.0,
+      "surface_area": 313.61854517626983,
+      "n_atoms": 500,
+      "cell_volume": 9534.788425196579
+    },
+    "all_surfaces": [
+      {
+        "filename": "MgO_110_5x5_relaxed.traj",
+        "material": "MgO",
+        "base_material": "MgO",
+        "polymorph": null,
+        "miller_index": [
+          1,
+          1,
+          0
+        ],
+        "termination": 0,
+        "source": "original",
+        "surface_energy": -1.6751383071637949,
+        "slab_energy": -2698.2088777234976,
+        "n_formula_units": 250.0,
+        "surface_area": 313.61854517626983,
+        "n_atoms": 500,
+        "cell_volume": 9534.788425196579
+      },
+      {
+        "filename": "MgO_100_5x5_relaxed.traj",
+        "material": "MgO",
+        "base_material": "MgO",
+        "polymorph": null,
+        "miller_index": [
+          1,
+          0,
+          0
+        ],
+        "termination": 0,
+        "source": "original",
+        "surface_energy": -1.488703049869495,
+        "slab_energy": -1648.774936009098,
+        "n_formula_units": 150.0,
+        "surface_area": 221.7618,
+        "n_atoms": 300,
+        "cell_volume": 6105.102354000001
+      },
+      {
+        "filename": "MgO_111_5x5_relaxed.traj",
+        "material": "MgO",
+        "base_material": "MgO",
+        "polymorph": null,
+        "miller_index": [
+          1,
+          1,
+          1
+        ],
+        "termination": 0,
+        "source": "original",
+        "surface_energy": -1.1304739889590478,
+        "slab_energy": -1257.9681168402635,
+        "n_formula_units": 125.0,
+        "surface_area": 192.0513523889639,
+        "n_atoms": 250,
+        "cell_volume": 5366.509569212386
+      }
+    ]
+  },
+  "SiO2": {
+    "best": {
+      "filename": "SiO2_001_5x5_relaxed.traj",
+      "material": "SiO2",
+      "base_material": "SiO2",
+      "polymorph": null,
+      "miller_index": [
+        0,
+        0,
+        1
+      ],
+      "termination": 1,
+      "source": "original",
+      "surface_energy": -4.205422038747432,
+      "slab_energy": -6578.8237,
+      "n_formula_units": 300.0,
+      "surface_area": 523.2321107670286,
+      "n_atoms": 900,
+      "cell_volume": 19933.844060482068,
+      "n_terminations": 2,
+      "other_terminations": [
+        {
+          "filename": "SiO2_001_5x5_relaxed.traj",
+          "material": "SiO2",
+          "base_material": "SiO2",
+          "polymorph": null,
+          "miller_index": [
+            0,
+            0,
+            1
+          ],
+          "termination": 0,
+          "source": "original",
+          "surface_energy": -4.1315349450380525,
+          "slab_energy": -6501.5035,
+          "n_formula_units": 300.0,
+          "surface_area": 523.2321107670286,
+          "n_atoms": 900,
+          "cell_volume": 19872.569220043653
+        }
+      ]
+    },
+    "all_surfaces": [
+      {
+        "filename": "SiO2_001_5x5_relaxed.traj",
+        "material": "SiO2",
+        "base_material": "SiO2",
+        "polymorph": null,
+        "miller_index": [
+          0,
+          0,
+          1
+        ],
+        "termination": 1,
+        "source": "original",
+        "surface_energy": -4.205422038747432,
+        "slab_energy": -6578.8237,
+        "n_formula_units": 300.0,
+        "surface_area": 523.2321107670286,
+        "n_atoms": 900,
+        "cell_volume": 19933.844060482068,
+        "n_terminations": 2,
+        "other_terminations": [
+          {
+            "filename": "SiO2_001_5x5_relaxed.traj",
+            "material": "SiO2",
+            "base_material": "SiO2",
+            "polymorph": null,
+            "miller_index": [
+              0,
+              0,
+              1
+            ],
+            "termination": 0,
+            "source": "original",
+            "surface_energy": -4.1315349450380525,
+            "slab_energy": -6501.5035,
+            "n_formula_units": 300.0,
+            "surface_area": 523.2321107670286,
+            "n_atoms": 900,
+            "cell_volume": 19872.569220043653
+          }
+        ]
+      },
+      {
+        "filename": "SiO2_100_5x5_relaxed.traj",
+        "material": "SiO2",
+        "base_material": "SiO2",
+        "polymorph": null,
+        "miller_index": [
+          1,
+          0,
+          0
+        ],
+        "termination": 1,
+        "source": "original",
+        "surface_energy": -4.148583906201426,
+        "slab_energy": -8234.097,
+        "n_formula_units": 375.0,
+        "surface_area": 664.2745000000001,
+        "n_atoms": 1125,
+        "cell_volume": 28768.809117328386,
+        "n_terminations": 5,
+        "other_terminations": [
+          {
+            "filename": "SiO2_100_5x5_relaxed.traj",
+            "material": "SiO2",
+            "base_material": "SiO2",
+            "polymorph": null,
+            "miller_index": [
+              1,
+              0,
+              0
+            ],
+            "termination": 0,
+            "source": "original",
+            "surface_energy": -4.109048367805778,
+            "slab_energy": -8181.5721,
+            "n_formula_units": 375.0,
+            "surface_area": 664.2745000000001,
+            "n_atoms": 1125,
+            "cell_volume": 29536.630002514277
+          },
+          {
+            "filename": "SiO2_100_5x5_relaxed.traj",
+            "material": "SiO2",
+            "base_material": "SiO2",
+            "polymorph": null,
+            "miller_index": [
+              1,
+              0,
+              0
+            ],
+            "termination": 2,
+            "source": "original",
+            "surface_energy": -4.098880282172504,
+            "slab_energy": -8168.0633,
+            "n_formula_units": 375.0,
+            "surface_area": 664.2745000000001,
+            "n_atoms": 1125,
+            "cell_volume": 29316.040576935997
+          },
+          {
+            "filename": "SiO2_100_5x5_relaxed.traj",
+            "material": "SiO2",
+            "base_material": "SiO2",
+            "polymorph": null,
+            "miller_index": [
+              1,
+              0,
+              0
+            ],
+            "termination": 4,
+            "source": "original",
+            "surface_energy": -4.0802254188592215,
+            "slab_energy": -8143.2794,
+            "n_formula_units": 375.0,
+            "surface_area": 664.2745000000001,
+            "n_atoms": 1125,
+            "cell_volume": 30462.822782987158
+          },
+          {
+            "filename": "SiO2_100_5x5_relaxed.traj",
+            "material": "SiO2",
+            "base_material": "SiO2",
+            "polymorph": null,
+            "miller_index": [
+              1,
+              0,
+              0
+            ],
+            "termination": 3,
+            "source": "original",
+            "surface_energy": -4.026338208075125,
+            "slab_energy": -8071.6876,
+            "n_formula_units": 375.0,
+            "surface_area": 664.2745000000001,
+            "n_atoms": 1125,
+            "cell_volume": 29922.66149727624
+          }
+        ]
+      },
+      {
+        "filename": "SiO2_101_5x5_relaxed.traj",
+        "material": "SiO2",
+        "base_material": "SiO2",
+        "polymorph": null,
+        "miller_index": [
+          1,
+          0,
+          1
+        ],
+        "termination": 3,
+        "source": "original",
+        "surface_energy": -3.9143942603398045,
+        "slab_energy": -9886.9916,
+        "n_formula_units": 450.0,
+        "surface_area": 845.5959159598457,
+        "n_atoms": 1350,
+        "cell_volume": 44023.416316933486,
+        "n_terminations": 5,
+        "other_terminations": [
+          {
+            "filename": "SiO2_miller101_term0_restarted.traj",
+            "material": "SiO2",
+            "base_material": "SiO2",
+            "polymorph": null,
+            "miller_index": [
+              1,
+              0,
+              1
+            ],
+            "termination": 0,
+            "source": "restarted",
+            "surface_energy": -3.8790540259660022,
+            "slab_energy": -9827.224484288898,
+            "n_formula_units": 450.0,
+            "surface_area": 845.5959159598457,
+            "n_atoms": 1350,
+            "cell_volume": 44870.42314976293
+          },
+          {
+            "filename": "SiO2_101_5x5_relaxed.traj",
+            "material": "SiO2",
+            "base_material": "SiO2",
+            "polymorph": null,
+            "miller_index": [
+              1,
+              0,
+              1
+            ],
+            "termination": 0,
+            "source": "original",
+            "surface_energy": -3.868334849142448,
+            "slab_energy": -9809.0963,
+            "n_formula_units": 450.0,
+            "surface_area": 845.5959159598457,
+            "n_atoms": 1350,
+            "cell_volume": 44870.42314976293
+          },
+          {
+            "filename": "SiO2_101_5x5_relaxed.traj",
+            "material": "SiO2",
+            "base_material": "SiO2",
+            "polymorph": null,
+            "miller_index": [
+              1,
+              0,
+              1
+            ],
+            "termination": 2,
+            "source": "original",
+            "surface_energy": -3.845807599849413,
+            "slab_energy": -9770.9984,
+            "n_formula_units": 450.0,
+            "surface_area": 845.5959159598457,
+            "n_atoms": 1350,
+            "cell_volume": 45130.60554916297
+          },
+          {
+            "filename": "SiO2_101_5x5_relaxed.traj",
+            "material": "SiO2",
+            "base_material": "SiO2",
+            "polymorph": null,
+            "miller_index": [
+              1,
+              0,
+              1
+            ],
+            "termination": 1,
+            "source": "original",
+            "surface_energy": -3.845045356338258,
+            "slab_energy": -9769.7093,
+            "n_formula_units": 450.0,
+            "surface_area": 845.5959159598457,
+            "n_atoms": 1350,
+            "cell_volume": 44870.42314976293
+          }
+        ]
+      }
+    ]
+  },
+  "SnO2": {
+    "best": {
+      "filename": "SnO2_100_5x4_relaxed.traj",
+      "material": "SnO2",
+      "base_material": "SnO2",
+      "polymorph": null,
+      "miller_index": [
+        1,
+        0,
+        0
+      ],
+      "termination": 1,
+      "source": "original",
+      "surface_energy": -1.9595939446923227,
+      "slab_energy": -2048.1741,
+      "n_formula_units": 120.0,
+      "surface_area": 301.84164000000004,
+      "n_atoms": 360,
+      "cell_volume": 9260.639154987844,
+      "n_terminations": 2,
+      "other_terminations": [
+        {
+          "filename": "SnO2_100_5x4_relaxed.traj",
+          "material": "SnO2",
+          "base_material": "SnO2",
+          "polymorph": null,
+          "miller_index": [
+            1,
+            0,
+            0
+          ],
+          "termination": 0,
+          "source": "original",
+          "surface_energy": -1.8178890096144453,
+          "slab_energy": -1962.6292,
+          "n_formula_units": 120.0,
+          "surface_area": 301.84164000000004,
+          "n_atoms": 360,
+          "cell_volume": 9143.393599396088
+        }
+      ]
+    },
+    "all_surfaces": [
+      {
+        "filename": "SnO2_100_5x4_relaxed.traj",
+        "material": "SnO2",
+        "base_material": "SnO2",
+        "polymorph": null,
+        "miller_index": [
+          1,
+          0,
+          0
+        ],
+        "termination": 1,
+        "source": "original",
+        "surface_energy": -1.9595939446923227,
+        "slab_energy": -2048.1741,
+        "n_formula_units": 120.0,
+        "surface_area": 301.84164000000004,
+        "n_atoms": 360,
+        "cell_volume": 9260.639154987844,
+        "n_terminations": 2,
+        "other_terminations": [
+          {
+            "filename": "SnO2_100_5x4_relaxed.traj",
+            "material": "SnO2",
+            "base_material": "SnO2",
+            "polymorph": null,
+            "miller_index": [
+              1,
+              0,
+              0
+            ],
+            "termination": 0,
+            "source": "original",
+            "surface_energy": -1.8178890096144453,
+            "slab_energy": -1962.6292,
+            "n_formula_units": 120.0,
+            "surface_area": 301.84164000000004,
+            "n_atoms": 360,
+            "cell_volume": 9143.393599396088
+          }
+        ]
+      },
+      {
+        "filename": "SnO2_110_5x4_relaxed.traj",
+        "material": "SnO2",
+        "base_material": "SnO2",
+        "polymorph": null,
+        "miller_index": [
+          1,
+          1,
+          0
+        ],
+        "termination": 1,
+        "source": "original",
+        "surface_energy": -1.8363963954943974,
+        "slab_energy": -2721.3997,
+        "n_formula_units": 160.0,
+        "surface_area": 426.86854097693725,
+        "n_atoms": 480,
+        "cell_volume": 14862.688994116073,
+        "n_terminations": 2,
+        "other_terminations": [
+          {
+            "filename": "SnO2_110_5x4_relaxed.traj",
+            "material": "SnO2",
+            "base_material": "SnO2",
+            "polymorph": null,
+            "miller_index": [
+              1,
+              1,
+              0
+            ],
+            "termination": 0,
+            "source": "original",
+            "surface_energy": -1.734111861009672,
+            "slab_energy": -2634.0756,
+            "n_formula_units": 160.0,
+            "surface_area": 426.86854097693725,
+            "n_atoms": 480,
+            "cell_volume": 15577.600918456077
+          }
+        ]
+      },
+      {
+        "filename": "SnO2_101_5x4_relaxed.traj",
+        "material": "SnO2",
+        "base_material": "SnO2",
+        "polymorph": null,
+        "miller_index": [
+          1,
+          0,
+          1
+        ],
+        "termination": 1,
+        "source": "original",
+        "surface_energy": -1.7933575686652372,
+        "slab_energy": -3381.8622,
+        "n_formula_units": 200.0,
+        "surface_area": 540.8464641671553,
+        "n_atoms": 600,
+        "cell_volume": 19067.90824944,
+        "n_terminations": 2,
+        "other_terminations": [
+          {
+            "filename": "SnO2_101_5x4_relaxed.traj",
+            "material": "SnO2",
+            "base_material": "SnO2",
+            "polymorph": null,
+            "miller_index": [
+              1,
+              0,
+              1
+            ],
+            "termination": 0,
+            "source": "original",
+            "surface_energy": -1.6602003701414396,
+            "slab_energy": -3237.827,
+            "n_formula_units": 200.0,
+            "surface_area": 540.8464641671553,
+            "n_atoms": 600,
+            "cell_volume": 19067.90824944
+          }
+        ]
+      }
+    ]
+  },
+  "TiO2_anatase": {
+    "best": {
+      "filename": "TiO2_anatase_100_6x5_relaxed.traj",
+      "material": "TiO2_anatase",
+      "base_material": "TiO2",
+      "polymorph": "anatase",
+      "miller_index": [
+        1,
+        0,
+        0
+      ],
+      "termination": 0,
+      "source": "original",
+      "surface_energy": -4.231260481799696,
+      "slab_energy": -15064.185796034586,
+      "n_formula_units": 600.0,
+      "surface_area": 1080.3147,
+      "n_atoms": 1800,
+      "cell_volume": 36765.81002774998
+    },
+    "all_surfaces": [
+      {
+        "filename": "TiO2_anatase_100_6x5_relaxed.traj",
+        "material": "TiO2_anatase",
+        "base_material": "TiO2",
+        "polymorph": "anatase",
+        "miller_index": [
+          1,
+          0,
+          0
+        ],
+        "termination": 0,
+        "source": "original",
+        "surface_energy": -4.231260481799696,
+        "slab_energy": -15064.185796034586,
+        "n_formula_units": 600.0,
+        "surface_area": 1080.3147,
+        "n_atoms": 1800,
+        "cell_volume": 36765.81002774998
+      }
+    ]
+  },
+  "TiO2_rutile": {
+    "best": {
+      "filename": "TiO2_rutile_001_5x4_relaxed.traj",
+      "material": "TiO2_rutile",
+      "base_material": "TiO2",
+      "polymorph": "rutile",
+      "miller_index": [
+        0,
+        0,
+        1
+      ],
+      "termination": 0,
+      "source": "original",
+      "surface_energy": -3.519281393605735,
+      "slab_energy": -4944.95426599602,
+      "n_formula_units": 200.0,
+      "surface_area": 422.09672000000006,
+      "n_atoms": 600,
+      "cell_volume": 12796.07311516001
+    },
+    "all_surfaces": [
+      {
+        "filename": "TiO2_rutile_001_5x4_relaxed.traj",
+        "material": "TiO2_rutile",
+        "base_material": "TiO2",
+        "polymorph": "rutile",
+        "miller_index": [
+          0,
+          0,
+          1
+        ],
+        "termination": 0,
+        "source": "original",
+        "surface_energy": -3.519281393605735,
+        "slab_energy": -4944.95426599602,
+        "n_formula_units": 200.0,
+        "surface_area": 422.09672000000006,
+        "n_atoms": 600,
+        "cell_volume": 12796.07311516001
+      },
+      {
+        "filename": "TiO2_rutile_miller101_term0_restarted.traj",
+        "material": "TiO2_rutile",
+        "base_material": "TiO2",
+        "polymorph": "rutile",
+        "miller_index": [
+          1,
+          0,
+          1
+        ],
+        "termination": 0,
+        "source": "restarted",
+        "surface_energy": -2.751288157389627,
+        "slab_energy": -4736.712688847582,
+        "n_formula_units": 200.0,
+        "surface_area": 502.0762149953778,
+        "n_atoms": 600,
+        "cell_volume": 17167.51779584
+      }
+    ]
+  },
+  "ZnO": {
+    "best": {
+      "filename": "ZnO_001_6x6_relaxed.traj",
+      "material": "ZnO",
+      "base_material": "ZnO",
+      "polymorph": null,
+      "miller_index": [
+        0,
+        0,
+        1
+      ],
+      "termination": 0,
+      "source": "original",
+      "surface_energy": -1.7736139535749176,
+      "slab_energy": -2276.924,
+      "n_formula_units": 288.0,
+      "surface_area": 329.3061597890328,
+      "n_atoms": 576,
+      "cell_volume": 11801.979092023314,
+      "n_terminations": 3,
+      "other_terminations": [
+        {
+          "filename": "ZnO_miller001_term1_restarted.traj",
+          "material": "ZnO",
+          "base_material": "ZnO",
+          "polymorph": null,
+          "miller_index": [
+            0,
+            0,
+            1
+          ],
+          "termination": 1,
+          "source": "restarted",
+          "surface_energy": -1.6889291629217638,
+          "slab_energy": -2221.1495535949434,
+          "n_formula_units": 288.0,
+          "surface_area": 329.3061597890328,
+          "n_atoms": 576,
+          "cell_volume": 12254.659145965006
+        },
+        {
+          "filename": "ZnO_001_6x6_relaxed.traj",
+          "material": "ZnO",
+          "base_material": "ZnO",
+          "polymorph": null,
+          "miller_index": [
+            0,
+            0,
+            1
+          ],
+          "termination": 1,
+          "source": "original",
+          "surface_energy": -1.6888053365180982,
+          "slab_energy": -2221.068,
+          "n_formula_units": 288.0,
+          "surface_area": 329.3061597890328,
+          "n_atoms": 576,
+          "cell_volume": 12254.659145965006
+        }
+      ]
+    },
+    "all_surfaces": [
+      {
+        "filename": "ZnO_001_6x6_relaxed.traj",
+        "material": "ZnO",
+        "base_material": "ZnO",
+        "polymorph": null,
+        "miller_index": [
+          0,
+          0,
+          1
+        ],
+        "termination": 0,
+        "source": "original",
+        "surface_energy": -1.7736139535749176,
+        "slab_energy": -2276.924,
+        "n_formula_units": 288.0,
+        "surface_area": 329.3061597890328,
+        "n_atoms": 576,
+        "cell_volume": 11801.979092023314,
+        "n_terminations": 3,
+        "other_terminations": [
+          {
+            "filename": "ZnO_miller001_term1_restarted.traj",
+            "material": "ZnO",
+            "base_material": "ZnO",
+            "polymorph": null,
+            "miller_index": [
+              0,
+              0,
+              1
+            ],
+            "termination": 1,
+            "source": "restarted",
+            "surface_energy": -1.6889291629217638,
+            "slab_energy": -2221.1495535949434,
+            "n_formula_units": 288.0,
+            "surface_area": 329.3061597890328,
+            "n_atoms": 576,
+            "cell_volume": 12254.659145965006
+          },
+          {
+            "filename": "ZnO_001_6x6_relaxed.traj",
+            "material": "ZnO",
+            "base_material": "ZnO",
+            "polymorph": null,
+            "miller_index": [
+              0,
+              0,
+              1
+            ],
+            "termination": 1,
+            "source": "original",
+            "surface_energy": -1.6888053365180982,
+            "slab_energy": -2221.068,
+            "n_formula_units": 288.0,
+            "surface_area": 329.3061597890328,
+            "n_atoms": 576,
+            "cell_volume": 12254.659145965006
+          }
+        ]
+      },
+      {
+        "filename": "ZnO_100_6x6_relaxed.traj",
+        "material": "ZnO",
+        "base_material": "ZnO",
+        "polymorph": null,
+        "miller_index": [
+          1,
+          0,
+          0
+        ],
+        "termination": 0,
+        "source": "original",
+        "surface_energy": -1.4618930959146057,
+        "slab_energy": -3444.4261,
+        "n_formula_units": 432.0,
+        "surface_area": 609.2189999999999,
+        "n_atoms": 864,
+        "cell_volume": 22686.762610130525,
+        "n_terminations": 2,
+        "other_terminations": [
+          {
+            "filename": "ZnO_100_6x6_relaxed.traj",
+            "material": "ZnO",
+            "base_material": "ZnO",
+            "polymorph": null,
+            "miller_index": [
+              1,
+              0,
+              0
+            ],
+            "termination": 1,
+            "source": "original",
+            "surface_energy": -1.3995536088007763,
+            "slab_energy": -3368.4693,
+            "n_formula_units": 432.0,
+            "surface_area": 609.2189999999999,
+            "n_atoms": 864,
+            "cell_volume": 22686.762610130525
+          }
+        ]
+      },
+      {
+        "filename": "ZnO_110_6x6_relaxed.traj",
+        "material": "ZnO",
+        "base_material": "ZnO",
+        "polymorph": null,
+        "miller_index": [
+          1,
+          1,
+          0
+        ],
+        "termination": 0,
+        "source": "original",
+        "surface_energy": -1.4054321336695335,
+        "slab_energy": -5738.019086624181,
+        "n_formula_units": 720.0,
+        "surface_area": 1055.1982609363038,
+        "n_atoms": 1440,
+        "cell_volume": 38119.037176323916
+      }
+    ]
+  },
+  "ZrO2": {
+    "best": {
+      "filename": "ZrO2_100_4x4_relaxed.traj",
+      "material": "ZrO2",
+      "base_material": "ZrO2",
+      "polymorph": null,
+      "miller_index": [
+        1,
+        0,
+        0
+      ],
+      "termination": 1,
+      "source": "original",
+      "surface_energy": -1.63519687481371,
+      "slab_energy": -4319.8371,
+      "n_formula_units": 256.0,
+      "surface_area": 443.39526399999994,
+      "n_atoms": 512,
+      "cell_volume": 17248.221134863128,
+      "n_terminations": 3,
+      "other_terminations": [
+        {
+          "filename": "ZrO2_100_4x4_relaxed.traj",
+          "material": "ZrO2",
+          "base_material": "ZrO2",
+          "polymorph": null,
+          "miller_index": [
+            1,
+            0,
+            0
+          ],
+          "termination": 2,
+          "source": "original",
+          "surface_energy": -1.6349040209865662,
+          "slab_energy": -4319.5774,
+          "n_formula_units": 256.0,
+          "surface_area": 443.39526399999994,
+          "n_atoms": 512,
+          "cell_volume": 16783.767213841642
+        },
+        {
+          "filename": "ZrO2_100_4x4_relaxed.traj",
+          "material": "ZrO2",
+          "base_material": "ZrO2",
+          "polymorph": null,
+          "miller_index": [
+            1,
+            0,
+            0
+          ],
+          "termination": 0,
+          "source": "original",
+          "surface_energy": -1.6058893899236595,
+          "slab_energy": -4293.8475,
+          "n_formula_units": 256.0,
+          "surface_area": 443.39526399999994,
+          "n_atoms": 512,
+          "cell_volume": 17514.552829118576
+        }
+      ]
+    },
+    "all_surfaces": [
+      {
+        "filename": "ZrO2_100_4x4_relaxed.traj",
+        "material": "ZrO2",
+        "base_material": "ZrO2",
+        "polymorph": null,
+        "miller_index": [
+          1,
+          0,
+          0
+        ],
+        "termination": 1,
+        "source": "original",
+        "surface_energy": -1.63519687481371,
+        "slab_energy": -4319.8371,
+        "n_formula_units": 256.0,
+        "surface_area": 443.39526399999994,
+        "n_atoms": 512,
+        "cell_volume": 17248.221134863128,
+        "n_terminations": 3,
+        "other_terminations": [
+          {
+            "filename": "ZrO2_100_4x4_relaxed.traj",
+            "material": "ZrO2",
+            "base_material": "ZrO2",
+            "polymorph": null,
+            "miller_index": [
+              1,
+              0,
+              0
+            ],
+            "termination": 2,
+            "source": "original",
+            "surface_energy": -1.6349040209865662,
+            "slab_energy": -4319.5774,
+            "n_formula_units": 256.0,
+            "surface_area": 443.39526399999994,
+            "n_atoms": 512,
+            "cell_volume": 16783.767213841642
+          },
+          {
+            "filename": "ZrO2_100_4x4_relaxed.traj",
+            "material": "ZrO2",
+            "base_material": "ZrO2",
+            "polymorph": null,
+            "miller_index": [
+              1,
+              0,
+              0
+            ],
+            "termination": 0,
+            "source": "original",
+            "surface_energy": -1.6058893899236595,
+            "slab_energy": -4293.8475,
+            "n_formula_units": 256.0,
+            "surface_area": 443.39526399999994,
+            "n_atoms": 512,
+            "cell_volume": 17514.552829118576
+          }
+        ]
+      },
+      {
+        "filename": "ZrO2_101_4x4_relaxed.traj",
+        "material": "ZrO2",
+        "base_material": "ZrO2",
+        "polymorph": null,
+        "miller_index": [
+          1,
+          0,
+          1
+        ],
+        "termination": 0,
+        "source": "original",
+        "surface_energy": -1.6171746680193364,
+        "slab_energy": -6455.2518,
+        "n_formula_units": 384.0,
+        "surface_area": 664.928731116596,
+        "n_atoms": 768,
+        "cell_volume": 28053.36715504654,
+        "n_terminations": 3,
+        "other_terminations": [
+          {
+            "filename": "ZrO2_101_4x4_relaxed.traj",
+            "material": "ZrO2",
+            "base_material": "ZrO2",
+            "polymorph": null,
+            "miller_index": [
+              1,
+              0,
+              1
+            ],
+            "termination": 2,
+            "source": "original",
+            "surface_energy": -1.5937803563103536,
+            "slab_energy": -6424.1407,
+            "n_formula_units": 384.0,
+            "surface_area": 664.928731116596,
+            "n_atoms": 768,
+            "cell_volume": 29545.719956805508
+          },
+          {
+            "filename": "ZrO2_101_4x4_relaxed.traj",
+            "material": "ZrO2",
+            "base_material": "ZrO2",
+            "polymorph": null,
+            "miller_index": [
+              1,
+              0,
+              1
+            ],
+            "termination": 1,
+            "source": "original",
+            "surface_energy": -1.5583680648901008,
+            "slab_energy": -6377.0474,
+            "n_formula_units": 384.0,
+            "surface_area": 664.928731116596,
+            "n_atoms": 768,
+            "cell_volume": 29031.770516436758
+          }
+        ]
+      },
+      {
+        "filename": "ZrO2_111_4x4_relaxed.traj",
+        "material": "ZrO2",
+        "base_material": "ZrO2",
+        "polymorph": null,
+        "miller_index": [
+          1,
+          1,
+          1
+        ],
+        "termination": 1,
+        "source": "original",
+        "surface_energy": -1.6068610049813397,
+        "slab_energy": -7571.1545,
+        "n_formula_units": 448.0,
+        "surface_area": 793.1845044772873,
+        "n_atoms": 896,
+        "cell_volume": 39322.96709625151,
+        "n_terminations": 6,
+        "other_terminations": [
+          {
+            "filename": "ZrO2_111_4x4_relaxed.traj",
+            "material": "ZrO2",
+            "base_material": "ZrO2",
+            "polymorph": null,
+            "miller_index": [
+              1,
+              1,
+              1
+            ],
+            "termination": 0,
+            "source": "original",
+            "surface_energy": -1.6005589403648683,
+            "slab_energy": -7561.1571,
+            "n_formula_units": 448.0,
+            "surface_area": 793.1845044772873,
+            "n_atoms": 896,
+            "cell_volume": 39322.96709625151
+          },
+          {
+            "filename": "ZrO2_miller111_term3_restarted.traj",
+            "material": "ZrO2",
+            "base_material": "ZrO2",
+            "polymorph": null,
+            "miller_index": [
+              1,
+              1,
+              1
+            ],
+            "termination": 3,
+            "source": "restarted",
+            "surface_energy": -1.6004375646564521,
+            "slab_energy": -7560.964553337729,
+            "n_formula_units": 448.0,
+            "surface_area": 793.1845044772873,
+            "n_atoms": 896,
+            "cell_volume": 39322.96709625151
+          },
+          {
+            "filename": "ZrO2_111_4x4_relaxed.traj",
+            "material": "ZrO2",
+            "base_material": "ZrO2",
+            "polymorph": null,
+            "miller_index": [
+              1,
+              1,
+              1
+            ],
+            "termination": 3,
+            "source": "original",
+            "surface_energy": -1.5995297977184952,
+            "slab_energy": -7559.5245,
+            "n_formula_units": 448.0,
+            "surface_area": 793.1845044772873,
+            "n_atoms": 896,
+            "cell_volume": 39322.96709625151
+          },
+          {
+            "filename": "ZrO2_miller111_term2_restarted.traj",
+            "material": "ZrO2",
+            "base_material": "ZrO2",
+            "polymorph": null,
+            "miller_index": [
+              1,
+              1,
+              1
+            ],
+            "termination": 2,
+            "source": "restarted",
+            "surface_energy": -1.5659934265190973,
+            "slab_energy": -7506.323440056479,
+            "n_formula_units": 448.0,
+            "surface_area": 793.1845044772873,
+            "n_atoms": 896,
+            "cell_volume": 37069.047108010476
+          },
+          {
+            "filename": "ZrO2_111_4x4_relaxed.traj",
+            "material": "ZrO2",
+            "base_material": "ZrO2",
+            "polymorph": null,
+            "miller_index": [
+              1,
+              1,
+              1
+            ],
+            "termination": 2,
+            "source": "original",
+            "surface_energy": -1.564321722116459,
+            "slab_energy": -7503.6715,
+            "n_formula_units": 448.0,
+            "surface_area": 793.1845044772873,
+            "n_atoms": 896,
+            "cell_volume": 37069.047108010476
+          }
+        ]
+      }
+    ]
+  }
+}

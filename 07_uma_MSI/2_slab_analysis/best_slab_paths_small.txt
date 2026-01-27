@@ -1,0 +1,14 @@
+# Best Surface Slab Structures - Small Slabs
+# Format: Material | Miller | Surface Energy | Source | Path
+#==============================================================================
+
+Al2O3           | (0,0,1)    |   0.1130 eV/Ų | original   | /DATA/user_scratch/jsh9967/5_uma_MSI/0_slab_gen_small/slabs/Al2O3_001_4x4_relaxed.traj
+CaO             | (1,0,0)    |   0.0267 eV/Ų | original   | /DATA/user_scratch/jsh9967/5_uma_MSI/0_slab_gen_small/slabs/CaO_100_5x5_relaxed.traj
+CeO2            | (1,1,1)    |   0.0273 eV/Ų | original   | /DATA/user_scratch/jsh9967/5_uma_MSI/0_slab_gen_small/slabs/CeO2_111_5x5_relaxed.traj
+MgO             | (1,0,0)    |   0.0146 eV/Ų | original   | /DATA/user_scratch/jsh9967/5_uma_MSI/0_slab_gen_small/slabs/MgO_100_5x5_relaxed.traj
+SiO2            | (1,0,1)    |   0.1199 eV/Ų | original   | /DATA/user_scratch/jsh9967/5_uma_MSI/0_slab_gen_small/slabs/SiO2_101_4x4_relaxed.traj
+SnO2            | (1,0,0)    |   0.0421 eV/Ų | original   | /DATA/user_scratch/jsh9967/5_uma_MSI/0_slab_gen_small/slabs/SnO2_100_5x4_relaxed.traj
+TiO2_anatase    | (0,0,1)    |  -0.0303 eV/Ų | original   | /DATA/user_scratch/jsh9967/5_uma_MSI/0_slab_gen_small/slabs/TiO2_anatase_001_5x4_relaxed.traj
+TiO2_rutile     | (1,0,0)    |   0.0204 eV/Ų | original   | /DATA/user_scratch/jsh9967/5_uma_MSI/0_slab_gen_small/slabs/TiO2_rutile_100_5x4_relaxed.traj
+ZnO             | (1,0,0)    |   0.0474 eV/Ų | original   | /DATA/user_scratch/jsh9967/5_uma_MSI/0_slab_gen_small/slabs/ZnO_100_5x5_relaxed.traj
+ZrO2            | (1,0,0)    |   0.1015 eV/Ų | original   | /DATA/user_scratch/jsh9967/5_uma_MSI/0_slab_gen_small/slabs/ZrO2_100_4x4_relaxed.traj

@@ -1,0 +1,45 @@
+{
+  "slab": "CaO_100",
+  "metal": "Ni",
+  "n_metal": 40,
+  "best_energy": -5198.598581662809,
+  "best_energy_per_metal": -129.96496454157023,
+  "generations": 10,
+  "population_size": 10,
+  "total_structures": 94,
+  "duration_seconds": 5391.957303,
+  "duration_hours": 1.4977659175,
+  "generation_best": [
+    -5165.4466041237465,
+    -5179.986765256559,
+    -5194.866159787809,
+    -5196.729318967495,
+    -5196.729318967495,
+    -5197.3167213112465,
+    -5197.3167213112465,
+    -5197.5537818581215,
+    -5198.598581662809,
+    -5198.598581662809
+  ],
+  "ga_parameters": {
+    "population_size": 10,
+    "n_iterations": 10,
+    "n_candidates_per_gen": 10,
+    "mutation_probability": 0.3,
+    "crossover_probability": 0.7,
+    "fmax_relaxation": 0.05,
+    "max_steps_relax": 200,
+    "covalent_ratio": 0.7,
+    "mutation_weights": [
+      1.0,
+      1.0,
+      0.5
+    ],
+    "description": "Mirror, Rattle, Permutation mutation weights",
+    "n_metal": 40
+  },
+  "timestamp": "2025-11-26T21:46:36.066184",
+  "output_dir": "/DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Ni_CaO_100",
+  "atom_config": "M40",
+  "n_oxide": 0
+}

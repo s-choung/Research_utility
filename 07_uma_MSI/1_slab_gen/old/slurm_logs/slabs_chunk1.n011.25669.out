@@ -1,0 +1,98 @@
+==========================================
+SLAB GENERATION - CHUNK 1 (MgO, CaO)
+Host: n011.hpc | Started: Mon Nov 10 06:09:33 PM KST 2025
+==========================================
+Python: /home/jsh9967/anaconda3/envs/fairchem_v2/bin/python
+Python version: Python 3.10.19
+Conda env: fairchem_v2
+
+
+================================================================================
+CHUNK 3: Processing 2 materials
+Materials: SnO2, TiO2_anatase
+================================================================================
+
+================================================================================
+Loading FairChem calculator...
+================================================================================
+  Loading FairChem v2 calculator from: ../utility/uma-s-1p1.pt
+  Using device: cuda
+  ✓ Model loaded successfully
+✓ Calculator loaded - energy evaluation will be performed
+
+================================================================================
+Processing SnO2 - 3 important facets
+================================================================================
+  Generated Miller (1, 1, 0) (2 terminations)
+    Using Sn as reference element
+    Fixed 275 out of 480 atoms (below z=21.213 Å)
+    Using Sn as reference element
+    Fixed 260 out of 480 atoms (below z=18.845 Å)
+  Saved: SnO2_110_5x4.traj (2 terminations, 480 atoms)
+  Running LBFGS relaxation for 2 terminations...
+  Saved relaxed: SnO2_110_5x4_relaxed.traj
+  Generated Miller (1, 0, 1) (2 terminations)
+    Using Sn as reference element
+    Fixed 320 out of 600 atoms (below z=15.540 Å)
+    Using Sn as reference element
+    Fixed 280 out of 600 atoms (below z=13.947 Å)
+  Saved: SnO2_101_5x4.traj (2 terminations, 600 atoms)
+  Running LBFGS relaxation for 2 terminations...
+  Saved relaxed: SnO2_101_5x4_relaxed.traj
+  Generated Miller (1, 0, 0) (2 terminations)
+    Using Sn as reference element
+    Fixed 200 out of 360 atoms (below z=9.371 Å)
+    Using Sn as reference element
+    Fixed 180 out of 360 atoms (below z=8.840 Å)
+  Saved: SnO2_100_5x4.traj (2 terminations, 360 atoms)
+  Running LBFGS relaxation for 2 terminations...
+  Saved relaxed: SnO2_100_5x4_relaxed.traj
+
+================================================================================
+Processing TiO2_anatase - 3 important facets
+================================================================================
+  Generated Miller (1, 0, 1) (4 terminations)
+    Using Ti as reference element
+    Fixed 515 out of 1080 atoms (below z=12.894 Å)
+    Using Ti as reference element
+    Fixed 540 out of 1080 atoms (below z=12.948 Å)
+    Using Ti as reference element
+    Fixed 510 out of 1080 atoms (below z=11.921 Å)
+    Using Ti as reference element
+    Fixed 540 out of 1080 atoms (below z=12.746 Å)
+  Saved: TiO2_anatase_101_6x5.traj (4 terminations, 1080 atoms)
+  Running LBFGS relaxation for 4 terminations...
+  Saved relaxed: TiO2_anatase_101_6x5_relaxed.traj
+  Generated Miller (0, 0, 1) (2 terminations)
+    Using Ti as reference element
+    Fixed 390 out of 720 atoms (below z=12.304 Å)
+    Using Ti as reference element
+    Fixed 360 out of 720 atoms (below z=10.724 Å)
+  Saved: TiO2_anatase_001_6x5.traj (2 terminations, 720 atoms)
+  Running LBFGS relaxation for 2 terminations...
+  Saved relaxed: TiO2_anatase_001_6x5_relaxed.traj
+  Generated Miller (1, 0, 0) (1 terminations)
+    Using Ti as reference element
+    Fixed 900 out of 1800 atoms (below z=10.516 Å)
+  Saved: TiO2_anatase_100_6x5.traj (1 terminations, 1800 atoms)
+  Running LBFGS relaxation for 1 terminations...
+  Saved relaxed: TiO2_anatase_100_6x5_relaxed.traj
+
+================================================================================
+Summary written to: ./slab_generation_summary_chunk3.txt
+All slabs saved to: ./slabs/
+Total Miller indices processed: 6
+Total slabs generated: 13
+Total slabs relaxed: 13
+Total converged: 13
+Convergence rate: 100.0%
+Energy log: ./energy_evaluation_chunk3.log
+================================================================================
+
+✅ Chunk 1 completed successfully
+
+==========================================
+CHUNK 1 COMPLETED
+Runtime: 0h 12m 38s
+Finished: Mon Nov 10 06:22:11 PM KST 2025
+==========================================

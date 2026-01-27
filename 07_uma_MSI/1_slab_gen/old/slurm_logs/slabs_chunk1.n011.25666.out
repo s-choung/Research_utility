@@ -1,0 +1,117 @@
+==========================================
+SLAB GENERATION - CHUNK 1 (MgO, CaO)
+Host: n011.hpc | Started: Mon Nov 10 06:05:54 PM KST 2025
+==========================================
+Python: /home/jsh9967/anaconda3/envs/fairchem_v2/bin/python
+Python version: Python 3.10.19
+Conda env: fairchem_v2
+
+
+================================================================================
+CHUNK 5: Processing 2 materials
+Materials: ZrO2, SiO2
+================================================================================
+
+================================================================================
+Loading FairChem calculator...
+================================================================================
+  Loading FairChem v2 calculator from: ../utility/uma-s-1p1.pt
+  Using device: cuda
+  ✓ Model loaded successfully
+✓ Calculator loaded - energy evaluation will be performed
+
+================================================================================
+Processing ZrO2 - 3 important facets
+================================================================================
+  Generated Miller (1, 1, 1) (4 terminations)
+    Using Zr as reference element
+    Fixed 432 out of 896 atoms (below z=38.425 Å)
+    ⚠️  Warning: Slab thickness (72.85Å) > 80% of cell height
+    Using Zr as reference element
+    Fixed 416 out of 896 atoms (below z=38.425 Å)
+    ⚠️  Warning: Slab thickness (72.85Å) > 80% of cell height
+    Using Zr as reference element
+    Fixed 448 out of 896 atoms (below z=35.850 Å)
+    Using Zr as reference element
+    Fixed 448 out of 896 atoms (below z=38.425 Å)
+    ⚠️  Warning: Slab thickness (72.85Å) > 80% of cell height
+  Saved: ZrO2_111_4x4.traj (4 terminations, 896 atoms)
+  Running LBFGS relaxation for 4 terminations...
+  Saved relaxed: ZrO2_111_4x4_relaxed.traj
+  Generated Miller (1, 0, 1) (3 terminations)
+    Using Zr as reference element
+    Fixed 384 out of 768 atoms (below z=25.550 Å)
+    Using Zr as reference element
+    Fixed 412 out of 768 atoms (below z=27.007 Å)
+    Using Zr as reference element
+    Fixed 396 out of 768 atoms (below z=27.007 Å)
+  Saved: ZrO2_101_4x4.traj (3 terminations, 768 atoms)
+  Running LBFGS relaxation for 3 terminations...
+  Saved relaxed: ZrO2_101_4x4_relaxed.traj
+  Generated Miller (1, 0, 0) (3 terminations)
+    Using Zr as reference element
+    Fixed 256 out of 512 atoms (below z=13.510 Å)
+    Using Zr as reference element
+    Fixed 224 out of 512 atoms (below z=12.335 Å)
+    Using Zr as reference element
+    Fixed 256 out of 512 atoms (below z=12.675 Å)
+  Saved: ZrO2_100_4x4.traj (3 terminations, 512 atoms)
+  Running LBFGS relaxation for 3 terminations...
+  Saved relaxed: ZrO2_100_4x4_relaxed.traj
+
+================================================================================
+Processing SiO2 - 3 important facets
+================================================================================
+  Generated Miller (0, 0, 1) (2 terminations)
+    Using Si as reference element
+    Fixed 475 out of 900 atoms (below z=13.071 Å)
+    Using Si as reference element
+    Fixed 450 out of 900 atoms (below z=12.549 Å)
+  Saved: SiO2_001_5x5.traj (2 terminations, 900 atoms)
+  Running LBFGS relaxation for 2 terminations...
+  Saved relaxed: SiO2_001_5x5_relaxed.traj
+  Generated Miller (1, 0, 0) (5 terminations)
+    Using Si as reference element
+    Fixed 580 out of 1125 atoms (below z=20.145 Å)
+    Using Si as reference element
+    Fixed 557 out of 1125 atoms (below z=18.741 Å)
+    Using Si as reference element
+    Fixed 537 out of 1125 atoms (below z=18.289 Å)
+    Using Si as reference element
+    Fixed 510 out of 1125 atoms (below z=18.289 Å)
+    Using Si as reference element
+    Fixed 562 out of 1125 atoms (below z=19.739 Å)
+  Saved: SiO2_100_5x5.traj (5 terminations, 1125 atoms)
+  Running LBFGS relaxation for 5 terminations...
+  Saved relaxed: SiO2_100_5x5_relaxed.traj
+  Generated Miller (1, 0, 1) (4 terminations)
+    Using Si as reference element
+    Fixed 663 out of 1350 atoms (below z=32.029 Å)
+    Using Si as reference element
+    Fixed 743 out of 1350 atoms (below z=34.487 Å)
+    Using Si as reference element
+    Fixed 693 out of 1350 atoms (below z=34.487 Å)
+    Using Si as reference element
+    Fixed 680 out of 1350 atoms (below z=32.029 Å)
+  Saved: SiO2_101_5x5.traj (4 terminations, 1350 atoms)
+  Running LBFGS relaxation for 4 terminations...
+  Saved relaxed: SiO2_101_5x5_relaxed.traj
+
+================================================================================
+Summary written to: ./slab_generation_summary_chunk5.txt
+All slabs saved to: ./slabs/
+Total Miller indices processed: 6
+Total slabs generated: 21
+Total slabs relaxed: 21
+Total converged: 18
+Convergence rate: 85.7%
+Energy log: ./energy_evaluation_chunk5.log
+================================================================================
+
+✅ Chunk 1 completed successfully
+
+==========================================
+CHUNK 1 COMPLETED
+Runtime: 0h 28m 10s
+Finished: Mon Nov 10 06:34:04 PM KST 2025
+==========================================

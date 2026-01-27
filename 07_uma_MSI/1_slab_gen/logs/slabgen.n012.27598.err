@@ -1,0 +1,2 @@
+/DATA/user_scratch/jsh9967/5_uma_MSI/1_slab_gen/generate_slabs.py:145: FutureWarning: Import ExpCellFilter from ase.filters
+  ecf = ExpCellFilter(bulk)

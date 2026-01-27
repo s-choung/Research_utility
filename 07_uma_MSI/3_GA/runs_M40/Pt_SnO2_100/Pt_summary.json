@@ -1,0 +1,45 @@
+{
+  "slab": "SnO2_100",
+  "metal": "Pt",
+  "n_metal": 40,
+  "best_energy": -5767.9341352767715,
+  "best_energy_per_metal": -144.19835338191928,
+  "generations": 10,
+  "population_size": 10,
+  "total_structures": 100,
+  "duration_seconds": 5700.900319,
+  "duration_hours": 1.5835834219444445,
+  "generation_best": [
+    -5747.761916954018,
+    -5753.934711296059,
+    -5756.852744895912,
+    -5763.653770286537,
+    -5763.653770286537,
+    -5764.0540083236465,
+    -5764.0540083236465,
+    -5765.245483238197,
+    -5765.626495201088,
+    -5767.9341352767715
+  ],
+  "ga_parameters": {
+    "population_size": 10,
+    "n_iterations": 10,
+    "n_candidates_per_gen": 10,
+    "mutation_probability": 0.3,
+    "crossover_probability": 0.7,
+    "fmax_relaxation": 0.05,
+    "max_steps_relax": 200,
+    "covalent_ratio": 0.7,
+    "mutation_weights": [
+      1.0,
+      1.0,
+      0.5
+    ],
+    "description": "Mirror, Rattle, Permutation mutation weights",
+    "n_metal": 40
+  },
+  "timestamp": "2025-11-26T22:15:47.875018",
+  "output_dir": "/DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Pt_SnO2_100",
+  "atom_config": "M40",
+  "n_oxide": 0
+}

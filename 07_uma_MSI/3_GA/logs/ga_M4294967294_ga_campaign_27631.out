@@ -1,0 +1,2392 @@
+==========================================
+GA METAL CAMPAIGN: Ir
+==========================================
+Metal: Ir (40 atoms)
+Slabs: 10 oxides
+Job ID: 27631
+Node: n012.hpc
+Start: Thu Nov 27 09:18:48 AM KST 2025
+==========================================
+
+##################################################
+# Processing: Ir on Al2O3_001
+##################################################
+
+======================================================================
+🧬 GA OPTIMIZATION: M40
+======================================================================
+Configuration: M40_Ir_Al2O3_001
+Metal: Ir (40 atoms)
+Slab: Al2O3_001
+Output: /DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Ir_Al2O3_001
+Device: cuda
+======================================================================
+
+
+======================================================================
+Loading UMA model from: /DATA/user_scratch/jsh9967/5_uma_MSI/utility/uma-s-1p1.pt
+Device: cuda
+======================================================================
+✓ UMA model loaded successfully
+
+
+======================================================================
+Loading oxide slab: Al2O3_001
+======================================================================
+✓ Slab loaded from: Al2O3_001_large.traj
+  Composition: Al588O882
+  Atoms: 1470 (811 fixed)
+  Cell: 33.95 × 33.95 × 29.44 Å
+  Miller: [0, 0, 1]
+
+======================================================================
+GA OPTIMIZATION: Ir on Al2O3_001
+======================================================================
+Metal atoms: 40
+Population: 10
+Generations: 10
+======================================================================
+
+✓ Placement box created:
+  Origin: (6.79, 5.88, 16.52) Å
+  X range: 6.79 - 27.16 Å
+  Y range: 5.88 - 26.25 Å
+  Z range: 16.52 - 21.52 Å
+  Volume: 2075.15 Å³
+✓ GA operators configured:
+  Crossover prob: 0.7
+  Mutation prob: 0.3
+  Mutations: 2 types
+✓ Placement box created:
+  Origin: (6.79, 5.88, 16.52) Å
+  X range: 6.79 - 27.16 Å
+  Y range: 5.88 - 26.25 Å
+  Z range: 16.52 - 21.52 Å
+  Volume: 2075.15 Å³
+Generating initial population (attempt 1/6)...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+✓ Initial population generated (10 structures)
+
+======================================================================
+Starting GA iterations...
+======================================================================
+
+
+######################################################################
+# GENERATION 1/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -10589.4114 eV (relaxation)
+  🏆 New best: E = -10589.8806 eV (relaxation)
+  Relaxed 5/10
+  🏆 New best: E = -10593.0590 eV (relaxation)
+  🏆 New best: E = -10599.5619 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 1 summary:
+  Best: -10599.5619 eV
+  Average: -10586.5157 eV
+  Global best: -10599.5619 eV
+
+######################################################################
+# GENERATION 2/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -10600.9836 eV (relaxation)
+  🏆 New best: E = -10604.8137 eV (relaxation)
+  🏆 New best: E = -10609.2810 eV (relaxation)
+  🏆 New best: E = -10618.2730 eV (relaxation)
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 2 summary:
+  Best: -10618.2730 eV
+  Average: -10605.3588 eV
+  Global best: -10618.2730 eV
+
+######################################################################
+# GENERATION 3/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  Relaxed 5/10
+  🏆 New best: E = -10629.7891 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 3 summary:
+  Best: -10629.7891 eV
+  Average: -10617.3352 eV
+  Global best: -10629.7891 eV
+
+######################################################################
+# GENERATION 4/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 4 summary:
+  Best: -10629.7891 eV
+  Average: -10622.7334 eV
+  Global best: -10629.7891 eV
+
+######################################################################
+# GENERATION 5/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 5 summary:
+  Best: -10629.7891 eV
+  Average: -10625.9440 eV
+  Global best: -10629.7891 eV
+
+######################################################################
+# GENERATION 6/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -10630.9686 eV (relaxation)
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 6 summary:
+  Best: -10630.9686 eV
+  Average: -10627.9009 eV
+  Global best: -10630.9686 eV
+
+######################################################################
+# GENERATION 7/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 7 summary:
+  Best: -10630.9686 eV
+  Average: -10628.9868 eV
+  Global best: -10630.9686 eV
+
+######################################################################
+# GENERATION 8/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -10631.8341 eV (relaxation)
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 8 summary:
+  Best: -10631.8341 eV
+  Average: -10629.6742 eV
+  Global best: -10631.8341 eV
+
+######################################################################
+# GENERATION 9/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 9 summary:
+  Best: -10631.8341 eV
+  Average: -10629.8265 eV
+  Global best: -10631.8341 eV
+
+######################################################################
+# GENERATION 10/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -10632.9823 eV (relaxation)
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 10 summary:
+  Best: -10632.9823 eV
+  Average: -10630.3873 eV
+  Global best: -10632.9823 eV
+
+======================================================================
+✅ GA COMPLETE
+======================================================================
+Metal: Ir (40 atoms)
+Slab: Al2O3_001
+Best energy: -10632.9823 eV (-265.8246 eV/atom)
+Duration: 3.93 hours
+Total structures: 100
+Output: /DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Ir_Al2O3_001
+======================================================================
+
+
+======================================================================
+✅ OPTIMIZATION COMPLETE: M40_Ir_Al2O3_001
+======================================================================
+
+✓ Completed: Ir on Al2O3_001
+
+##################################################
+# Processing: Ir on CaO_100
+##################################################
+
+======================================================================
+🧬 GA OPTIMIZATION: M40
+======================================================================
+Configuration: M40_Ir_CaO_100
+Metal: Ir (40 atoms)
+Slab: CaO_100
+Output: /DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Ir_CaO_100
+Device: cuda
+======================================================================
+
+
+======================================================================
+Loading UMA model from: /DATA/user_scratch/jsh9967/5_uma_MSI/utility/uma-s-1p1.pt
+Device: cuda
+======================================================================
+✓ UMA model loaded successfully
+
+
+======================================================================
+Loading oxide slab: CaO_100
+======================================================================
+✓ Slab loaded from: CaO_100_large.traj
+  Composition: Ca400O400
+  Atoms: 800 (400 fixed)
+  Cell: 34.57 × 34.57 × 24.33 Å
+  Miller: [1, 0, 0]
+
+======================================================================
+GA OPTIMIZATION: Ir on CaO_100
+======================================================================
+Metal atoms: 40
+Population: 10
+Generations: 10
+======================================================================
+
+✓ Placement box created:
+  Origin: (6.91, 6.91, 11.31) Å
+  X range: 6.91 - 27.66 Å
+  Y range: 6.91 - 27.66 Å
+  Z range: 11.31 - 16.31 Å
+  Volume: 2151.07 Å³
+✓ GA operators configured:
+  Crossover prob: 0.7
+  Mutation prob: 0.3
+  Mutations: 2 types
+✓ Placement box created:
+  Origin: (6.91, 6.91, 11.31) Å
+  X range: 6.91 - 27.66 Å
+  Y range: 6.91 - 27.66 Å
+  Z range: 11.31 - 16.31 Å
+  Volume: 2151.07 Å³
+Generating initial population (attempt 1/6)...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+✓ Initial population generated (10 structures)
+
+======================================================================
+Starting GA iterations...
+======================================================================
+
+
+######################################################################
+# GENERATION 1/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -5290.0976 eV (relaxation)
+  🏆 New best: E = -5292.9144 eV (relaxation)
+  Relaxed 5/10
+  🏆 New best: E = -5293.6394 eV (relaxation)
+  🏆 New best: E = -5294.5007 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 1 summary:
+  Best: -5294.5007 eV
+  Average: -5289.3644 eV
+  Global best: -5294.5007 eV
+
+######################################################################
+# GENERATION 2/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -5298.9264 eV (relaxation)
+  🏆 New best: E = -5305.0916 eV (relaxation)
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 2 summary:
+  Best: -5305.0916 eV
+  Average: -5297.0516 eV
+  Global best: -5305.0916 eV
+
+######################################################################
+# GENERATION 3/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -5306.5041 eV (relaxation)
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 3 summary:
+  Best: -5306.5041 eV
+  Average: -5301.2321 eV
+  Global best: -5306.5041 eV
+
+######################################################################
+# GENERATION 4/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -5306.7612 eV (relaxation)
+  🏆 New best: E = -5308.1419 eV (relaxation)
+  Relaxed 5/10
+  🏆 New best: E = -5309.6272 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 4 summary:
+  Best: -5309.6272 eV
+  Average: -5305.2488 eV
+  Global best: -5309.6272 eV
+
+######################################################################
+# GENERATION 5/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -5311.3904 eV (relaxation)
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 5 summary:
+  Best: -5311.3904 eV
+  Average: -5308.8217 eV
+  Global best: -5311.3904 eV
+
+######################################################################
+# GENERATION 6/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -5312.7038 eV (relaxation)
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 6 summary:
+  Best: -5312.7038 eV
+  Average: -5310.4488 eV
+  Global best: -5312.7038 eV
+
+######################################################################
+# GENERATION 7/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 7 summary:
+  Best: -5312.7038 eV
+  Average: -5311.0808 eV
+  Global best: -5312.7038 eV
+
+######################################################################
+# GENERATION 8/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 8 summary:
+  Best: -5312.7038 eV
+  Average: -5311.4857 eV
+  Global best: -5312.7038 eV
+
+######################################################################
+# GENERATION 9/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -5312.7956 eV (relaxation)
+  Relaxed 5/10
+  🏆 New best: E = -5313.6239 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 9 summary:
+  Best: -5313.6239 eV
+  Average: -5311.9125 eV
+  Global best: -5313.6239 eV
+
+######################################################################
+# GENERATION 10/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  Relaxed 5/10
+  🏆 New best: E = -5314.3935 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 10 summary:
+  Best: -5314.3935 eV
+  Average: -5312.7293 eV
+  Global best: -5314.3935 eV
+
+======================================================================
+✅ GA COMPLETE
+======================================================================
+Metal: Ir (40 atoms)
+Slab: CaO_100
+Best energy: -5314.3935 eV (-132.8598 eV/atom)
+Duration: 1.24 hours
+Total structures: 100
+Output: /DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Ir_CaO_100
+======================================================================
+
+
+======================================================================
+✅ OPTIMIZATION COMPLETE: M40_Ir_CaO_100
+======================================================================
+
+✓ Completed: Ir on CaO_100
+
+##################################################
+# Processing: Ir on CeO2_111
+##################################################
+
+======================================================================
+🧬 GA OPTIMIZATION: M40
+======================================================================
+Configuration: M40_Ir_CeO2_111
+Metal: Ir (40 atoms)
+Slab: CeO2_111
+Output: /DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Ir_CeO2_111
+Device: cuda
+======================================================================
+
+
+======================================================================
+Loading UMA model from: /DATA/user_scratch/jsh9967/5_uma_MSI/utility/uma-s-1p1.pt
+Device: cuda
+======================================================================
+✓ UMA model loaded successfully
+
+
+======================================================================
+Loading oxide slab: CeO2_111
+======================================================================
+✓ Slab loaded from: CeO2_111_large.traj
+  Composition: Ce243O486
+  Atoms: 729 (364 fixed)
+  Cell: 34.87 × 34.87 × 24.91 Å
+  Miller: [1, 1, 1]
+
+======================================================================
+GA OPTIMIZATION: Ir on CeO2_111
+======================================================================
+Metal atoms: 40
+Population: 10
+Generations: 10
+======================================================================
+
+✓ Placement box created:
+  Origin: (6.97, 6.04, 11.97) Å
+  X range: 6.97 - 27.90 Å
+  Y range: 6.04 - 26.96 Å
+  Z range: 11.97 - 16.97 Å
+  Volume: 2189.01 Å³
+✓ GA operators configured:
+  Crossover prob: 0.7
+  Mutation prob: 0.3
+  Mutations: 2 types
+✓ Placement box created:
+  Origin: (6.97, 6.04, 11.97) Å
+  X range: 6.97 - 27.90 Å
+  Y range: 6.04 - 26.96 Å
+  Z range: 11.97 - 16.97 Å
+  Volume: 2189.01 Å³
+Generating initial population (attempt 1/6)...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+✓ Initial population generated (10 structures)
+
+======================================================================
+Starting GA iterations...
+======================================================================
+
+
+######################################################################
+# GENERATION 1/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -6555.3907 eV (relaxation)
+  🏆 New best: E = -6563.3300 eV (relaxation)
+  Relaxed 5/10
+  🏆 New best: E = -6566.6697 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 1 summary:
+  Best: -6566.6697 eV
+  Average: -6559.1209 eV
+  Global best: -6566.6697 eV
+
+######################################################################
+# GENERATION 2/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -6571.8771 eV (relaxation)
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 2 summary:
+  Best: -6571.8771 eV
+  Average: -6568.0187 eV
+  Global best: -6571.8771 eV
+
+######################################################################
+# GENERATION 3/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -6574.7852 eV (relaxation)
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 3 summary:
+  Best: -6574.7852 eV
+  Average: -6570.9911 eV
+  Global best: -6574.7852 eV
+
+######################################################################
+# GENERATION 4/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  Relaxed 5/10
+  🏆 New best: E = -6575.3077 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 4 summary:
+  Best: -6575.3077 eV
+  Average: -6573.6851 eV
+  Global best: -6575.3077 eV
+
+######################################################################
+# GENERATION 5/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -6575.3960 eV (relaxation)
+  🏆 New best: E = -6576.2440 eV (relaxation)
+  Relaxed 5/10
+  🏆 New best: E = -6577.6112 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+
+Generation 5 summary:
+  Best: -6577.6112 eV
+  Average: -6575.3424 eV
+  Global best: -6577.6112 eV
+
+######################################################################
+# GENERATION 6/10
+######################################################################
+Relaxing 9 unrelaxed candidates...
+  Relaxed 5/9
+  🏆 New best: E = -6578.4379 eV (relaxation)
+  Relaxed 9/9
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 6 summary:
+  Best: -6578.4379 eV
+  Average: -6576.2901 eV
+  Global best: -6578.4379 eV
+
+######################################################################
+# GENERATION 7/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -6579.1014 eV (relaxation)
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 7 summary:
+  Best: -6579.1014 eV
+  Average: -6577.4878 eV
+  Global best: -6579.1014 eV
+
+######################################################################
+# GENERATION 8/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -6579.9620 eV (relaxation)
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 8 summary:
+  Best: -6579.9620 eV
+  Average: -6578.3445 eV
+  Global best: -6579.9620 eV
+
+######################################################################
+# GENERATION 9/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -6581.3141 eV (relaxation)
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 9 summary:
+  Best: -6581.3141 eV
+  Average: -6579.5114 eV
+  Global best: -6581.3141 eV
+
+######################################################################
+# GENERATION 10/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  Relaxed 5/10
+  🏆 New best: E = -6581.5605 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 10 summary:
+  Best: -6581.5605 eV
+  Average: -6580.3170 eV
+  Global best: -6581.5605 eV
+
+======================================================================
+✅ GA COMPLETE
+======================================================================
+Metal: Ir (40 atoms)
+Slab: CeO2_111
+Best energy: -6581.5605 eV (-164.5390 eV/atom)
+Duration: 0.99 hours
+Total structures: 99
+Output: /DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Ir_CeO2_111
+======================================================================
+
+
+======================================================================
+✅ OPTIMIZATION COMPLETE: M40_Ir_CeO2_111
+======================================================================
+
+✓ Completed: Ir on CeO2_111
+
+##################################################
+# Processing: Ir on MgO_100
+##################################################
+
+======================================================================
+🧬 GA OPTIMIZATION: M40
+======================================================================
+Configuration: M40_Ir_MgO_100
+Metal: Ir (40 atoms)
+Slab: MgO_100
+Output: /DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Ir_MgO_100
+Device: cuda
+======================================================================
+
+
+======================================================================
+Loading UMA model from: /DATA/user_scratch/jsh9967/5_uma_MSI/utility/uma-s-1p1.pt
+Device: cuda
+======================================================================
+✓ UMA model loaded successfully
+
+
+======================================================================
+Loading oxide slab: MgO_100
+======================================================================
+✓ Slab loaded from: MgO_100_large.traj
+  Composition: Mg484O484
+  Atoms: 968 (484 fixed)
+  Cell: 33.62 × 33.62 × 23.48 Å
+  Miller: [1, 0, 0]
+
+======================================================================
+GA OPTIMIZATION: Ir on MgO_100
+======================================================================
+Metal atoms: 40
+Population: 10
+Generations: 10
+======================================================================
+
+✓ Placement box created:
+  Origin: (6.72, 6.72, 10.48) Å
+  X range: 6.72 - 26.90 Å
+  Y range: 6.72 - 26.90 Å
+  Z range: 10.48 - 15.48 Å
+  Volume: 2035.07 Å³
+✓ GA operators configured:
+  Crossover prob: 0.7
+  Mutation prob: 0.3
+  Mutations: 2 types
+✓ Placement box created:
+  Origin: (6.72, 6.72, 10.48) Å
+  X range: 6.72 - 26.90 Å
+  Y range: 6.72 - 26.90 Å
+  Z range: 10.48 - 15.48 Å
+  Volume: 2035.07 Å³
+Generating initial population (attempt 1/6)...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+✓ Initial population generated (10 structures)
+
+======================================================================
+Starting GA iterations...
+======================================================================
+
+
+######################################################################
+# GENERATION 1/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -5861.3108 eV (relaxation)
+  🏆 New best: E = -5869.7164 eV (relaxation)
+  Relaxed 5/10
+  🏆 New best: E = -5870.2304 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 1 summary:
+  Best: -5870.2304 eV
+  Average: -5862.3837 eV
+  Global best: -5870.2304 eV
+
+######################################################################
+# GENERATION 2/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -5878.6915 eV (relaxation)
+  Relaxed 5/10
+  🏆 New best: E = -5881.8670 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 2 summary:
+  Best: -5881.8670 eV
+  Average: -5872.5516 eV
+  Global best: -5881.8670 eV
+
+######################################################################
+# GENERATION 3/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -5881.9728 eV (relaxation)
+  Relaxed 5/10
+  🏆 New best: E = -5890.1455 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 3 summary:
+  Best: -5890.1455 eV
+  Average: -5879.3884 eV
+  Global best: -5890.1455 eV
+
+######################################################################
+# GENERATION 4/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  Relaxed 5/10
+  🏆 New best: E = -5890.5474 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 4 summary:
+  Best: -5890.5474 eV
+  Average: -5885.4107 eV
+  Global best: -5890.5474 eV
+
+######################################################################
+# GENERATION 5/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -5891.8519 eV (relaxation)
+  🏆 New best: E = -5891.9390 eV (relaxation)
+  🏆 New best: E = -5892.2317 eV (relaxation)
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 5 summary:
+  Best: -5892.2317 eV
+  Average: -5890.2959 eV
+  Global best: -5892.2317 eV
+
+######################################################################
+# GENERATION 6/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -5893.8698 eV (relaxation)
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 6 summary:
+  Best: -5893.8698 eV
+  Average: -5891.9541 eV
+  Global best: -5893.8698 eV
+
+######################################################################
+# GENERATION 7/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  Relaxed 5/10
+  🏆 New best: E = -5895.7377 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 7 summary:
+  Best: -5895.7377 eV
+  Average: -5892.9191 eV
+  Global best: -5895.7377 eV
+
+######################################################################
+# GENERATION 8/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -5897.0090 eV (relaxation)
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 8 summary:
+  Best: -5897.0090 eV
+  Average: -5893.8145 eV
+  Global best: -5897.0090 eV
+
+######################################################################
+# GENERATION 9/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 9 summary:
+  Best: -5897.0090 eV
+  Average: -5894.9564 eV
+  Global best: -5897.0090 eV
+
+######################################################################
+# GENERATION 10/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -5897.0430 eV (relaxation)
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 10 summary:
+  Best: -5897.0430 eV
+  Average: -5895.1962 eV
+  Global best: -5897.0430 eV
+
+======================================================================
+✅ GA COMPLETE
+======================================================================
+Metal: Ir (40 atoms)
+Slab: MgO_100
+Best energy: -5897.0430 eV (-147.4261 eV/atom)
+Duration: 1.78 hours
+Total structures: 100
+Output: /DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Ir_MgO_100
+======================================================================
+
+
+======================================================================
+✅ OPTIMIZATION COMPLETE: M40_Ir_MgO_100
+======================================================================
+
+✓ Completed: Ir on MgO_100
+
+##################################################
+# Processing: Ir on SiO2_101
+##################################################
+
+======================================================================
+🧬 GA OPTIMIZATION: M40
+======================================================================
+Configuration: M40_Ir_SiO2_101
+Metal: Ir (40 atoms)
+Slab: SiO2_101
+Output: /DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Ir_SiO2_101
+Device: cuda
+======================================================================
+
+
+======================================================================
+Loading UMA model from: /DATA/user_scratch/jsh9967/5_uma_MSI/utility/uma-s-1p1.pt
+Device: cuda
+======================================================================
+✓ UMA model loaded successfully
+
+
+======================================================================
+Loading oxide slab: SiO2_101
+======================================================================
+✓ Slab loaded from: SiO2_101_large.traj
+  Composition: O630Si315
+  Atoms: 945 (438 fixed)
+  Cell: 36.09 × 38.03 × 31.88 Å
+  Miller: [1, 0, 1]
+
+======================================================================
+GA OPTIMIZATION: Ir on SiO2_101
+======================================================================
+Metal atoms: 40
+Population: 10
+Generations: 10
+======================================================================
+
+✓ Placement box created:
+  Origin: (7.19, 7.11, 18.94) Å
+  X range: 7.19 - 28.85 Å
+  Y range: 7.11 - 29.93 Å
+  Z range: 18.94 - 23.94 Å
+  Volume: 2470.64 Å³
+✓ GA operators configured:
+  Crossover prob: 0.7
+  Mutation prob: 0.3
+  Mutations: 2 types
+✓ Placement box created:
+  Origin: (7.19, 7.11, 18.94) Å
+  X range: 7.19 - 28.85 Å
+  Y range: 7.11 - 29.93 Å
+  Z range: 18.94 - 23.94 Å
+  Volume: 2470.64 Å³
+Generating initial population (attempt 1/6)...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+✓ Initial population generated (10 structures)
+
+======================================================================
+Starting GA iterations...
+======================================================================
+
+
+######################################################################
+# GENERATION 1/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -7330.0726 eV (relaxation)
+  🏆 New best: E = -7331.4051 eV (relaxation)
+  Relaxed 5/10
+  🏆 New best: E = -7342.1348 eV (relaxation)
+  🏆 New best: E = -7350.3722 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 1 summary:
+  Best: -7350.3722 eV
+  Average: -7326.8832 eV
+  Global best: -7350.3722 eV
+
+######################################################################
+# GENERATION 2/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  Relaxed 5/10
+  🏆 New best: E = -7350.9520 eV (relaxation)
+  🏆 New best: E = -7351.7791 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 2 summary:
+  Best: -7351.7791 eV
+  Average: -7340.1837 eV
+  Global best: -7351.7791 eV
+
+######################################################################
+# GENERATION 3/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  Relaxed 5/10
+  🏆 New best: E = -7360.5863 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 3 summary:
+  Best: -7360.5863 eV
+  Average: -7349.2489 eV
+  Global best: -7360.5863 eV
+
+######################################################################
+# GENERATION 4/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  Relaxed 5/10
+  🏆 New best: E = -7366.1529 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 4 summary:
+  Best: -7366.1529 eV
+  Average: -7355.1827 eV
+  Global best: -7366.1529 eV
+
+######################################################################
+# GENERATION 5/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  Relaxed 5/10
+  🏆 New best: E = -7367.6759 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 5 summary:
+  Best: -7367.6759 eV
+  Average: -7359.6779 eV
+  Global best: -7367.6759 eV
+
+######################################################################
+# GENERATION 6/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 6 summary:
+  Best: -7367.6759 eV
+  Average: -7361.1741 eV
+  Global best: -7367.6759 eV
+
+######################################################################
+# GENERATION 7/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 7 summary:
+  Best: -7367.6759 eV
+  Average: -7363.8466 eV
+  Global best: -7367.6759 eV
+
+######################################################################
+# GENERATION 8/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 8 summary:
+  Best: -7367.6759 eV
+  Average: -7365.3349 eV
+  Global best: -7367.6759 eV
+
+######################################################################
+# GENERATION 9/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -7368.3329 eV (relaxation)
+  🏆 New best: E = -7372.6960 eV (relaxation)
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 9 summary:
+  Best: -7372.6960 eV
+  Average: -7367.0170 eV
+  Global best: -7372.6960 eV
+
+######################################################################
+# GENERATION 10/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 10 summary:
+  Best: -7372.6960 eV
+  Average: -7367.5041 eV
+  Global best: -7372.6960 eV
+
+======================================================================
+✅ GA COMPLETE
+======================================================================
+Metal: Ir (40 atoms)
+Slab: SiO2_101
+Best energy: -7372.6960 eV (-184.3174 eV/atom)
+Duration: 1.83 hours
+Total structures: 100
+Output: /DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Ir_SiO2_101
+======================================================================
+
+
+======================================================================
+✅ OPTIMIZATION COMPLETE: M40_Ir_SiO2_101
+======================================================================
+
+✓ Completed: Ir on SiO2_101
+
+##################################################
+# Processing: Ir on SnO2_100
+##################################################
+
+======================================================================
+🧬 GA OPTIMIZATION: M40
+======================================================================
+Configuration: M40_Ir_SnO2_100
+Metal: Ir (40 atoms)
+Slab: SnO2_100
+Output: /DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Ir_SnO2_100
+Device: cuda
+======================================================================
+
+
+======================================================================
+Loading UMA model from: /DATA/user_scratch/jsh9967/5_uma_MSI/utility/uma-s-1p1.pt
+Device: cuda
+======================================================================
+✓ UMA model loaded successfully
+
+
+======================================================================
+Loading oxide slab: SnO2_100
+======================================================================
+✓ Slab loaded from: SnO2_100_large.traj
+  Composition: O616Sn308
+  Atoms: 924 (462 fixed)
+  Cell: 35.86 × 34.29 × 26.23 Å
+  Miller: [1, 0, 0]
+
+======================================================================
+GA OPTIMIZATION: Ir on SnO2_100
+======================================================================
+Metal atoms: 40
+Population: 10
+Generations: 10
+======================================================================
+
+✓ Placement box created:
+  Origin: (7.17, 6.86, 13.38) Å
+  X range: 7.17 - 28.69 Å
+  Y range: 6.86 - 27.43 Å
+  Z range: 13.38 - 18.38 Å
+  Volume: 2213.46 Å³
+✓ GA operators configured:
+  Crossover prob: 0.7
+  Mutation prob: 0.3
+  Mutations: 2 types
+✓ Placement box created:
+  Origin: (7.17, 6.86, 13.38) Å
+  X range: 7.17 - 28.69 Å
+  Y range: 6.86 - 27.43 Å
+  Z range: 13.38 - 18.38 Å
+  Volume: 2213.46 Å³
+Generating initial population (attempt 1/6)...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+✓ Initial population generated (10 structures)
+
+======================================================================
+Starting GA iterations...
+======================================================================
+
+
+######################################################################
+# GENERATION 1/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -5817.2310 eV (relaxation)
+  🏆 New best: E = -5825.9512 eV (relaxation)
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 1 summary:
+  Best: -5825.9512 eV
+  Average: -5818.4798 eV
+  Global best: -5825.9512 eV
+
+######################################################################
+# GENERATION 2/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -5829.4858 eV (relaxation)
+  Relaxed 5/10
+  🏆 New best: E = -5830.2824 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 2 summary:
+  Best: -5830.2824 eV
+  Average: -5825.4230 eV
+  Global best: -5830.2824 eV
+
+######################################################################
+# GENERATION 3/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -5832.8745 eV (relaxation)
+  🏆 New best: E = -5840.3273 eV (relaxation)
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 3 summary:
+  Best: -5840.3273 eV
+  Average: -5831.1935 eV
+  Global best: -5840.3273 eV
+
+######################################################################
+# GENERATION 4/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 4 summary:
+  Best: -5840.3273 eV
+  Average: -5834.8980 eV
+  Global best: -5840.3273 eV
+
+######################################################################
+# GENERATION 5/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 5 summary:
+  Best: -5840.3273 eV
+  Average: -5837.0131 eV
+  Global best: -5840.3273 eV
+
+######################################################################
+# GENERATION 6/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -5841.0894 eV (relaxation)
+  Relaxed 5/10
+  🏆 New best: E = -5841.5122 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 6 summary:
+  Best: -5841.5122 eV
+  Average: -5839.5890 eV
+  Global best: -5841.5122 eV
+
+######################################################################
+# GENERATION 7/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -5842.5487 eV (relaxation)
+  Relaxed 5/10
+  🏆 New best: E = -5844.0220 eV (relaxation)
+  🏆 New best: E = -5844.5318 eV (relaxation)
+  🏆 New best: E = -5847.1103 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 7 summary:
+  Best: -5847.1103 eV
+  Average: -5842.4874 eV
+  Global best: -5847.1103 eV
+
+######################################################################
+# GENERATION 8/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -5851.3164 eV (relaxation)
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 8 summary:
+  Best: -5851.3164 eV
+  Average: -5846.3495 eV
+  Global best: -5851.3164 eV
+
+######################################################################
+# GENERATION 9/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -5852.5297 eV (relaxation)
+  Relaxed 5/10
+  🏆 New best: E = -5854.0891 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 9 summary:
+  Best: -5854.0891 eV
+  Average: -5850.7201 eV
+  Global best: -5854.0891 eV
+
+######################################################################
+# GENERATION 10/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -5854.3043 eV (relaxation)
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+
+Generation 10 summary:
+  Best: -5854.3043 eV
+  Average: -5852.0156 eV
+  Global best: -5854.3043 eV
+
+======================================================================
+✅ GA COMPLETE
+======================================================================
+Metal: Ir (40 atoms)
+Slab: SnO2_100
+Best energy: -5854.3043 eV (-146.3576 eV/atom)
+Duration: 1.77 hours
+Total structures: 100
+Output: /DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Ir_SnO2_100
+======================================================================
+
+
+======================================================================
+✅ OPTIMIZATION COMPLETE: M40_Ir_SnO2_100
+======================================================================
+
+✓ Completed: Ir on SnO2_100
+
+##################################################
+# Processing: Ir on TiO2_anatase_001
+##################################################
+
+======================================================================
+🧬 GA OPTIMIZATION: M40
+======================================================================
+Configuration: M40_Ir_TiO2_anatase_001
+Metal: Ir (40 atoms)
+Slab: TiO2_anatase_001
+Output: /DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Ir_TiO2_anatase_001
+Device: cuda
+======================================================================
+
+
+======================================================================
+Loading UMA model from: /DATA/user_scratch/jsh9967/5_uma_MSI/utility/uma-s-1p1.pt
+Device: cuda
+======================================================================
+✓ UMA model loaded successfully
+
+
+======================================================================
+Loading oxide slab: TiO2_anatase_001
+======================================================================
+✓ Slab loaded from: TiO2_anatase_001_large.traj
+  Composition: O648Ti324
+  Atoms: 972 (486 fixed)
+  Cell: 34.62 × 34.62 × 25.27 Å
+  Miller: [0, 0, 1]
+
+======================================================================
+GA OPTIMIZATION: Ir on TiO2_anatase_001
+======================================================================
+Metal atoms: 40
+Population: 10
+Generations: 10
+======================================================================
+
+✓ Placement box created:
+  Origin: (6.92, 6.92, 12.25) Å
+  X range: 6.92 - 27.69 Å
+  Y range: 6.92 - 27.69 Å
+  Z range: 12.25 - 17.25 Å
+  Volume: 2157.07 Å³
+✓ GA operators configured:
+  Crossover prob: 0.7
+  Mutation prob: 0.3
+  Mutations: 2 types
+✓ Placement box created:
+  Origin: (6.92, 6.92, 12.25) Å
+  X range: 6.92 - 27.69 Å
+  Y range: 6.92 - 27.69 Å
+  Z range: 12.25 - 17.25 Å
+  Volume: 2157.07 Å³
+Generating initial population (attempt 1/6)...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+✓ Initial population generated (10 structures)
+
+======================================================================
+Starting GA iterations...
+======================================================================
+
+
+######################################################################
+# GENERATION 1/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -8802.8582 eV (relaxation)
+  🏆 New best: E = -8805.0494 eV (relaxation)
+  🏆 New best: E = -8812.1441 eV (relaxation)
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 1 summary:
+  Best: -8812.1441 eV
+  Average: -8802.6798 eV
+  Global best: -8812.1441 eV
+
+######################################################################
+# GENERATION 2/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -8818.7065 eV (relaxation)
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 2 summary:
+  Best: -8818.7065 eV
+  Average: -8812.5312 eV
+  Global best: -8818.7065 eV
+
+######################################################################
+# GENERATION 3/10
+######################################################################
+Relaxing 8 unrelaxed candidates...
+  🏆 New best: E = -8818.9681 eV (relaxation)
+  🏆 New best: E = -8821.8149 eV (relaxation)
+  Relaxed 5/8
+  Relaxed 8/8
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 3 summary:
+  Best: -8821.8149 eV
+  Average: -8817.2962 eV
+  Global best: -8821.8149 eV
+
+######################################################################
+# GENERATION 4/10
+######################################################################
+Relaxing 9 unrelaxed candidates...
+  🏆 New best: E = -8825.3568 eV (relaxation)
+  🏆 New best: E = -8828.6558 eV (relaxation)
+  Relaxed 5/9
+  Relaxed 9/9
+Generating 10 new candidates...
+  Generated 5/10 candidates
+
+Generation 4 summary:
+  Best: -8828.6558 eV
+  Average: -8823.2716 eV
+  Global best: -8828.6558 eV
+
+######################################################################
+# GENERATION 5/10
+######################################################################
+Relaxing 7 unrelaxed candidates...
+  Relaxed 5/7
+  Relaxed 7/7
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 5 summary:
+  Best: -8828.6558 eV
+  Average: -8825.7473 eV
+  Global best: -8828.6558 eV
+
+######################################################################
+# GENERATION 6/10
+######################################################################
+Relaxing 8 unrelaxed candidates...
+  🏆 New best: E = -8828.8774 eV (relaxation)
+  🏆 New best: E = -8830.8704 eV (relaxation)
+  Relaxed 5/8
+  Relaxed 8/8
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 6 summary:
+  Best: -8830.8704 eV
+  Average: -8827.5520 eV
+  Global best: -8830.8704 eV
+
+######################################################################
+# GENERATION 7/10
+######################################################################
+Relaxing 6 unrelaxed candidates...
+  Relaxed 5/6
+  🏆 New best: E = -8831.5977 eV (relaxation)
+  Relaxed 6/6
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 7 summary:
+  Best: -8831.5977 eV
+  Average: -8828.7571 eV
+  Global best: -8831.5977 eV
+
+######################################################################
+# GENERATION 8/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  Relaxed 5/10
+  🏆 New best: E = -8832.5309 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 8 summary:
+  Best: -8832.5309 eV
+  Average: -8830.4574 eV
+  Global best: -8832.5309 eV
+
+######################################################################
+# GENERATION 9/10
+######################################################################
+Relaxing 8 unrelaxed candidates...
+  Relaxed 5/8
+  🏆 New best: E = -8834.1222 eV (relaxation)
+  Relaxed 8/8
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 9 summary:
+  Best: -8834.1222 eV
+  Average: -8831.7049 eV
+  Global best: -8834.1222 eV
+
+######################################################################
+# GENERATION 10/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -8834.6398 eV (relaxation)
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 10 summary:
+  Best: -8834.6398 eV
+  Average: -8832.2807 eV
+  Global best: -8834.6398 eV
+
+======================================================================
+✅ GA COMPLETE
+======================================================================
+Metal: Ir (40 atoms)
+Slab: TiO2_anatase_001
+Best energy: -8834.6398 eV (-220.8660 eV/atom)
+Duration: 1.72 hours
+Total structures: 86
+Output: /DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Ir_TiO2_anatase_001
+======================================================================
+
+
+======================================================================
+✅ OPTIMIZATION COMPLETE: M40_Ir_TiO2_anatase_001
+======================================================================
+
+✓ Completed: Ir on TiO2_anatase_001
+
+##################################################
+# Processing: Ir on TiO2_rutile_100
+##################################################
+
+======================================================================
+🧬 GA OPTIMIZATION: M40
+======================================================================
+Configuration: M40_Ir_TiO2_rutile_100
+Metal: Ir (40 atoms)
+Slab: TiO2_rutile_100
+Output: /DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Ir_TiO2_rutile_100
+Device: cuda
+======================================================================
+
+
+======================================================================
+Loading UMA model from: /DATA/user_scratch/jsh9967/5_uma_MSI/utility/uma-s-1p1.pt
+Device: cuda
+======================================================================
+✓ UMA model loaded successfully
+
+
+======================================================================
+Loading oxide slab: TiO2_rutile_100
+======================================================================
+✓ Slab loaded from: TiO2_rutile_100_large.traj
+  Composition: O672Ti336
+  Atoms: 1008 (504 fixed)
+  Cell: 35.72 × 33.09 × 25.91 Å
+  Miller: [1, 0, 0]
+
+======================================================================
+GA OPTIMIZATION: Ir on TiO2_rutile_100
+======================================================================
+Metal atoms: 40
+Population: 10
+Generations: 10
+======================================================================
+
+✓ Placement box created:
+  Origin: (7.14, 6.62, 13.01) Å
+  X range: 7.14 - 28.58 Å
+  Y range: 6.62 - 26.47 Å
+  Z range: 13.01 - 18.01 Å
+  Volume: 2127.69 Å³
+✓ GA operators configured:
+  Crossover prob: 0.7
+  Mutation prob: 0.3
+  Mutations: 2 types
+✓ Placement box created:
+  Origin: (7.14, 6.62, 13.01) Å
+  X range: 7.14 - 28.58 Å
+  Y range: 6.62 - 26.47 Å
+  Z range: 13.01 - 18.01 Å
+  Volume: 2127.69 Å³
+Generating initial population (attempt 1/6)...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+✓ Initial population generated (10 structures)
+
+======================================================================
+Starting GA iterations...
+======================================================================
+
+
+######################################################################
+# GENERATION 1/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -9084.4467 eV (relaxation)
+  🏆 New best: E = -9086.6898 eV (relaxation)
+  🏆 New best: E = -9086.9409 eV (relaxation)
+  Relaxed 5/10
+  🏆 New best: E = -9087.0419 eV (relaxation)
+  🏆 New best: E = -9094.7549 eV (relaxation)
+  🏆 New best: E = -9096.4853 eV (relaxation)
+  🏆 New best: E = -9097.0079 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 1 summary:
+  Best: -9097.0079 eV
+  Average: -9087.4569 eV
+  Global best: -9097.0079 eV
+
+######################################################################
+# GENERATION 2/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -9098.0134 eV (relaxation)
+  🏆 New best: E = -9100.7996 eV (relaxation)
+  Relaxed 5/10
+  🏆 New best: E = -9105.2187 eV (relaxation)
+  🏆 New best: E = -9106.9998 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 2 summary:
+  Best: -9106.9998 eV
+  Average: -9100.1605 eV
+  Global best: -9106.9998 eV
+
+######################################################################
+# GENERATION 3/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -9111.3749 eV (relaxation)
+  🏆 New best: E = -9112.5516 eV (relaxation)
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 3 summary:
+  Best: -9112.5516 eV
+  Average: -9109.3560 eV
+  Global best: -9112.5516 eV
+
+######################################################################
+# GENERATION 4/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -9114.0056 eV (relaxation)
+  Relaxed 5/10
+  🏆 New best: E = -9114.1006 eV (relaxation)
+  🏆 New best: E = -9117.4116 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 4 summary:
+  Best: -9117.4116 eV
+  Average: -9113.0854 eV
+  Global best: -9117.4116 eV
+
+######################################################################
+# GENERATION 5/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -9118.7134 eV (relaxation)
+  Relaxed 5/10
+  🏆 New best: E = -9118.7846 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 5 summary:
+  Best: -9118.7846 eV
+  Average: -9115.3380 eV
+  Global best: -9118.7846 eV
+
+######################################################################
+# GENERATION 6/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -9120.2276 eV (relaxation)
+  Relaxed 5/10
+  🏆 New best: E = -9121.9478 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 6 summary:
+  Best: -9121.9478 eV
+  Average: -9118.5541 eV
+  Global best: -9121.9478 eV
+
+######################################################################
+# GENERATION 7/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  Relaxed 5/10
+  🏆 New best: E = -9121.9673 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 7 summary:
+  Best: -9121.9673 eV
+  Average: -9120.0494 eV
+  Global best: -9121.9673 eV
+
+######################################################################
+# GENERATION 8/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -9122.3220 eV (relaxation)
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 8 summary:
+  Best: -9122.3220 eV
+  Average: -9120.5832 eV
+  Global best: -9122.3220 eV
+
+######################################################################
+# GENERATION 9/10
+######################################################################
+Relaxing 9 unrelaxed candidates...
+  🏆 New best: E = -9122.7165 eV (relaxation)
+  Relaxed 5/9
+  Relaxed 9/9
+Generating 10 new candidates...
+  Generated 10/10 candidates
+
+Generation 9 summary:
+  Best: -9122.7165 eV
+  Average: -9121.3261 eV
+  Global best: -9122.7165 eV
+
+######################################################################
+# GENERATION 10/10
+######################################################################
+Relaxing 6 unrelaxed candidates...
+  🏆 New best: E = -9123.0755 eV (relaxation)
+  🏆 New best: E = -9123.8753 eV (relaxation)
+  Relaxed 5/6
+  Relaxed 6/6
+Generating 10 new candidates...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+
+Generation 10 summary:
+  Best: -9123.8753 eV
+  Average: -9122.0902 eV
+  Global best: -9123.8753 eV
+
+======================================================================
+✅ GA COMPLETE
+======================================================================
+Metal: Ir (40 atoms)
+Slab: TiO2_rutile_100
+Best energy: -9123.8753 eV (-228.0969 eV/atom)
+Duration: 1.80 hours
+Total structures: 95
+Output: /DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Ir_TiO2_rutile_100
+======================================================================
+
+
+======================================================================
+✅ OPTIMIZATION COMPLETE: M40_Ir_TiO2_rutile_100
+======================================================================
+
+✓ Completed: Ir on TiO2_rutile_100
+
+##################################################
+# Processing: Ir on ZnO_100
+##################################################
+
+======================================================================
+🧬 GA OPTIMIZATION: M40
+======================================================================
+Configuration: M40_Ir_ZnO_100
+Metal: Ir (40 atoms)
+Slab: ZnO_100
+Output: /DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Ir_ZnO_100
+Device: cuda
+======================================================================
+
+
+======================================================================
+Loading UMA model from: /DATA/user_scratch/jsh9967/5_uma_MSI/utility/uma-s-1p1.pt
+Device: cuda
+======================================================================
+✓ UMA model loaded successfully
+
+
+======================================================================
+Loading oxide slab: ZnO_100
+======================================================================
+✓ Slab loaded from: ZnO_100_large.traj
+  Composition: O616Zn616
+  Atoms: 1232 (616 fixed)
+  Cell: 36.55 × 37.63 × 27.55 Å
+  Miller: [1, 0, 0]
+
+======================================================================
+GA OPTIMIZATION: Ir on ZnO_100
+======================================================================
+Metal atoms: 40
+Population: 10
+Generations: 10
+======================================================================
+
+✓ Placement box created:
+  Origin: (7.31, 7.53, 14.67) Å
+  X range: 7.31 - 29.24 Å
+  Y range: 7.53 - 30.10 Å
+  Z range: 14.67 - 19.67 Å
+  Volume: 2475.65 Å³
+✓ GA operators configured:
+  Crossover prob: 0.7
+  Mutation prob: 0.3
+  Mutations: 2 types
+✓ Placement box created:
+  Origin: (7.31, 7.53, 14.67) Å
+  X range: 7.31 - 29.24 Å
+  Y range: 7.53 - 30.10 Å
+  Z range: 14.67 - 19.67 Å
+  Volume: 2475.65 Å³
+Generating initial population (attempt 1/6)...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+✓ Initial population generated (10 structures)
+
+======================================================================
+Starting GA iterations...
+======================================================================
+
+
+######################################################################
+# GENERATION 1/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -5355.5809 eV (relaxation)
+  🏆 New best: E = -5377.8720 eV (relaxation)
+  Relaxed 5/10
+  Relaxed 10/10
+Generating 10 new candidates...
+
+Generation 1 summary:
+  Best: -5377.8720 eV
+  Average: -5366.6785 eV
+  Global best: -5377.8720 eV
+
+######################################################################
+# GENERATION 2/10
+######################################################################
+Relaxing 4 unrelaxed candidates...
+  🏆 New best: E = -5382.0803 eV (relaxation)
+  🏆 New best: E = -5383.3008 eV (relaxation)
+  Relaxed 4/4
+Generating 10 new candidates...
+  Generated 5/10 candidates
+
+Generation 2 summary:
+  Best: -5383.3008 eV
+  Average: -5373.6297 eV
+  Global best: -5383.3008 eV
+
+######################################################################
+# GENERATION 3/10
+######################################################################
+Relaxing 4 unrelaxed candidates...
+  🏆 New best: E = -5388.9225 eV (relaxation)
+  Relaxed 4/4
+Generating 10 new candidates...
+
+Generation 3 summary:
+  Best: -5388.9225 eV
+  Average: -5379.2862 eV
+  Global best: -5388.9225 eV
+
+######################################################################
+# GENERATION 4/10
+######################################################################
+Relaxing 4 unrelaxed candidates...
+  🏆 New best: E = -5390.2663 eV (relaxation)
+  Relaxed 4/4
+Generating 10 new candidates...
+
+Generation 4 summary:
+  Best: -5390.2663 eV
+  Average: -5383.3119 eV
+  Global best: -5390.2663 eV
+
+######################################################################
+# GENERATION 5/10
+######################################################################
+Relaxing 2 unrelaxed candidates...
+  🏆 New best: E = -5391.0738 eV (relaxation)
+  Relaxed 2/2
+Generating 10 new candidates...
+
+Generation 5 summary:
+  Best: -5391.0738 eV
+  Average: -5385.0945 eV
+  Global best: -5391.0738 eV
+
+######################################################################
+# GENERATION 6/10
+######################################################################
+Generating 10 new candidates...
+
+Generation 6 summary:
+  Best: -5391.0738 eV
+  Average: -5385.0945 eV
+  Global best: -5391.0738 eV
+
+######################################################################
+# GENERATION 7/10
+######################################################################
+Generating 10 new candidates...
+
+Generation 7 summary:
+  Best: -5391.0738 eV
+  Average: -5385.0945 eV
+  Global best: -5391.0738 eV
+
+######################################################################
+# GENERATION 8/10
+######################################################################
+Generating 10 new candidates...
+
+Generation 8 summary:
+  Best: -5391.0738 eV
+  Average: -5385.0945 eV
+  Global best: -5391.0738 eV
+
+######################################################################
+# GENERATION 9/10
+######################################################################
+Generating 10 new candidates...
+
+Generation 9 summary:
+  Best: -5391.0738 eV
+  Average: -5385.0945 eV
+  Global best: -5391.0738 eV
+
+######################################################################
+# GENERATION 10/10
+######################################################################
+Generating 10 new candidates...
+
+Generation 10 summary:
+  Best: -5391.0738 eV
+  Average: -5385.0945 eV
+  Global best: -5391.0738 eV
+
+======================================================================
+✅ GA COMPLETE
+======================================================================
+Metal: Ir (40 atoms)
+Slab: ZnO_100
+Best energy: -5391.0738 eV (-134.7768 eV/atom)
+Duration: 0.80 hours
+Total structures: 24
+Output: /DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Ir_ZnO_100
+======================================================================
+
+
+======================================================================
+✅ OPTIMIZATION COMPLETE: M40_Ir_ZnO_100
+======================================================================
+
+✓ Completed: Ir on ZnO_100
+
+##################################################
+# Processing: Ir on ZrO2_100
+##################################################
+
+======================================================================
+🧬 GA OPTIMIZATION: M40
+======================================================================
+Configuration: M40_Ir_ZrO2_100
+Metal: Ir (40 atoms)
+Slab: ZrO2_100
+Output: /DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Ir_ZrO2_100
+Device: cuda
+======================================================================
+
+
+======================================================================
+Loading UMA model from: /DATA/user_scratch/jsh9967/5_uma_MSI/utility/uma-s-1p1.pt
+Device: cuda
+======================================================================
+✓ UMA model loaded successfully
+
+
+======================================================================
+Loading oxide slab: ZrO2_100
+======================================================================
+✓ Slab loaded from: ZrO2_100_large.traj
+  Composition: O360Zr360
+  Atoms: 720 (270 fixed)
+  Cell: 36.39 × 34.04 × 28.43 Å
+  Miller: [1, 0, 0]
+
+======================================================================
+GA OPTIMIZATION: Ir on ZrO2_100
+======================================================================
+Metal atoms: 40
+Population: 10
+Generations: 10
+======================================================================
+
+✓ Placement box created:
+  Origin: (7.28, 6.79, 15.23) Å
+  X range: 7.28 - 29.11 Å
+  Y range: 6.79 - 27.21 Å
+  Z range: 15.23 - 20.23 Å
+  Volume: 2229.51 Å³
+✓ GA operators configured:
+  Crossover prob: 0.7
+  Mutation prob: 0.3
+  Mutations: 2 types
+✓ Placement box created:
+  Origin: (7.28, 6.79, 15.23) Å
+  X range: 7.28 - 29.11 Å
+  Y range: 6.79 - 27.21 Å
+  Z range: 15.23 - 20.23 Å
+  Volume: 2229.51 Å³
+Generating initial population (attempt 1/6)...
+  Generated 5/10 candidates
+  Generated 10/10 candidates
+✓ Initial population generated (10 structures)
+
+======================================================================
+Starting GA iterations...
+======================================================================
+
+
+######################################################################
+# GENERATION 1/10
+######################################################################
+Relaxing 10 unrelaxed candidates...
+  🏆 New best: E = -6580.1460 eV (relaxation)
+  🏆 New best: E = -6587.2175 eV (relaxation)
+  Relaxed 5/10
+  🏆 New best: E = -6595.7787 eV (relaxation)
+  Relaxed 10/10
+Generating 10 new candidates...
+
+Generation 1 summary:
+  Best: -6595.7787 eV
+  Average: -6577.4135 eV
+  Global best: -6595.7787 eV
+
+######################################################################
+# GENERATION 2/10
+######################################################################
+Relaxing 1 unrelaxed candidates...
+  Relaxed 1/1
+Generating 10 new candidates...
+
+Generation 2 summary:
+  Best: -6595.7787 eV
+  Average: -6581.6978 eV
+  Global best: -6595.7787 eV
+
+######################################################################
+# GENERATION 3/10
+######################################################################
+Generating 10 new candidates...
+
+Generation 3 summary:
+  Best: -6595.7787 eV
+  Average: -6581.6978 eV
+  Global best: -6595.7787 eV
+
+######################################################################
+# GENERATION 4/10
+######################################################################
+Generating 10 new candidates...
+
+Generation 4 summary:
+  Best: -6595.7787 eV
+  Average: -6581.6978 eV
+  Global best: -6595.7787 eV
+
+######################################################################
+# GENERATION 5/10
+######################################################################
+Generating 10 new candidates...
+
+Generation 5 summary:
+  Best: -6595.7787 eV
+  Average: -6581.6978 eV
+  Global best: -6595.7787 eV
+
+######################################################################
+# GENERATION 6/10
+######################################################################
+Generating 10 new candidates...
+
+Generation 6 summary:
+  Best: -6595.7787 eV
+  Average: -6581.6978 eV
+  Global best: -6595.7787 eV
+
+######################################################################
+# GENERATION 7/10
+######################################################################
+Generating 10 new candidates...
+
+Generation 7 summary:
+  Best: -6595.7787 eV
+  Average: -6581.6978 eV
+  Global best: -6595.7787 eV
+
+######################################################################
+# GENERATION 8/10
+######################################################################
+Generating 10 new candidates...
+
+Generation 8 summary:
+  Best: -6595.7787 eV
+  Average: -6581.6978 eV
+  Global best: -6595.7787 eV
+
+######################################################################
+# GENERATION 9/10
+######################################################################
+Generating 10 new candidates...
+
+Generation 9 summary:
+  Best: -6595.7787 eV
+  Average: -6581.6978 eV
+  Global best: -6595.7787 eV
+
+######################################################################
+# GENERATION 10/10
+######################################################################
+Generating 10 new candidates...
+
+Generation 10 summary:
+  Best: -6595.7787 eV
+  Average: -6581.6978 eV
+  Global best: -6595.7787 eV
+
+======================================================================
+✅ GA COMPLETE
+======================================================================
+Metal: Ir (40 atoms)
+Slab: ZrO2_100
+Best energy: -6595.7787 eV (-164.8945 eV/atom)
+Duration: 0.31 hours
+Total structures: 11
+Output: /DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Ir_ZrO2_100
+======================================================================
+
+
+======================================================================
+✅ OPTIMIZATION COMPLETE: M40_Ir_ZrO2_100
+======================================================================
+
+✓ Completed: Ir on ZrO2_100
+
+==========================================
+CAMPAIGN COMPLETE: Ir
+==========================================
+Completed: 10/10
+Failed: 0/10
+End: Fri Nov 28 01:31:30 AM KST 2025
+==========================================

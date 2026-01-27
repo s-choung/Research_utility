@@ -1,0 +1,87 @@
+================================================================================
+RESTART FAILED RELAXATIONS LOG
+================================================================================
+Total failed calculations to restart: 5
+Max steps increased: 300 → 500
+Force convergence: fmax = 0.05 eV/Å
+================================================================================
+
+
+CeO2 Miller (1,0,0) - Termination 1:
+--------------------------------------------------------------------------------
+  Source: ./slabs/CeO2_100_5x5_relaxed.traj
+  Previous max force: 2.5991 eV/Å
+  Number of atoms: 300
+    Initial energy: -2181.6723 eV
+    Max initial force: 2.5991 eV/Å
+    Final energy: -2233.4678 eV
+    Energy change: -51.7955 eV
+    Max final force: 0.0476 eV/Å
+    Optimization steps: 287
+    Converged: True
+  Output: ./slabs_restarted/CeO2_miller100_term0_restarted.traj
+
+TiO2_rutile Miller (1,1,0) - Termination 2:
+--------------------------------------------------------------------------------
+  Source: ./slabs/TiO2_rutile_110_5x4_relaxed.traj
+  Previous max force: 0.1725 eV/Å
+  Number of atoms: 360
+    Initial energy: -2976.5000 eV
+    Max initial force: 0.1725 eV/Å
+    Final energy: -2976.6015 eV
+    Energy change: -0.1014 eV
+    Max final force: 0.0499 eV/Å
+    Optimization steps: 23
+    Converged: True
+  Output: ./slabs_restarted/TiO2_rutile_miller110_term1_restarted.traj
+
+ZnO Miller (0,0,1) - Termination 2:
+--------------------------------------------------------------------------------
+  Source: ./slabs/ZnO_001_5x5_relaxed.traj
+  Previous max force: 0.6991 eV/Å
+  Number of atoms: 200
+    Initial energy: -728.2234 eV
+    Max initial force: 0.6991 eV/Å
+    Final energy: -730.6066 eV
+    Energy change: -2.3832 eV
+    Max final force: 0.0351 eV/Å
+    Optimization steps: 88
+    Converged: True
+  Output: ./slabs_restarted/ZnO_miller001_term1_restarted.traj
+
+ZrO2 Miller (1,1,1) - Termination 3:
+--------------------------------------------------------------------------------
+  Source: ./slabs/ZrO2_111_4x4_relaxed.traj
+  Previous max force: 0.3068 eV/Å
+  Number of atoms: 640
+    Initial energy: -5325.1451 eV
+    Max initial force: 0.3068 eV/Å
+    Final energy: -5337.0814 eV
+    Energy change: -11.9362 eV
+    Max final force: 0.0457 eV/Å
+    Optimization steps: 306
+    Converged: True
+  Output: ./slabs_restarted/ZrO2_miller111_term2_restarted.traj
+
+ZrO2 Miller (1,1,1) - Termination 4:
+--------------------------------------------------------------------------------
+  Source: ./slabs/ZrO2_111_4x4_relaxed.traj
+  Previous max force: 0.1040 eV/Å
+  Number of atoms: 640
+    Initial energy: -5384.5586 eV
+    Max initial force: 0.1040 eV/Å
+    Final energy: -5384.6034 eV
+    Energy change: -0.0448 eV
+    Max final force: 0.0449 eV/Å
+    Optimization steps: 24
+    Converged: True
+  Output: ./slabs_restarted/ZrO2_miller111_term3_restarted.traj
+
+================================================================================
+RESTART SUMMARY
+================================================================================
+Total restart attempts: 5
+Total converged: 5
+Total still unconverged: 0
+Convergence rate: 100.0%
+================================================================================

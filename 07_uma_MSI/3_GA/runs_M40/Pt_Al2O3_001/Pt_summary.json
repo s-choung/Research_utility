@@ -1,0 +1,45 @@
+{
+  "slab": "Al2O3_001",
+  "metal": "Pt",
+  "n_metal": 40,
+  "best_energy": -10561.483397340458,
+  "best_energy_per_metal": -264.03708493351144,
+  "generations": 10,
+  "population_size": 10,
+  "total_structures": 100,
+  "duration_seconds": 14986.823957,
+  "duration_hours": 4.163006654722222,
+  "generation_best": [
+    -10543.636717652962,
+    -10558.774657106082,
+    -10558.774657106082,
+    -10558.774657106082,
+    -10561.483397340458,
+    -10561.483397340458,
+    -10561.483397340458,
+    -10561.483397340458,
+    -10561.483397340458,
+    -10561.483397340458
+  ],
+  "ga_parameters": {
+    "population_size": 10,
+    "n_iterations": 10,
+    "n_candidates_per_gen": 10,
+    "mutation_probability": 0.3,
+    "crossover_probability": 0.7,
+    "fmax_relaxation": 0.05,
+    "max_steps_relax": 200,
+    "covalent_ratio": 0.7,
+    "mutation_weights": [
+      1.0,
+      1.0,
+      0.5
+    ],
+    "description": "Mirror, Rattle, Permutation mutation weights",
+    "n_metal": 40
+  },
+  "timestamp": "2025-11-26T12:21:09.414477",
+  "output_dir": "/DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Pt_Al2O3_001",
+  "atom_config": "M40",
+  "n_oxide": 0
+}

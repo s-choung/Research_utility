@@ -1,0 +1,98 @@
+==========================================
+SLAB GENERATION - CHUNK 1 (MgO, CaO)
+Host: n011.hpc | Started: Mon Nov 10 06:09:28 PM KST 2025
+==========================================
+Python: /home/jsh9967/anaconda3/envs/fairchem_v2/bin/python
+Python version: Python 3.10.19
+Conda env: fairchem_v2
+
+
+================================================================================
+CHUNK 2: Processing 2 materials
+Materials: CeO2, TiO2_rutile
+================================================================================
+
+================================================================================
+Loading FairChem calculator...
+================================================================================
+  Loading FairChem v2 calculator from: ../utility/uma-s-1p1.pt
+  Using device: cuda
+  ✓ Model loaded successfully
+✓ Calculator loaded - energy evaluation will be performed
+
+================================================================================
+Processing CeO2 - 3 important facets
+================================================================================
+  Generated Miller (1, 1, 1) (2 terminations)
+    Using Ce as reference element
+    Fixed 135 out of 240 atoms (below z=11.583 Å)
+    Using Ce as reference element
+    Fixed 117 out of 240 atoms (below z=9.713 Å)
+  Saved: CeO2_111_4x4.traj (2 terminations, 240 atoms)
+  Running LBFGS relaxation for 2 terminations...
+  Saved relaxed: CeO2_111_4x4_relaxed.traj
+  Generated Miller (1, 1, 0) (1 terminations)
+    Using Ce as reference element
+    Fixed 192 out of 384 atoms (below z=8.696 Å)
+  Saved: CeO2_110_4x4.traj (1 terminations, 384 atoms)
+  Running LBFGS relaxation for 1 terminations...
+  Saved relaxed: CeO2_110_4x4_relaxed.traj
+  Generated Miller (1, 0, 0) (1 terminations)
+    Using Ce as reference element
+    Fixed 112 out of 288 atoms (below z=8.764 Å)
+  Saved: CeO2_100_4x4.traj (1 terminations, 288 atoms)
+  Running LBFGS relaxation for 1 terminations...
+  Saved relaxed: CeO2_100_4x4_relaxed.traj
+
+================================================================================
+Processing TiO2_rutile - 4 important facets
+================================================================================
+  Generated Miller (1, 1, 0) (2 terminations)
+    Using Ti as reference element
+    Fixed 275 out of 480 atoms (below z=20.606 Å)
+    Using Ti as reference element
+    Fixed 260 out of 480 atoms (below z=18.309 Å)
+  Saved: TiO2_rutile_110_5x4.traj (2 terminations, 480 atoms)
+  Running LBFGS relaxation for 2 terminations...
+  Saved relaxed: TiO2_rutile_110_5x4_relaxed.traj
+  Generated Miller (1, 0, 0) (2 terminations)
+    Using Ti as reference element
+    Fixed 200 out of 360 atoms (below z=9.121 Å)
+    Using Ti as reference element
+    Fixed 180 out of 360 atoms (below z=8.661 Å)
+  Saved: TiO2_rutile_100_5x4.traj (2 terminations, 360 atoms)
+  Running LBFGS relaxation for 2 terminations...
+  Saved relaxed: TiO2_rutile_100_5x4_relaxed.traj
+  Generated Miller (1, 0, 1) (2 terminations)
+    Using Ti as reference element
+    Fixed 320 out of 600 atoms (below z=14.576 Å)
+    Using Ti as reference element
+    Fixed 280 out of 600 atoms (below z=13.096 Å)
+  Saved: TiO2_rutile_101_5x4.traj (2 terminations, 600 atoms)
+  Running LBFGS relaxation for 2 terminations...
+  Saved relaxed: TiO2_rutile_101_5x4_relaxed.traj
+  Generated Miller (0, 0, 1) (1 terminations)
+    Using Ti as reference element
+    Fixed 300 out of 600 atoms (below z=8.658 Å)
+  Saved: TiO2_rutile_001_5x4.traj (1 terminations, 600 atoms)
+  Running LBFGS relaxation for 1 terminations...
+  Saved relaxed: TiO2_rutile_001_5x4_relaxed.traj
+
+================================================================================
+Summary written to: ./slab_generation_summary_chunk2.txt
+All slabs saved to: ./slabs/
+Total Miller indices processed: 7
+Total slabs generated: 11
+Total slabs relaxed: 11
+Total converged: 9
+Convergence rate: 81.8%
+Energy log: ./energy_evaluation_chunk2.log
+================================================================================
+
+✅ Chunk 1 completed successfully
+
+==========================================
+CHUNK 1 COMPLETED
+Runtime: 0h 9m 2s
+Finished: Mon Nov 10 06:18:30 PM KST 2025
+==========================================

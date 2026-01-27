@@ -1,0 +1,84 @@
+==========================================
+SLAB GENERATION - CHUNK 1 (MgO, CaO)
+Host: n011.hpc | Started: Mon Nov 10 06:09:20 PM KST 2025
+==========================================
+Python: /home/jsh9967/anaconda3/envs/fairchem_v2/bin/python
+Python version: Python 3.10.19
+Conda env: fairchem_v2
+
+
+================================================================================
+CHUNK 1: Processing 2 materials
+Materials: MgO, CaO
+================================================================================
+
+================================================================================
+Loading FairChem calculator...
+================================================================================
+  Loading FairChem v2 calculator from: ../utility/uma-s-1p1.pt
+  Using device: cuda
+  ✓ Model loaded successfully
+✓ Calculator loaded - energy evaluation will be performed
+
+================================================================================
+Processing MgO - 3 important facets
+================================================================================
+  Generated Miller (1, 0, 0) (1 terminations)
+    Using Mg as reference element
+    Fixed 150 out of 300 atoms (below z=7.265 Å)
+  Saved: MgO_100_5x5.traj (1 terminations, 300 atoms)
+  Running LBFGS relaxation for 1 terminations...
+  Saved relaxed: MgO_100_5x5_relaxed.traj
+  Generated Miller (1, 1, 0) (1 terminations)
+    Using Mg as reference element
+    Fixed 250 out of 500 atoms (below z=8.701 Å)
+  Saved: MgO_110_5x5.traj (1 terminations, 500 atoms)
+  Running LBFGS relaxation for 1 terminations...
+  Saved relaxed: MgO_110_5x5_relaxed.traj
+  Generated Miller (1, 1, 1) (1 terminations)
+    Using Mg as reference element
+    Fixed 131 out of 250 atoms (below z=8.079 Å)
+  Saved: MgO_111_5x5.traj (1 terminations, 250 atoms)
+  Running LBFGS relaxation for 1 terminations...
+  Saved relaxed: MgO_111_5x5_relaxed.traj
+
+================================================================================
+Processing CaO - 3 important facets
+================================================================================
+  Generated Miller (1, 0, 0) (1 terminations)
+    Using Ca as reference element
+    Fixed 96 out of 192 atoms (below z=8.012 Å)
+  Saved: CaO_100_4x4.traj (1 terminations, 192 atoms)
+  Running LBFGS relaxation for 1 terminations...
+  Saved relaxed: CaO_100_4x4_relaxed.traj
+  Generated Miller (1, 1, 0) (1 terminations)
+    Using Ca as reference element
+    Fixed 160 out of 320 atoms (below z=9.653 Å)
+  Saved: CaO_110_4x4.traj (1 terminations, 320 atoms)
+  Running LBFGS relaxation for 1 terminations...
+  Saved relaxed: CaO_110_4x4_relaxed.traj
+  Generated Miller (1, 1, 1) (1 terminations)
+    Using Ca as reference element
+    Fixed 109 out of 192 atoms (below z=10.331 Å)
+  Saved: CaO_111_4x4.traj (1 terminations, 192 atoms)
+  Running LBFGS relaxation for 1 terminations...
+  Saved relaxed: CaO_111_4x4_relaxed.traj
+
+================================================================================
+Summary written to: ./slab_generation_summary_chunk1.txt
+All slabs saved to: ./slabs/
+Total Miller indices processed: 6
+Total slabs generated: 6
+Total slabs relaxed: 6
+Total converged: 6
+Convergence rate: 100.0%
+Energy log: ./energy_evaluation_chunk1.log
+================================================================================
+
+✅ Chunk 1 completed successfully
+
+==========================================
+CHUNK 1 COMPLETED
+Runtime: 0h 2m 42s
+Finished: Mon Nov 10 06:12:02 PM KST 2025
+==========================================

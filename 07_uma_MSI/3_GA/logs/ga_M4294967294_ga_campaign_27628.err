@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "/DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/run_ga.py", line 259, in <module>
+    main()
+  File "/DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/run_ga.py", line 255, in main
+    run_ga_job(**kwargs)
+  File "/DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/run_ga.py", line 109, in run_ga_job
+    results = run_single_ga(
+  File "/DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/scripts/ga_metal_oxide.py", line 571, in run_single_ga
+    starting_population, placement_box = generate_initial_population_adaptive(
+  File "/DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/scripts/ga_metal_oxide.py", line 360, in generate_initial_population_adaptive
+    raise RuntimeError(f"Could not generate any candidates after {max_retries} box expansions")
+RuntimeError: Could not generate any candidates after 5 box expansions
+Traceback (most recent call last):
+  File "/DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/run_ga.py", line 259, in <module>
+    main()
+  File "/DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/run_ga.py", line 255, in main
+    run_ga_job(**kwargs)
+  File "/DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/run_ga.py", line 109, in run_ga_job
+    results = run_single_ga(
+  File "/DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/scripts/ga_metal_oxide.py", line 571, in run_single_ga
+    starting_population, placement_box = generate_initial_population_adaptive(
+  File "/DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/scripts/ga_metal_oxide.py", line 360, in generate_initial_population_adaptive
+    raise RuntimeError(f"Could not generate any candidates after {max_retries} box expansions")
+RuntimeError: Could not generate any candidates after 5 box expansions
+/var/spool/slurm/job27628/slurm_script: line 75: 2819423 Aborted                 (core dumped) python3 run_ga.py --single --metal $METAL --slab $SLAB --n-metal $N_METAL --n-oxide $N_OXIDE --device $DEVICE

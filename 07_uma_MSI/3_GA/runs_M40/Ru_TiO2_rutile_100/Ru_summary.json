@@ -1,0 +1,45 @@
+{
+  "slab": "TiO2_rutile_100",
+  "metal": "Ru",
+  "n_metal": 40,
+  "best_energy": -9138.519711767116,
+  "best_energy_per_metal": -228.4629927941779,
+  "generations": 10,
+  "population_size": 10,
+  "total_structures": 79,
+  "duration_seconds": 5560.530716,
+  "duration_hours": 1.5445918655555557,
+  "generation_best": [
+    -9122.680722509303,
+    -9132.322934423366,
+    -9134.749692235866,
+    -9137.336972509303,
+    -9137.336972509303,
+    -9137.974667821803,
+    -9137.974667821803,
+    -9137.974667821803,
+    -9138.519711767116,
+    -9138.519711767116
+  ],
+  "ga_parameters": {
+    "population_size": 10,
+    "n_iterations": 10,
+    "n_candidates_per_gen": 10,
+    "mutation_probability": 0.3,
+    "crossover_probability": 0.7,
+    "fmax_relaxation": 0.05,
+    "max_steps_relax": 200,
+    "covalent_ratio": 0.7,
+    "mutation_weights": [
+      1.0,
+      1.0,
+      0.5
+    ],
+    "description": "Mirror, Rattle, Permutation mutation weights",
+    "n_metal": 40
+  },
+  "timestamp": "2025-11-27T06:27:06.509909",
+  "output_dir": "/DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Ru_TiO2_rutile_100",
+  "atom_config": "M40",
+  "n_oxide": 0
+}

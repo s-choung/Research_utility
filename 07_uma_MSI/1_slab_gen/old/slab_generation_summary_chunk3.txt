@@ -1,0 +1,25 @@
+================================================================================
+SLAB GENERATION SUMMARY - CHUNK 3
+================================================================================
+Calculator: FairChem v2 (UMA-S-1P1)
+Energy evaluation: Enabled with LBFGS relaxation
+
+SnO2 (3 facets):
+  Miller (1, 1, 0): 2 terminations → SnO2_110_5x4.traj
+  Miller (1, 0, 1): 2 terminations → SnO2_101_5x4.traj
+  Miller (1, 0, 0): 2 terminations → SnO2_100_5x4.traj
+  Total for SnO2: 6 slabs
+
+TiO2_anatase (3 facets):
+  Miller (1, 0, 1): 4 terminations → TiO2_anatase_101_6x5.traj
+  Miller (0, 0, 1): 2 terminations → TiO2_anatase_001_6x5.traj
+  Miller (1, 0, 0): 1 terminations → TiO2_anatase_100_6x5.traj
+  Total for TiO2_anatase: 7 slabs
+
+================================================================================
+Total Miller indices processed: 6
+Total slabs generated: 13
+Total slabs relaxed: 13
+Total converged: 13
+Convergence rate: 100.0%
+================================================================================

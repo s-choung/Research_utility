@@ -1,0 +1,45 @@
+{
+  "slab": "CeO2_111",
+  "metal": "Pt",
+  "n_metal": 40,
+  "best_energy": -6494.394767860538,
+  "best_energy_per_metal": -162.35986919651344,
+  "generations": 10,
+  "population_size": 10,
+  "total_structures": 100,
+  "duration_seconds": 3729.96776,
+  "duration_hours": 1.0361021555555556,
+  "generation_best": [
+    -6480.272331337101,
+    -6486.030510048038,
+    -6487.386467079288,
+    -6490.542350868351,
+    -6490.542350868351,
+    -6492.811882118351,
+    -6493.854362587101,
+    -6493.854362587101,
+    -6494.031242469913,
+    -6494.394767860538
+  ],
+  "ga_parameters": {
+    "population_size": 10,
+    "n_iterations": 10,
+    "n_candidates_per_gen": 10,
+    "mutation_probability": 0.3,
+    "crossover_probability": 0.7,
+    "fmax_relaxation": 0.05,
+    "max_steps_relax": 200,
+    "covalent_ratio": 0.7,
+    "mutation_weights": [
+      1.0,
+      1.0,
+      0.5
+    ],
+    "description": "Mirror, Rattle, Permutation mutation weights",
+    "n_metal": 40
+  },
+  "timestamp": "2025-11-26T17:42:00.583650",
+  "output_dir": "/DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Pt_CeO2_111",
+  "atom_config": "M40",
+  "n_oxide": 0
+}

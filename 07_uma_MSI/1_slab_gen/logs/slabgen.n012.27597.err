@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/DATA/user_scratch/jsh9967/5_uma_MSI/1_slab_gen/generate_slabs.py", line 487, in <module>
+    main()
+  File "/DATA/user_scratch/jsh9967/5_uma_MSI/1_slab_gen/generate_slabs.py", line 337, in main
+    bulk_names.add((base_name, id(bulk), bulk))
+TypeError: unhashable type: 'Atoms'

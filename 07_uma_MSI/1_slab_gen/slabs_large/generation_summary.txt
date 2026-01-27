@@ -1,0 +1,63 @@
+LARGE SLAB GENERATION SUMMARY (with relaxation)
+============================================================
+
+Al2O3_001:
+  Size: 34.0×34.0Å, Thick: 12.5Å
+  Atoms: 1470 {'Al': 588, 'O': 882}
+  Energy: -9557.902 eV (ΔE=-4.608 eV)
+  Converged: True
+
+CaO_100:
+  Size: 34.6×34.6Å, Thick: 7.3Å
+  Atoms: 800 {'Ca': 400, 'O': 400}
+  Energy: -4743.927 eV (ΔE=-0.352 eV)
+  Converged: True
+
+CeO2_111:
+  Size: 34.9×34.9Å, Thick: 8.0Å
+  Atoms: 729 {'Ce': 243, 'O': 486}
+  Energy: -5707.539 eV (ΔE=-4.289 eV)
+  Converged: True
+
+MgO_100:
+  Size: 33.6×33.6Å, Thick: 6.5Å
+  Atoms: 968 {'Mg': 484, 'O': 484}
+  Energy: -5290.928 eV (ΔE=-0.381 eV)
+  Converged: True
+
+SiO2_101:
+  Size: 36.1×38.0Å, Thick: 14.9Å
+  Atoms: 945 {'Si': 315, 'O': 630}
+  Energy: -6687.240 eV (ΔE=-5.655 eV)
+  Converged: True
+
+SnO2_100:
+  Size: 35.9×34.3Å, Thick: 9.4Å
+  Atoms: 924 {'Sn': 308, 'O': 616}
+  Energy: -5230.002 eV (ΔE=-25.394 eV)
+  Converged: True
+
+TiO2_anatase_001:
+  Size: 34.6×34.6Å, Thick: 8.3Å
+  Atoms: 972 {'Ti': 324, 'O': 648}
+  Energy: -8081.716 eV (ΔE=-2.542 eV)
+  Converged: True
+
+TiO2_rutile_100:
+  Size: 35.7×33.1Å, Thick: 9.0Å
+  Atoms: 1008 {'Ti': 336, 'O': 672}
+  Energy: -8360.940 eV (ΔE=-59.042 eV)
+  Converged: True
+
+ZnO_100:
+  Size: 36.6×37.6Å, Thick: 10.7Å
+  Atoms: 1232 {'Zn': 616, 'O': 616}
+  Energy: -4638.950 eV (ΔE=-49.135 eV)
+  Converged: True
+
+ZrO2_100:
+  Size: 36.4×34.0Å, Thick: 11.2Å
+  Atoms: 720 {'O': 360, 'Zr': 360}
+  Energy: -5764.925 eV (ΔE=-188.184 eV)
+  Converged: True
+

@@ -1,0 +1,25 @@
+================================================================================
+SLAB GENERATION SUMMARY - CHUNK 4
+================================================================================
+Calculator: FairChem v2 (UMA-S-1P1)
+Energy evaluation: Enabled with LBFGS relaxation
+
+ZnO (3 facets):
+  Miller (0, 0, 1): 2 terminations → ZnO_001_6x6.traj
+  Miller (1, 0, 0): 2 terminations → ZnO_100_6x6.traj
+  Miller (1, 1, 0): 1 terminations → ZnO_110_6x6.traj
+  Total for ZnO: 5 slabs
+
+Al2O3 (3 facets):
+  Miller (0, 0, 1): 2 terminations → Al2O3_001_5x5.traj
+  Miller (1, 0, 0): 2 terminations → Al2O3_100_5x5.traj
+  Miller (1, 1, 0): 3 terminations → Al2O3_110_5x5.traj
+  Total for Al2O3: 7 slabs
+
+================================================================================
+Total Miller indices processed: 6
+Total slabs generated: 12
+Total slabs relaxed: 12
+Total converged: 11
+Convergence rate: 91.7%
+================================================================================

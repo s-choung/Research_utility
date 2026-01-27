@@ -1,0 +1,62 @@
+{
+  "metals": {
+    "Pt": {
+      "atomic_number": 78,
+      "symbol": "Pt",
+      "covalent_radius": 1.36,
+      "vdw_radius": 1.75,
+      "color": "#D0D0E0"
+    },
+    "Au": {
+      "atomic_number": 79,
+      "symbol": "Au",
+      "covalent_radius": 1.36,
+      "vdw_radius": 1.66,
+      "color": "#FFD123"
+    },
+    "Pd": {
+      "atomic_number": 46,
+      "symbol": "Pd",
+      "covalent_radius": 1.39,
+      "vdw_radius": 1.63,
+      "color": "#006985"
+    },
+    "Rh": {
+      "atomic_number": 45,
+      "symbol": "Rh",
+      "covalent_radius": 1.42,
+      "vdw_radius": 1.73,
+      "color": "#0A7D8C"
+    },
+    "Ni": {
+      "atomic_number": 28,
+      "symbol": "Ni",
+      "covalent_radius": 1.24,
+      "vdw_radius": 1.63,
+      "color": "#50D050"
+    },
+    "Ru": {
+      "atomic_number": 44,
+      "symbol": "Ru",
+      "covalent_radius": 1.46,
+      "vdw_radius": 1.73,
+      "color": "#248F8F"
+    },
+    "Os": {
+      "atomic_number": 76,
+      "symbol": "Os",
+      "covalent_radius": 1.44,
+      "vdw_radius": 1.75,
+      "color": "#266696"
+    },
+    "Ir": {
+      "atomic_number": 77,
+      "symbol": "Ir",
+      "covalent_radius": 1.41,
+      "vdw_radius": 1.75,
+      "color": "#175487"
+    }
+  },
+  "n_atoms": 45,
+  "description": "Configuration for 8 transition metals to be deposited on oxide slabs"
+}

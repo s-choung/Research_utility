@@ -1,0 +1,26 @@
+================================================================================
+SLAB GENERATION SUMMARY - CHUNK 2
+================================================================================
+Calculator: FairChem v2 (UMA-S-1P1)
+Energy evaluation: Enabled with LBFGS relaxation
+
+CeO2 (3 facets):
+  Miller (1, 1, 1): 2 terminations → CeO2_111_4x4.traj
+  Miller (1, 1, 0): 1 terminations → CeO2_110_4x4.traj
+  Miller (1, 0, 0): 1 terminations → CeO2_100_4x4.traj
+  Total for CeO2: 4 slabs
+
+TiO2_rutile (4 facets):
+  Miller (1, 1, 0): 2 terminations → TiO2_rutile_110_5x4.traj
+  Miller (1, 0, 0): 2 terminations → TiO2_rutile_100_5x4.traj
+  Miller (1, 0, 1): 2 terminations → TiO2_rutile_101_5x4.traj
+  Miller (0, 0, 1): 1 terminations → TiO2_rutile_001_5x4.traj
+  Total for TiO2_rutile: 7 slabs
+
+================================================================================
+Total Miller indices processed: 7
+Total slabs generated: 11
+Total slabs relaxed: 11
+Total converged: 9
+Convergence rate: 81.8%
+================================================================================

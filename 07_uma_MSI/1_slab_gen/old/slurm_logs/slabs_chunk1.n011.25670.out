@@ -1,0 +1,96 @@
+==========================================
+SLAB GENERATION - CHUNK 1 (MgO, CaO)
+Host: n011.hpc | Started: Mon Nov 10 06:09:38 PM KST 2025
+==========================================
+Python: /home/jsh9967/anaconda3/envs/fairchem_v2/bin/python
+Python version: Python 3.10.19
+Conda env: fairchem_v2
+
+
+================================================================================
+CHUNK 4: Processing 2 materials
+Materials: ZnO, Al2O3
+================================================================================
+
+================================================================================
+Loading FairChem calculator...
+================================================================================
+  Loading FairChem v2 calculator from: ../utility/uma-s-1p1.pt
+  Using device: cuda
+  ✓ Model loaded successfully
+✓ Calculator loaded - energy evaluation will be performed
+
+================================================================================
+Processing ZnO - 3 important facets
+================================================================================
+  Generated Miller (0, 0, 1) (2 terminations)
+    Using Zn as reference element
+    Fixed 288 out of 576 atoms (below z=11.727 Å)
+    Using Zn as reference element
+    Fixed 252 out of 576 atoms (below z=11.112 Å)
+  Saved: ZnO_001_6x6.traj (2 terminations, 576 atoms)
+  Running LBFGS relaxation for 2 terminations...
+  Saved relaxed: ZnO_001_6x6_relaxed.traj
+  Generated Miller (1, 0, 0) (2 terminations)
+    Using Zn as reference element
+    Fixed 424 out of 864 atoms (below z=15.000 Å)
+    Using Zn as reference element
+    Fixed 424 out of 864 atoms (below z=15.000 Å)
+  Saved: ZnO_100_6x6.traj (2 terminations, 864 atoms)
+  Running LBFGS relaxation for 2 terminations...
+  Saved relaxed: ZnO_100_6x6_relaxed.traj
+  Generated Miller (1, 1, 0) (1 terminations)
+    Using Zn as reference element
+    Fixed 714 out of 1440 atoms (below z=29.625 Å)
+  Saved: ZnO_110_6x6.traj (1 terminations, 1440 atoms)
+  Running LBFGS relaxation for 1 terminations...
+  Saved relaxed: ZnO_110_6x6_relaxed.traj
+
+================================================================================
+Processing Al2O3 - 3 important facets
+================================================================================
+  Generated Miller (0, 0, 1) (2 terminations)
+    Using Al as reference element
+    Fixed 750 out of 1500 atoms (below z=14.749 Å)
+    Using Al as reference element
+    Fixed 750 out of 1500 atoms (below z=14.991 Å)
+  Saved: Al2O3_001_5x5.traj (2 terminations, 1500 atoms)
+  Running LBFGS relaxation for 2 terminations...
+  Saved relaxed: Al2O3_001_5x5_relaxed.traj
+  Generated Miller (1, 0, 0) (2 terminations)
+    Using Al as reference element
+    Fixed 1932 out of 3750 atoms (below z=20.113 Å)
+    Using Al as reference element
+    Fixed 1841 out of 3750 atoms (below z=19.385 Å)
+  Saved: Al2O3_100_5x5.traj (2 terminations, 3750 atoms)
+  Running LBFGS relaxation for 2 terminations...
+  Saved relaxed: Al2O3_100_5x5_relaxed.traj
+  Generated Miller (1, 1, 0) (3 terminations)
+    Using Al as reference element
+    Fixed 1168 out of 2250 atoms (below z=13.169 Å)
+    Using Al as reference element
+    Fixed 1142 out of 2250 atoms (below z=12.974 Å)
+    Using Al as reference element
+    Fixed 1075 out of 2250 atoms (below z=12.441 Å)
+  Saved: Al2O3_110_5x5.traj (3 terminations, 2250 atoms)
+  Running LBFGS relaxation for 3 terminations...
+  Saved relaxed: Al2O3_110_5x5_relaxed.traj
+
+================================================================================
+Summary written to: ./slab_generation_summary_chunk4.txt
+All slabs saved to: ./slabs/
+Total Miller indices processed: 6
+Total slabs generated: 12
+Total slabs relaxed: 12
+Total converged: 11
+Convergence rate: 91.7%
+Energy log: ./energy_evaluation_chunk4.log
+================================================================================
+
+✅ Chunk 1 completed successfully
+
+==========================================
+CHUNK 1 COMPLETED
+Runtime: 0h 30m 0s
+Finished: Mon Nov 10 06:39:38 PM KST 2025
+==========================================

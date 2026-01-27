@@ -1,0 +1,45 @@
+{
+  "slab": "MgO_100",
+  "metal": "Ni",
+  "n_metal": 40,
+  "best_energy": -5796.947858753584,
+  "best_energy_per_metal": -144.9236964688396,
+  "generations": 10,
+  "population_size": 10,
+  "total_structures": 100,
+  "duration_seconds": 8087.439476,
+  "duration_hours": 2.2465109655555553,
+  "generation_best": [
+    -5756.890973987959,
+    -5767.569929066084,
+    -5779.358381214522,
+    -5784.722516956709,
+    -5784.722516956709,
+    -5786.103742542647,
+    -5789.025373402022,
+    -5791.578596058272,
+    -5796.947858753584,
+    -5796.947858753584
+  ],
+  "ga_parameters": {
+    "population_size": 10,
+    "n_iterations": 10,
+    "n_candidates_per_gen": 10,
+    "mutation_probability": 0.3,
+    "crossover_probability": 0.7,
+    "fmax_relaxation": 0.05,
+    "max_steps_relax": 200,
+    "covalent_ratio": 0.7,
+    "mutation_weights": [
+      1.0,
+      1.0,
+      0.5
+    ],
+    "description": "Mirror, Rattle, Permutation mutation weights",
+    "n_metal": 40
+  },
+  "timestamp": "2025-11-27T00:38:26.642242",
+  "output_dir": "/DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Ni_MgO_100",
+  "atom_config": "M40",
+  "n_oxide": 0
+}

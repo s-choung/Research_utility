@@ -1,0 +1,45 @@
+{
+  "slab": "CaO_100",
+  "metal": "Au",
+  "n_metal": 40,
+  "best_energy": -5132.864633662044,
+  "best_energy_per_metal": -128.3216158415511,
+  "generations": 10,
+  "population_size": 10,
+  "total_structures": 100,
+  "duration_seconds": 4940.293121,
+  "duration_hours": 1.372303644722222,
+  "generation_best": [
+    -5124.018442255792,
+    -5128.660532099544,
+    -5128.860849482357,
+    -5129.980844599542,
+    -5130.941660029232,
+    -5132.235483271419,
+    -5132.456796747982,
+    -5132.464975458919,
+    -5132.589975458919,
+    -5132.864633662044
+  ],
+  "ga_parameters": {
+    "population_size": 10,
+    "n_iterations": 10,
+    "n_candidates_per_gen": 10,
+    "mutation_probability": 0.3,
+    "crossover_probability": 0.7,
+    "fmax_relaxation": 0.05,
+    "max_steps_relax": 200,
+    "covalent_ratio": 0.7,
+    "mutation_weights": [
+      1.0,
+      1.0,
+      0.5
+    ],
+    "description": "Mirror, Rattle, Permutation mutation weights",
+    "n_metal": 40
+  },
+  "timestamp": "2025-11-26T18:20:49.901640",
+  "output_dir": "/DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Au_CaO_100",
+  "atom_config": "M40",
+  "n_oxide": 0
+}

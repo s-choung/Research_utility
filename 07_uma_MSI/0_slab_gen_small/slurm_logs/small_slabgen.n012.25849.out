@@ -1,0 +1,305 @@
+==========================================
+SMALL SLAB GENERATION & EVALUATION JOB
+Lateral size: <2nm | Thin layers
+Host: n012.hpc | Started: Tue Nov 11 11:36:54 AM KST 2025
+==========================================
+Python: /home/jsh9967/anaconda3/envs/fairchem_v2/bin/python
+Python version: Python 3.10.19
+Conda env: fairchem_v2
+
+
+================================================================================
+Loading FairChem calculator...
+================================================================================
+  Loading FairChem v2 calculator from: ../utility/uma-s-1p1.pt
+  Using device: cuda
+  ✓ Model loaded successfully
+✓ Calculator loaded - energy evaluation will be performed
+
+Generating slabs for experimentally relevant facets only
+
+================================================================================
+Processing MgO - 3 important facets
+================================================================================
+  Generated Miller (1, 0, 0) (1 terminations)
+    Using Mg as reference element
+    Fixed 100 out of 200 atoms (below z=5.159 Å)
+  Saved: MgO_100_5x5.traj (1 terminations, 200 atoms)
+  Running LBFGS relaxation for 1 terminations...
+  Saved relaxed: MgO_100_5x5_relaxed.traj
+  Generated Miller (1, 1, 0) (1 terminations)
+    Using Mg as reference element
+    Fixed 150 out of 300 atoms (below z=5.723 Å)
+  Saved: MgO_110_5x5.traj (1 terminations, 300 atoms)
+  Running LBFGS relaxation for 1 terminations...
+  Saved relaxed: MgO_110_5x5_relaxed.traj
+  Generated Miller (1, 1, 1) (1 terminations)
+    Using Mg as reference element
+    Fixed 85 out of 200 atoms (below z=6.302 Å)
+  Saved: MgO_111_5x5.traj (1 terminations, 200 atoms)
+  Running LBFGS relaxation for 1 terminations...
+  Saved relaxed: MgO_111_5x5_relaxed.traj
+
+================================================================================
+Processing CaO - 3 important facets
+================================================================================
+  Generated Miller (1, 0, 0) (1 terminations)
+    Using Ca as reference element
+    Fixed 100 out of 200 atoms (below z=5.607 Å)
+  Saved: CaO_100_5x5.traj (1 terminations, 200 atoms)
+  Running LBFGS relaxation for 1 terminations...
+  Saved relaxed: CaO_100_5x5_relaxed.traj
+  Generated Miller (1, 1, 0) (1 terminations)
+    Using Ca as reference element
+    Fixed 150 out of 300 atoms (below z=6.251 Å)
+  Saved: CaO_110_5x5.traj (1 terminations, 300 atoms)
+  Running LBFGS relaxation for 1 terminations...
+  Saved relaxed: CaO_110_5x5_relaxed.traj
+  Generated Miller (1, 1, 1) (1 terminations)
+    Using Ca as reference element
+    Fixed 110 out of 200 atoms (below z=8.233 Å)
+  Saved: CaO_111_5x5.traj (1 terminations, 200 atoms)
+  Running LBFGS relaxation for 1 terminations...
+  Saved relaxed: CaO_111_5x5_relaxed.traj
+
+================================================================================
+Processing CeO2 - 3 important facets
+================================================================================
+  Generated Miller (1, 1, 1) (2 terminations)
+    Using Ce as reference element
+    Fixed 175 out of 300 atoms (below z=9.029 Å)
+    Using Ce as reference element
+    Fixed 150 out of 300 atoms (below z=7.467 Å)
+  Saved: CeO2_111_5x5.traj (2 terminations, 300 atoms)
+  Running LBFGS relaxation for 2 terminations...
+  Saved relaxed: CeO2_111_5x5_relaxed.traj
+  Generated Miller (1, 1, 0) (1 terminations)
+    Using Ce as reference element
+    Fixed 225 out of 450 atoms (below z=6.783 Å)
+  Saved: CeO2_110_5x5.traj (1 terminations, 450 atoms)
+  Running LBFGS relaxation for 1 terminations...
+  Saved relaxed: CeO2_110_5x5_relaxed.traj
+  Generated Miller (1, 0, 0) (1 terminations)
+    Using Ce as reference element
+    Fixed 100 out of 300 atoms (below z=6.058 Å)
+  Saved: CeO2_100_5x5.traj (1 terminations, 300 atoms)
+  Running LBFGS relaxation for 1 terminations...
+  Saved relaxed: CeO2_100_5x5_relaxed.traj
+
+================================================================================
+Processing TiO2_rutile - 4 important facets
+================================================================================
+  Generated Miller (1, 1, 0) (2 terminations)
+    Using Ti as reference element
+    Fixed 210 out of 360 atoms (below z=18.309 Å)
+    Using Ti as reference element
+    Fixed 195 out of 360 atoms (below z=16.012 Å)
+  Saved: TiO2_rutile_110_5x4.traj (2 terminations, 360 atoms)
+  Running LBFGS relaxation for 2 terminations...
+  Saved relaxed: TiO2_rutile_110_5x4_relaxed.traj
+  Generated Miller (1, 0, 0) (2 terminations)
+    Using Ti as reference element
+    Fixed 140 out of 240 atoms (below z=6.824 Å)
+    Using Ti as reference element
+    Fixed 120 out of 240 atoms (below z=6.364 Å)
+  Saved: TiO2_rutile_100_5x4.traj (2 terminations, 240 atoms)
+  Running LBFGS relaxation for 2 terminations...
+  Saved relaxed: TiO2_rutile_100_5x4_relaxed.traj
+  Generated Miller (1, 0, 1) (2 terminations)
+    Using Ti as reference element
+    Fixed 260 out of 480 atoms (below z=13.096 Å)
+    Using Ti as reference element
+    Fixed 220 out of 480 atoms (below z=11.617 Å)
+  Saved: TiO2_rutile_101_5x4.traj (2 terminations, 480 atoms)
+  Running LBFGS relaxation for 2 terminations...
+  Saved relaxed: TiO2_rutile_101_5x4_relaxed.traj
+  Generated Miller (0, 0, 1) (1 terminations)
+    Using Ti as reference element
+    Fixed 180 out of 360 atoms (below z=5.699 Å)
+  Saved: TiO2_rutile_001_5x4.traj (1 terminations, 360 atoms)
+  Running LBFGS relaxation for 1 terminations...
+  Saved relaxed: TiO2_rutile_001_5x4_relaxed.traj
+
+================================================================================
+Processing SnO2 - 3 important facets
+================================================================================
+  Generated Miller (1, 1, 0) (2 terminations)
+    Using Sn as reference element
+    Fixed 210 out of 360 atoms (below z=18.845 Å)
+    Using Sn as reference element
+    Fixed 195 out of 360 atoms (below z=16.476 Å)
+  Saved: SnO2_110_5x4.traj (2 terminations, 360 atoms)
+  Running LBFGS relaxation for 2 terminations...
+  Saved relaxed: SnO2_110_5x4_relaxed.traj
+  Generated Miller (1, 0, 1) (2 terminations)
+    Using Sn as reference element
+    Fixed 260 out of 480 atoms (below z=13.947 Å)
+    Using Sn as reference element
+    Fixed 220 out of 480 atoms (below z=12.354 Å)
+  Saved: SnO2_101_5x4.traj (2 terminations, 480 atoms)
+  Running LBFGS relaxation for 2 terminations...
+  Saved relaxed: SnO2_101_5x4_relaxed.traj
+  Generated Miller (1, 0, 0) (2 terminations)
+    Using Sn as reference element
+    Fixed 140 out of 240 atoms (below z=7.002 Å)
+    Using Sn as reference element
+    Fixed 120 out of 240 atoms (below z=6.472 Å)
+  Saved: SnO2_100_5x4.traj (2 terminations, 240 atoms)
+  Running LBFGS relaxation for 2 terminations...
+  Saved relaxed: SnO2_100_5x4_relaxed.traj
+
+================================================================================
+Processing TiO2_anatase - 2 important facets
+================================================================================
+  Generated Miller (1, 0, 1) (4 terminations)
+    Using Ti as reference element
+    Fixed 215 out of 480 atoms (below z=9.245 Å)
+    Using Ti as reference element
+    Fixed 235 out of 480 atoms (below z=9.365 Å)
+    Using Ti as reference element
+    Fixed 220 out of 480 atoms (below z=8.152 Å)
+    Using Ti as reference element
+    Fixed 240 out of 480 atoms (below z=9.125 Å)
+  Saved: TiO2_anatase_101_5x4.traj (4 terminations, 480 atoms)
+  Running LBFGS relaxation for 4 terminations...
+  Saved relaxed: TiO2_anatase_101_5x4_relaxed.traj
+  Generated Miller (0, 0, 1) (2 terminations)
+    Using Ti as reference element
+    Fixed 260 out of 480 atoms (below z=12.304 Å)
+    Using Ti as reference element
+    Fixed 240 out of 480 atoms (below z=10.724 Å)
+  Saved: TiO2_anatase_001_5x4.traj (2 terminations, 480 atoms)
+  Running LBFGS relaxation for 2 terminations...
+  Saved relaxed: TiO2_anatase_001_5x4_relaxed.traj
+
+================================================================================
+Processing ZnO - 2 important facets
+================================================================================
+  Generated Miller (0, 0, 1) (2 terminations)
+    Using Zn as reference element
+    Fixed 100 out of 200 atoms (below z=6.520 Å)
+    Using Zn as reference element
+    Fixed 75 out of 200 atoms (below z=5.905 Å)
+  Saved: ZnO_001_5x5.traj (2 terminations, 200 atoms)
+  Running LBFGS relaxation for 2 terminations...
+  Saved relaxed: ZnO_001_5x5_relaxed.traj
+  Generated Miller (1, 0, 0) (2 terminations)
+    Using Zn as reference element
+    Fixed 200 out of 400 atoms (below z=10.938 Å)
+    Using Zn as reference element
+    Fixed 200 out of 400 atoms (below z=10.937 Å)
+  Saved: ZnO_100_5x5.traj (2 terminations, 400 atoms)
+  Running LBFGS relaxation for 2 terminations...
+  Saved relaxed: ZnO_100_5x5_relaxed.traj
+
+================================================================================
+Processing Al2O3 - 1 important facets
+================================================================================
+  Generated Miller (0, 0, 1) (2 terminations)
+    Using Al as reference element
+    Fixed 240 out of 480 atoms (below z=8.253 Å)
+    Using Al as reference element
+    Fixed 240 out of 480 atoms (below z=8.495 Å)
+  Saved: Al2O3_001_4x4.traj (2 terminations, 480 atoms)
+  Running LBFGS relaxation for 2 terminations...
+  Saved relaxed: Al2O3_001_4x4_relaxed.traj
+
+================================================================================
+Processing ZrO2 - 3 important facets
+================================================================================
+  Generated Miller (1, 1, 1) (4 terminations)
+    Using Zr as reference element
+    Fixed 306 out of 640 atoms (below z=33.275 Å)
+    Using Zr as reference element
+    Fixed 292 out of 640 atoms (below z=33.275 Å)
+    Using Zr as reference element
+    Fixed 320 out of 640 atoms (below z=30.700 Å)
+    Using Zr as reference element
+    Fixed 320 out of 640 atoms (below z=33.275 Å)
+  Saved: ZrO2_111_4x4.traj (4 terminations, 640 atoms)
+  Running LBFGS relaxation for 4 terminations...
+  Saved relaxed: ZrO2_111_4x4_relaxed.traj
+  Generated Miller (1, 0, 1) (3 terminations)
+    Using Zr as reference element
+    Fixed 256 out of 512 atoms (below z=20.400 Å)
+    Using Zr as reference element
+    Fixed 284 out of 512 atoms (below z=21.857 Å)
+    Using Zr as reference element
+    Fixed 268 out of 512 atoms (below z=21.857 Å)
+  Saved: ZrO2_101_4x4.traj (3 terminations, 512 atoms)
+  Running LBFGS relaxation for 3 terminations...
+  Saved relaxed: ZrO2_101_4x4_relaxed.traj
+  Generated Miller (1, 0, 0) (3 terminations)
+    Using Zr as reference element
+    Fixed 192 out of 384 atoms (below z=10.935 Å)
+    Using Zr as reference element
+    Fixed 160 out of 384 atoms (below z=9.760 Å)
+    Using Zr as reference element
+    Fixed 192 out of 384 atoms (below z=10.100 Å)
+  Saved: ZrO2_100_4x4.traj (3 terminations, 384 atoms)
+  Running LBFGS relaxation for 3 terminations...
+  Saved relaxed: ZrO2_100_4x4_relaxed.traj
+
+================================================================================
+Processing SiO2 - 3 important facets
+================================================================================
+  Generated Miller (0, 0, 1) (2 terminations)
+    Using Si as reference element
+    Fixed 230 out of 432 atoms (below z=10.369 Å)
+    Using Si as reference element
+    Fixed 214 out of 432 atoms (below z=9.846 Å)
+  Saved: SiO2_001_4x4.traj (2 terminations, 432 atoms)
+  Running LBFGS relaxation for 2 terminations...
+  Saved relaxed: SiO2_001_4x4_relaxed.traj
+  Generated Miller (1, 0, 0) (5 terminations)
+    Using Si as reference element
+    Fixed 235 out of 432 atoms (below z=14.221 Å)
+    Using Si as reference element
+    Fixed 221 out of 432 atoms (below z=12.818 Å)
+    Using Si as reference element
+    Fixed 207 out of 432 atoms (below z=12.365 Å)
+    Using Si as reference element
+    Fixed 188 out of 432 atoms (below z=12.365 Å)
+    Using Si as reference element
+    Fixed 224 out of 432 atoms (below z=14.098 Å)
+  Saved: SiO2_100_4x4.traj (5 terminations, 432 atoms)
+  Running LBFGS relaxation for 5 terminations...
+  Saved relaxed: SiO2_100_4x4_relaxed.traj
+  Generated Miller (1, 0, 1) (4 terminations)
+    Using Si as reference element
+    Fixed 295 out of 576 atoms (below z=23.930 Å)
+    Using Si as reference element
+    Fixed 323 out of 576 atoms (below z=25.159 Å)
+    Using Si as reference element
+    Fixed 295 out of 576 atoms (below z=25.159 Å)
+    Using Si as reference element
+    Fixed 309 out of 576 atoms (below z=23.930 Å)
+  Saved: SiO2_101_4x4.traj (4 terminations, 576 atoms)
+  Running LBFGS relaxation for 4 terminations...
+  Saved relaxed: SiO2_101_4x4_relaxed.traj
+
+================================================================================
+Summary written to: ./slab_generation_summary.txt
+All slabs saved to: ./slabs/
+Total Miller indices processed: 27
+Total slabs generated: 56
+Total slabs relaxed: 56
+Total converged: 51
+Convergence rate: 91.1%
+Energy log: energy_evaluation.log
+================================================================================
+
+✅ Slab generation completed successfully
+
+==========================================
+JOB COMPLETED
+Runtime: 0h 21m 19s
+Finished: Tue Nov 11 11:58:13 AM KST 2025
+==========================================
+
+Output files:
+  - Summary: slab_generation_summary.txt
+  - Generated slabs: slabs/*.traj
+  - Relaxed slabs: slabs/*_relaxed.traj
+  - Energy log: energy_evaluation.log
+==========================================

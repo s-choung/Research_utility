@@ -1,0 +1,25 @@
+================================================================================
+SLAB GENERATION SUMMARY - CHUNK 5
+================================================================================
+Calculator: FairChem v2 (UMA-S-1P1)
+Energy evaluation: Enabled with LBFGS relaxation
+
+ZrO2 (3 facets):
+  Miller (1, 1, 1): 4 terminations → ZrO2_111_4x4.traj
+  Miller (1, 0, 1): 3 terminations → ZrO2_101_4x4.traj
+  Miller (1, 0, 0): 3 terminations → ZrO2_100_4x4.traj
+  Total for ZrO2: 10 slabs
+
+SiO2 (3 facets):
+  Miller (0, 0, 1): 2 terminations → SiO2_001_5x5.traj
+  Miller (1, 0, 0): 5 terminations → SiO2_100_5x5.traj
+  Miller (1, 0, 1): 4 terminations → SiO2_101_5x5.traj
+  Total for SiO2: 11 slabs
+
+================================================================================
+Total Miller indices processed: 6
+Total slabs generated: 21
+Total slabs relaxed: 21
+Total converged: 18
+Convergence rate: 85.7%
+================================================================================

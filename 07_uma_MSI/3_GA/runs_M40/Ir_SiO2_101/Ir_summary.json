@@ -1,0 +1,45 @@
+{
+  "slab": "SiO2_101",
+  "metal": "Ir",
+  "n_metal": 40,
+  "best_energy": -7372.69604409954,
+  "best_energy_per_metal": -184.3174011024885,
+  "generations": 10,
+  "population_size": 10,
+  "total_structures": 100,
+  "duration_seconds": 6592.829233,
+  "duration_hours": 1.8313414536111112,
+  "generation_best": [
+    -7350.372191560477,
+    -7351.779112947196,
+    -7360.586302888602,
+    -7366.152892244071,
+    -7367.675902497977,
+    -7367.675902497977,
+    -7367.675902497977,
+    -7367.675902497977,
+    -7372.69604409954,
+    -7372.69604409954
+  ],
+  "ga_parameters": {
+    "population_size": 10,
+    "n_iterations": 10,
+    "n_candidates_per_gen": 10,
+    "mutation_probability": 0.3,
+    "crossover_probability": 0.7,
+    "fmax_relaxation": 0.05,
+    "max_steps_relax": 200,
+    "covalent_ratio": 0.7,
+    "mutation_weights": [
+      1.0,
+      1.0,
+      0.5
+    ],
+    "description": "Mirror, Rattle, Permutation mutation weights",
+    "n_metal": 40
+  },
+  "timestamp": "2025-11-27T17:16:24.474612",
+  "output_dir": "/DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Ir_SiO2_101",
+  "atom_config": "M40",
+  "n_oxide": 0
+}

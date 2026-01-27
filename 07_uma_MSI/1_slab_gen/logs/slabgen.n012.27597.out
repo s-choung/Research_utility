@@ -1,0 +1,19 @@
+==========================================
+LARGE SLAB GENERATION WITH RELAXATION
+Host: n012.hpc | Started: Wed Nov 26 10:33:21 AM KST 2025
+GPU: 0
+==========================================
+Python: /home/jsh9967/anaconda3/envs/fairchem_v2/bin/python
+Conda env: fairchem_v2
+
+================================================================================
+LARGE SLAB GENERATION FOR GA (xy~35.0Å, with relaxation)
+================================================================================
+  Loading FairChem calculator on cuda...
+  ✓ Calculator loaded
+
+================================================================================
+STEP 1: BULK RELAXATION (with volume optimization)
+================================================================================
+
+❌ Slab generation failed

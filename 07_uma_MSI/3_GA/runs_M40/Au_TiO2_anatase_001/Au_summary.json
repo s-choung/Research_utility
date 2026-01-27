@@ -1,0 +1,45 @@
+{
+  "slab": "TiO2_anatase_001",
+  "metal": "Au",
+  "n_metal": 40,
+  "best_energy": -8641.704417323446,
+  "best_energy_per_metal": -216.04261043308617,
+  "generations": 10,
+  "population_size": 10,
+  "total_structures": 99,
+  "duration_seconds": 7329.779266,
+  "duration_hours": 2.036049796111111,
+  "generation_best": [
+    -8634.448435878134,
+    -8635.551341151571,
+    -8637.516184901571,
+    -8637.625804042196,
+    -8638.342600917196,
+    -8638.342600917196,
+    -8641.704417323446,
+    -8641.704417323446,
+    -8641.704417323446,
+    -8641.704417323446
+  ],
+  "ga_parameters": {
+    "population_size": 10,
+    "n_iterations": 10,
+    "n_candidates_per_gen": 10,
+    "mutation_probability": 0.3,
+    "crossover_probability": 0.7,
+    "fmax_relaxation": 0.05,
+    "max_steps_relax": 200,
+    "covalent_ratio": 0.7,
+    "mutation_weights": [
+      1.0,
+      1.0,
+      0.5
+    ],
+    "description": "Mirror, Rattle, Permutation mutation weights",
+    "n_metal": 40
+  },
+  "timestamp": "2025-11-27T01:59:02.839370",
+  "output_dir": "/DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Au_TiO2_anatase_001",
+  "atom_config": "M40",
+  "n_oxide": 0
+}

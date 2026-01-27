@@ -1,0 +1,45 @@
+{
+  "slab": "Al2O3_001",
+  "metal": "Ni",
+  "n_metal": 40,
+  "best_energy": -10517.197486160545,
+  "best_energy_per_metal": -262.9299371540136,
+  "generations": 10,
+  "population_size": 10,
+  "total_structures": 100,
+  "duration_seconds": 16321.868784,
+  "duration_hours": 4.53385244,
+  "generation_best": [
+    -10438.170020340234,
+    -10450.183448074607,
+    -10473.149390457422,
+    -10484.824805496482,
+    -10495.57077717617,
+    -10501.505835769922,
+    -10504.138892410545,
+    -10510.92966389492,
+    -10510.92966389492,
+    -10517.197486160545
+  ],
+  "ga_parameters": {
+    "population_size": 10,
+    "n_iterations": 10,
+    "n_candidates_per_gen": 10,
+    "mutation_probability": 0.3,
+    "crossover_probability": 0.7,
+    "fmax_relaxation": 0.05,
+    "max_steps_relax": 200,
+    "covalent_ratio": 0.7,
+    "mutation_weights": [
+      1.0,
+      1.0,
+      0.5
+    ],
+    "description": "Mirror, Rattle, Permutation mutation weights",
+    "n_metal": 40
+  },
+  "timestamp": "2025-11-26T17:14:26.319181",
+  "output_dir": "/DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Ni_Al2O3_001",
+  "atom_config": "M40",
+  "n_oxide": 0
+}

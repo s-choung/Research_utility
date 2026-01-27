@@ -1,0 +1,33 @@
+{
+  "ga_parameters": {
+    "population_size": 10,
+    "n_iterations": 10,
+    "n_candidates_per_gen": 10,
+    "mutation_probability": 0.3,
+    "crossover_probability": 0.7,
+    "fmax_relaxation": 0.05,
+    "max_steps_relax": 200,
+    "covalent_ratio": 0.7,
+    "mutation_weights": [1.0, 1.0, 0.5],
+    "description": "Mirror, Rattle, Permutation mutation weights"
+  },
+  "placement": {
+    "placement_height": 5.0,
+    "placement_xy_ratio": 0.6,
+    "min_distance_to_slab": 1.8,
+    "min_distance_between_metals": 2.0,
+    "description": "Parameters for placing metal atoms above oxide surface"
+  },
+  "optimization": {
+    "storage_mode": "moderate",
+    "save_all_structures": false,
+    "save_best_n": 5,
+    "save_frequency": 5,
+    "description": "Storage and output configuration"
+  },
+  "uma_model": {
+    "checkpoint_path": "/DATA/user_scratch/jsh9967/5_uma_MSI/utility/uma-s-1p1.pt",
+    "device": "cuda",
+    "task_name": "omat"
+  }
+}

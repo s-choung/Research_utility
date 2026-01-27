@@ -1,0 +1,45 @@
+{
+  "slab": "CaO_100",
+  "metal": "Pt",
+  "n_metal": 40,
+  "best_energy": -5226.695650069281,
+  "best_energy_per_metal": -130.66739125173203,
+  "generations": 10,
+  "population_size": 10,
+  "total_structures": 100,
+  "duration_seconds": 4250.734701,
+  "duration_hours": 1.1807596391666668,
+  "generation_best": [
+    -5212.117769209906,
+    -5222.247163741156,
+    -5222.247163741156,
+    -5223.708711592721,
+    -5225.165254561469,
+    -5225.165254561469,
+    -5225.726289717719,
+    -5225.726289717719,
+    -5225.830171553656,
+    -5226.695650069281
+  ],
+  "ga_parameters": {
+    "population_size": 10,
+    "n_iterations": 10,
+    "n_candidates_per_gen": 10,
+    "mutation_probability": 0.3,
+    "crossover_probability": 0.7,
+    "fmax_relaxation": 0.05,
+    "max_steps_relax": 200,
+    "covalent_ratio": 0.7,
+    "mutation_weights": [
+      1.0,
+      1.0,
+      0.5
+    ],
+    "description": "Mirror, Rattle, Permutation mutation weights",
+    "n_metal": 40
+  },
+  "timestamp": "2025-11-26T16:31:03.079113",
+  "output_dir": "/DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Pt_CaO_100",
+  "atom_config": "M40",
+  "n_oxide": 0
+}

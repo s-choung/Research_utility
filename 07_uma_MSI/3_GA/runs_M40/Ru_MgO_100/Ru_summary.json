@@ -1,0 +1,45 @@
+{
+  "slab": "MgO_100",
+  "metal": "Ru",
+  "n_metal": 40,
+  "best_energy": -5911.61316767623,
+  "best_energy_per_metal": -147.79032919190576,
+  "generations": 10,
+  "population_size": 10,
+  "total_structures": 100,
+  "duration_seconds": 5490.549411,
+  "duration_hours": 1.5251526141666667,
+  "generation_best": [
+    -5896.789681348105,
+    -5898.73377314498,
+    -5907.59412470748,
+    -5909.274178418417,
+    -5909.530037793417,
+    -5910.136361035605,
+    -5910.60535517623,
+    -5911.61316767623,
+    -5911.61316767623,
+    -5911.61316767623
+  ],
+  "ga_parameters": {
+    "population_size": 10,
+    "n_iterations": 10,
+    "n_candidates_per_gen": 10,
+    "mutation_probability": 0.3,
+    "crossover_probability": 0.7,
+    "fmax_relaxation": 0.05,
+    "max_steps_relax": 200,
+    "covalent_ratio": 0.7,
+    "mutation_weights": [
+      1.0,
+      1.0,
+      0.5
+    ],
+    "description": "Mirror, Rattle, Permutation mutation weights",
+    "n_metal": 40
+  },
+  "timestamp": "2025-11-27T00:11:26.635126",
+  "output_dir": "/DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/runs_M40/Ru_MgO_100",
+  "atom_config": "M40",
+  "n_oxide": 0
+}

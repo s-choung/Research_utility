@@ -1,0 +1,539 @@
+================================================================================
+ENERGY EVALUATION LOG
+================================================================================
+
+
+MgO Miller (1, 0, 0) (1 terminations):
+--------------------------------------------------------------------------------
+  Termination 1/1:
+    Initial energy: -1094.8576 eV
+    Max initial force: 7917946.0000 eV/Å
+    Final energy: -1096.1052 eV
+    Energy change: -1.2477 eV
+    Max final force: 0.0385 eV/Å
+    Optimization steps: 105
+    Converged: True
+
+MgO Miller (1, 1, 0) (1 terminations):
+--------------------------------------------------------------------------------
+  Termination 1/1:
+    Initial energy: -1590.2159 eV
+    Max initial force: 7176906.0000 eV/Å
+    Final energy: -1593.1504 eV
+    Energy change: -2.9345 eV
+    Max final force: 0.0470 eV/Å
+    Optimization steps: 115
+    Converged: True
+
+MgO Miller (1, 1, 1) (1 terminations):
+--------------------------------------------------------------------------------
+  Termination 1/1:
+    Initial energy: -981.8817 eV
+    Max initial force: 2.0910 eV/Å
+    Final energy: -990.4628 eV
+    Energy change: -8.5811 eV
+    Max final force: 0.0475 eV/Å
+    Optimization steps: 16
+    Converged: True
+
+CaO Miller (1, 0, 0) (1 terminations):
+--------------------------------------------------------------------------------
+  Termination 1/1:
+    Initial energy: -1186.7714 eV
+    Max initial force: 7136766.5000 eV/Å
+    Final energy: -1187.1657 eV
+    Energy change: -0.3943 eV
+    Max final force: 0.0488 eV/Å
+    Optimization steps: 110
+    Converged: True
+
+CaO Miller (1, 1, 0) (1 terminations):
+--------------------------------------------------------------------------------
+  Termination 1/1:
+    Initial energy: -1734.3889 eV
+    Max initial force: 1911411.7500 eV/Å
+    Final energy: -1737.8850 eV
+    Energy change: -3.4960 eV
+    Max final force: 0.0445 eV/Å
+    Optimization steps: 111
+    Converged: True
+
+CaO Miller (1, 1, 1) (1 terminations):
+--------------------------------------------------------------------------------
+  Termination 1/1:
+    Initial energy: -1070.9079 eV
+    Max initial force: 1.2056 eV/Å
+    Final energy: -1074.2372 eV
+    Energy change: -3.3293 eV
+    Max final force: 0.0410 eV/Å
+    Optimization steps: 16
+    Converged: True
+
+CeO2 Miller (1, 1, 1) (2 terminations):
+--------------------------------------------------------------------------------
+  Termination 1/2:
+    Initial energy: -2167.9258 eV
+    Max initial force: 3.0157 eV/Å
+    Final energy: -2213.0821 eV
+    Energy change: -45.1562 eV
+    Max final force: 0.0463 eV/Å
+    Optimization steps: 19
+    Converged: True
+  Termination 2/2:
+    Initial energy: -2356.1916 eV
+    Max initial force: 0.2163 eV/Å
+    Final energy: -2357.8768 eV
+    Energy change: -1.6852 eV
+    Max final force: 0.0363 eV/Å
+    Optimization steps: 18
+    Converged: True
+
+CeO2 Miller (1, 1, 0) (1 terminations):
+--------------------------------------------------------------------------------
+  Termination 1/1:
+    Initial energy: -3503.0642 eV
+    Max initial force: 2396463.2500 eV/Å
+    Final energy: -3531.0554 eV
+    Energy change: -27.9912 eV
+    Max final force: 0.0486 eV/Å
+    Optimization steps: 122
+    Converged: True
+
+CeO2 Miller (1, 0, 0) (1 terminations):
+--------------------------------------------------------------------------------
+  Termination 1/1:
+    Initial energy: -2169.7406 eV
+    Max initial force: 15016435.0000 eV/Å
+    Final energy: -2181.6723 eV
+    Energy change: -11.9318 eV
+    Max final force: 2.5991 eV/Å
+    Optimization steps: 300
+    Converged: False
+
+TiO2_rutile Miller (1, 1, 0) (2 terminations):
+--------------------------------------------------------------------------------
+  Termination 1/2:
+    Initial energy: -2832.6960 eV
+    Max initial force: 754937.0625 eV/Å
+    Final energy: -2879.0157 eV
+    Energy change: -46.3197 eV
+    Max final force: 0.0431 eV/Å
+    Optimization steps: 112
+    Converged: True
+  Termination 2/2:
+    Initial energy: -2957.3055 eV
+    Max initial force: 505476.1875 eV/Å
+    Final energy: -2976.5002 eV
+    Energy change: -19.1946 eV
+    Max final force: 0.1725 eV/Å
+    Optimization steps: 300
+    Converged: False
+
+TiO2_rutile Miller (1, 0, 0) (2 terminations):
+--------------------------------------------------------------------------------
+  Termination 1/2:
+    Initial energy: -1818.5292 eV
+    Max initial force: 92716760.0000 eV/Å
+    Final energy: -1870.1638 eV
+    Energy change: -51.6346 eV
+    Max final force: 0.0499 eV/Å
+    Optimization steps: 147
+    Converged: True
+  Termination 2/2:
+    Initial energy: -1974.0601 eV
+    Max initial force: 5570206.0000 eV/Å
+    Final energy: -1989.2089 eV
+    Energy change: -15.1488 eV
+    Max final force: 0.0495 eV/Å
+    Optimization steps: 116
+    Converged: True
+
+TiO2_rutile Miller (1, 0, 1) (2 terminations):
+--------------------------------------------------------------------------------
+  Termination 1/2:
+    Initial energy: -3640.5380 eV
+    Max initial force: 3560702.2500 eV/Å
+    Final energy: -3752.2477 eV
+    Energy change: -111.7097 eV
+    Max final force: 0.0483 eV/Å
+    Optimization steps: 288
+    Converged: True
+  Termination 2/2:
+    Initial energy: -3935.6227 eV
+    Max initial force: 289490.2812 eV/Å
+    Final energy: -3961.1803 eV
+    Energy change: -25.5576 eV
+    Max final force: 0.0498 eV/Å
+    Optimization steps: 120
+    Converged: True
+
+TiO2_rutile Miller (0, 0, 1) (1 terminations):
+--------------------------------------------------------------------------------
+  Termination 1/1:
+    Initial energy: -2915.3660 eV
+    Max initial force: 3236071.0000 eV/Å
+    Final energy: -2939.0893 eV
+    Energy change: -23.7233 eV
+    Max final force: 0.0465 eV/Å
+    Optimization steps: 121
+    Converged: True
+
+SnO2 Miller (1, 1, 0) (2 terminations):
+--------------------------------------------------------------------------------
+  Termination 1/2:
+    Initial energy: -1923.0950 eV
+    Max initial force: 662570.8125 eV/Å
+    Final energy: -1943.7913 eV
+    Energy change: -20.6963 eV
+    Max final force: 0.0483 eV/Å
+    Optimization steps: 123
+    Converged: True
+  Termination 2/2:
+    Initial energy: -2013.4715 eV
+    Max initial force: 597562.3125 eV/Å
+    Final energy: -2027.8405 eV
+    Energy change: -14.3690 eV
+    Max final force: 0.0395 eV/Å
+    Optimization steps: 123
+    Converged: True
+
+SnO2 Miller (1, 0, 1) (2 terminations):
+--------------------------------------------------------------------------------
+  Termination 1/2:
+    Initial energy: -2534.0384 eV
+    Max initial force: 1020108.6875 eV/Å
+    Final energy: -2553.4732 eV
+    Energy change: -19.4348 eV
+    Max final force: 0.0446 eV/Å
+    Optimization steps: 154
+    Converged: True
+  Termination 2/2:
+    Initial energy: -2668.3008 eV
+    Max initial force: 522061.8750 eV/Å
+    Final energy: -2691.2464 eV
+    Energy change: -22.9456 eV
+    Max final force: 0.0497 eV/Å
+    Optimization steps: 116
+    Converged: True
+
+SnO2 Miller (1, 0, 0) (2 terminations):
+--------------------------------------------------------------------------------
+  Termination 1/2:
+    Initial energy: -1263.1913 eV
+    Max initial force: 31815530.0000 eV/Å
+    Final energy: -1270.0302 eV
+    Energy change: -6.8389 eV
+    Max final force: 0.0492 eV/Å
+    Optimization steps: 110
+    Converged: True
+  Termination 2/2:
+    Initial energy: -1344.1059 eV
+    Max initial force: 6385830.0000 eV/Å
+    Final energy: -1355.1818 eV
+    Energy change: -11.0760 eV
+    Max final force: 0.0468 eV/Å
+    Optimization steps: 116
+    Converged: True
+
+TiO2_anatase Miller (1, 0, 1) (4 terminations):
+--------------------------------------------------------------------------------
+  Termination 1/4:
+    Initial energy: -3814.7084 eV
+    Max initial force: 2.1490 eV/Å
+    Final energy: -3875.7496 eV
+    Energy change: -61.0413 eV
+    Max final force: 0.0488 eV/Å
+    Optimization steps: 84
+    Converged: True
+  Termination 2/4:
+    Initial energy: -3971.6959 eV
+    Max initial force: 5.7794 eV/Å
+    Final energy: -3992.8800 eV
+    Energy change: -21.1841 eV
+    Max final force: 0.0496 eV/Å
+    Optimization steps: 30
+    Converged: True
+  Termination 3/4:
+    Initial energy: -3856.6520 eV
+    Max initial force: 2.7905 eV/Å
+    Final energy: -3873.1057 eV
+    Energy change: -16.4537 eV
+    Max final force: 0.0488 eV/Å
+    Optimization steps: 39
+    Converged: True
+  Termination 4/4:
+    Initial energy: -4001.6655 eV
+    Max initial force: 3.9953 eV/Å
+    Final energy: -4020.4409 eV
+    Energy change: -18.7754 eV
+    Max final force: 0.0458 eV/Å
+    Optimization steps: 27
+    Converged: True
+
+TiO2_anatase Miller (0, 0, 1) (2 terminations):
+--------------------------------------------------------------------------------
+  Termination 1/2:
+    Initial energy: -3857.4953 eV
+    Max initial force: 25366968.0000 eV/Å
+    Final energy: -3883.5090 eV
+    Energy change: -26.0137 eV
+    Max final force: 0.0442 eV/Å
+    Optimization steps: 120
+    Converged: True
+  Termination 2/2:
+    Initial energy: -4011.1965 eV
+    Max initial force: 5499208.0000 eV/Å
+    Final energy: -4017.9744 eV
+    Energy change: -6.7778 eV
+    Max final force: 0.0462 eV/Å
+    Optimization steps: 109
+    Converged: True
+
+ZnO Miller (0, 0, 1) (2 terminations):
+--------------------------------------------------------------------------------
+  Termination 1/2:
+    Initial energy: -766.7606 eV
+    Max initial force: 145231.1250 eV/Å
+    Final energy: -772.3276 eV
+    Energy change: -5.5671 eV
+    Max final force: 0.0392 eV/Å
+    Optimization steps: 104
+    Converged: True
+  Termination 2/2:
+    Initial energy: -674.4207 eV
+    Max initial force: 1076302.2500 eV/Å
+    Final energy: -728.2234 eV
+    Energy change: -53.8027 eV
+    Max final force: 0.6991 eV/Å
+    Optimization steps: 300
+    Converged: False
+
+ZnO Miller (1, 0, 0) (2 terminations):
+--------------------------------------------------------------------------------
+  Termination 1/2:
+    Initial energy: -1572.2585 eV
+    Max initial force: 832573.2500 eV/Å
+    Final energy: -1579.9879 eV
+    Energy change: -7.7294 eV
+    Max final force: 0.0421 eV/Å
+    Optimization steps: 115
+    Converged: True
+  Termination 2/2:
+    Initial energy: -1488.8131 eV
+    Max initial force: 1920522.6250 eV/Å
+    Final energy: -1525.2131 eV
+    Energy change: -36.4000 eV
+    Max final force: 0.0483 eV/Å
+    Optimization steps: 186
+    Converged: True
+
+Al2O3 Miller (0, 0, 1) (2 terminations):
+--------------------------------------------------------------------------------
+  Termination 1/2:
+    Initial energy: -3237.0211 eV
+    Max initial force: 1652157.6250 eV/Å
+    Final energy: -3271.6598 eV
+    Energy change: -34.6387 eV
+    Max final force: 0.0478 eV/Å
+    Optimization steps: 110
+    Converged: True
+  Termination 2/2:
+    Initial energy: -3109.8154 eV
+    Max initial force: 2842594.7500 eV/Å
+    Final energy: -3116.1879 eV
+    Energy change: -6.3725 eV
+    Max final force: 0.0426 eV/Å
+    Optimization steps: 108
+    Converged: True
+
+ZrO2 Miller (1, 1, 1) (4 terminations):
+--------------------------------------------------------------------------------
+  Termination 1/4:
+    Initial energy: -5221.6454 eV
+    Max initial force: 6.9197 eV/Å
+    Final energy: -5381.4546 eV
+    Energy change: -159.8092 eV
+    Max final force: 0.0443 eV/Å
+    Optimization steps: 243
+    Converged: True
+  Termination 2/4:
+    Initial energy: -5127.5128 eV
+    Max initial force: 7.4215 eV/Å
+    Final energy: -5391.1431 eV
+    Energy change: -263.6303 eV
+    Max final force: 0.0445 eV/Å
+    Optimization steps: 293
+    Converged: True
+  Termination 3/4:
+    Initial energy: -5201.3520 eV
+    Max initial force: 4.6304 eV/Å
+    Final energy: -5325.1445 eV
+    Energy change: -123.7925 eV
+    Max final force: 0.3068 eV/Å
+    Optimization steps: 300
+    Converged: False
+  Termination 4/4:
+    Initial energy: -5279.2012 eV
+    Max initial force: 2.9983 eV/Å
+    Final energy: -5384.5596 eV
+    Energy change: -105.3584 eV
+    Max final force: 0.1040 eV/Å
+    Optimization steps: 300
+    Converged: False
+
+ZrO2 Miller (1, 0, 1) (3 terminations):
+--------------------------------------------------------------------------------
+  Termination 1/3:
+    Initial energy: -4186.5813 eV
+    Max initial force: 3.8760 eV/Å
+    Final energy: -4270.3716 eV
+    Energy change: -83.7902 eV
+    Max final force: 0.0434 eV/Å
+    Optimization steps: 148
+    Converged: True
+  Termination 2/3:
+    Initial energy: -4135.8782 eV
+    Max initial force: 7.1121 eV/Å
+    Final energy: -4216.2933 eV
+    Energy change: -80.4150 eV
+    Max final force: 0.0411 eV/Å
+    Optimization steps: 130
+    Converged: True
+  Termination 3/3:
+    Initial energy: -4180.8060 eV
+    Max initial force: 3.5257 eV/Å
+    Final energy: -4262.8542 eV
+    Energy change: -82.0482 eV
+    Max final force: 0.0411 eV/Å
+    Optimization steps: 118
+    Converged: True
+
+ZrO2 Miller (1, 0, 0) (3 terminations):
+--------------------------------------------------------------------------------
+  Termination 1/3:
+    Initial energy: -3150.7807 eV
+    Max initial force: 4.2195 eV/Å
+    Final energy: -3214.7401 eV
+    Energy change: -63.9594 eV
+    Max final force: 0.0471 eV/Å
+    Optimization steps: 144
+    Converged: True
+  Termination 2/3:
+    Initial energy: -2992.8117 eV
+    Max initial force: 8.0346 eV/Å
+    Final energy: -3245.6032 eV
+    Energy change: -252.7914 eV
+    Max final force: 0.0487 eV/Å
+    Optimization steps: 125
+    Converged: True
+  Termination 3/3:
+    Initial energy: -3142.9921 eV
+    Max initial force: 1.4059 eV/Å
+    Final energy: -3214.7221 eV
+    Energy change: -71.7300 eV
+    Max final force: 0.0417 eV/Å
+    Optimization steps: 105
+    Converged: True
+
+SiO2 Miller (0, 0, 1) (2 terminations):
+--------------------------------------------------------------------------------
+  Termination 1/2:
+    Initial energy: -3079.1196 eV
+    Max initial force: 2.0480 eV/Å
+    Final energy: -3085.0061 eV
+    Energy change: -5.8865 eV
+    Max final force: 0.0388 eV/Å
+    Optimization steps: 40
+    Converged: True
+  Termination 2/2:
+    Initial energy: -3113.5789 eV
+    Max initial force: 5.0594 eV/Å
+    Final energy: -3134.4487 eV
+    Energy change: -20.8699 eV
+    Max final force: 0.0475 eV/Å
+    Optimization steps: 42
+    Converged: True
+
+SiO2 Miller (1, 0, 0) (5 terminations):
+--------------------------------------------------------------------------------
+  Termination 1/5:
+    Initial energy: -3076.2617 eV
+    Max initial force: 200380.7188 eV/Å
+    Final energy: -3082.2227 eV
+    Energy change: -5.9609 eV
+    Max final force: 0.0459 eV/Å
+    Optimization steps: 119
+    Converged: True
+  Termination 2/5:
+    Initial energy: -3092.6655 eV
+    Max initial force: 289438.5312 eV/Å
+    Final energy: -3116.6654 eV
+    Energy change: -23.9999 eV
+    Max final force: 0.0469 eV/Å
+    Optimization steps: 137
+    Converged: True
+  Termination 3/5:
+    Initial energy: -3043.5067 eV
+    Max initial force: 456419.9062 eV/Å
+    Final energy: -3071.7919 eV
+    Energy change: -28.2852 eV
+    Max final force: 0.0498 eV/Å
+    Optimization steps: 115
+    Converged: True
+  Termination 4/5:
+    Initial energy: -2928.3319 eV
+    Max initial force: 411891.2500 eV/Å
+    Final energy: -3012.0722 eV
+    Energy change: -83.7403 eV
+    Max final force: 0.0431 eV/Å
+    Optimization steps: 124
+    Converged: True
+  Termination 5/5:
+    Initial energy: -2972.9300 eV
+    Max initial force: 279699.0938 eV/Å
+    Final energy: -3058.5153 eV
+    Energy change: -85.5853 eV
+    Max final force: 0.0463 eV/Å
+    Optimization steps: 130
+    Converged: True
+
+SiO2 Miller (1, 0, 1) (4 terminations):
+--------------------------------------------------------------------------------
+  Termination 1/4:
+    Initial energy: -4116.1909 eV
+    Max initial force: 205227.5000 eV/Å
+    Final energy: -4134.2447 eV
+    Energy change: -18.0538 eV
+    Max final force: 0.0498 eV/Å
+    Optimization steps: 187
+    Converged: True
+  Termination 2/4:
+    Initial energy: -4043.7839 eV
+    Max initial force: 137440.8594 eV/Å
+    Final energy: -4097.9968 eV
+    Energy change: -54.2129 eV
+    Max final force: 0.0496 eV/Å
+    Optimization steps: 129
+    Converged: True
+  Termination 3/4:
+    Initial energy: -4045.5508 eV
+    Max initial force: 211843.9688 eV/Å
+    Final energy: -4099.0724 eV
+    Energy change: -53.5216 eV
+    Max final force: 0.0449 eV/Å
+    Optimization steps: 114
+    Converged: True
+  Termination 4/4:
+    Initial energy: -4145.2533 eV
+    Max initial force: 239871.5469 eV/Å
+    Final energy: -4171.4806 eV
+    Energy change: -26.2273 eV
+    Max final force: 0.0485 eV/Å
+    Optimization steps: 132
+    Converged: True
+
+================================================================================
+Total slabs relaxed: 56
+Total converged: 51
+Convergence rate: 91.1%
+================================================================================

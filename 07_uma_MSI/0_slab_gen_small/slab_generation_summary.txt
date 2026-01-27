@@ -1,0 +1,70 @@
+================================================================================
+SLAB GENERATION SUMMARY - IMPORTANT FACETS ONLY
+================================================================================
+Calculator: FairChem v2 (UMA-S-1P1)
+Energy evaluation: Enabled with LBFGS relaxation
+
+MgO (3 facets):
+  Miller (1, 0, 0): 1 terminations → MgO_100_5x5.traj
+  Miller (1, 1, 0): 1 terminations → MgO_110_5x5.traj
+  Miller (1, 1, 1): 1 terminations → MgO_111_5x5.traj
+  Total for MgO: 3 slabs
+
+CaO (3 facets):
+  Miller (1, 0, 0): 1 terminations → CaO_100_5x5.traj
+  Miller (1, 1, 0): 1 terminations → CaO_110_5x5.traj
+  Miller (1, 1, 1): 1 terminations → CaO_111_5x5.traj
+  Total for CaO: 3 slabs
+
+CeO2 (3 facets):
+  Miller (1, 1, 1): 2 terminations → CeO2_111_5x5.traj
+  Miller (1, 1, 0): 1 terminations → CeO2_110_5x5.traj
+  Miller (1, 0, 0): 1 terminations → CeO2_100_5x5.traj
+  Total for CeO2: 4 slabs
+
+TiO2_rutile (4 facets):
+  Miller (1, 1, 0): 2 terminations → TiO2_rutile_110_5x4.traj
+  Miller (1, 0, 0): 2 terminations → TiO2_rutile_100_5x4.traj
+  Miller (1, 0, 1): 2 terminations → TiO2_rutile_101_5x4.traj
+  Miller (0, 0, 1): 1 terminations → TiO2_rutile_001_5x4.traj
+  Total for TiO2_rutile: 7 slabs
+
+SnO2 (3 facets):
+  Miller (1, 1, 0): 2 terminations → SnO2_110_5x4.traj
+  Miller (1, 0, 1): 2 terminations → SnO2_101_5x4.traj
+  Miller (1, 0, 0): 2 terminations → SnO2_100_5x4.traj
+  Total for SnO2: 6 slabs
+
+TiO2_anatase (2 facets):
+  Miller (1, 0, 1): 4 terminations → TiO2_anatase_101_5x4.traj
+  Miller (0, 0, 1): 2 terminations → TiO2_anatase_001_5x4.traj
+  Total for TiO2_anatase: 6 slabs
+
+ZnO (2 facets):
+  Miller (0, 0, 1): 2 terminations → ZnO_001_5x5.traj
+  Miller (1, 0, 0): 2 terminations → ZnO_100_5x5.traj
+  Total for ZnO: 4 slabs
+
+Al2O3 (1 facets):
+  Miller (0, 0, 1): 2 terminations → Al2O3_001_4x4.traj
+  Total for Al2O3: 2 slabs
+
+ZrO2 (3 facets):
+  Miller (1, 1, 1): 4 terminations → ZrO2_111_4x4.traj
+  Miller (1, 0, 1): 3 terminations → ZrO2_101_4x4.traj
+  Miller (1, 0, 0): 3 terminations → ZrO2_100_4x4.traj
+  Total for ZrO2: 10 slabs
+
+SiO2 (3 facets):
+  Miller (0, 0, 1): 2 terminations → SiO2_001_4x4.traj
+  Miller (1, 0, 0): 5 terminations → SiO2_100_4x4.traj
+  Miller (1, 0, 1): 4 terminations → SiO2_101_4x4.traj
+  Total for SiO2: 11 slabs
+
+================================================================================
+Total Miller indices processed: 27
+Total slabs generated: 56
+Total slabs relaxed: 56
+Total converged: 51
+Convergence rate: 91.1%
+================================================================================

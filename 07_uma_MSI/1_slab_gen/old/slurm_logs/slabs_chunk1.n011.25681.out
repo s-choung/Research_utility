@@ -1,0 +1,88 @@
+==========================================
+SLAB GENERATION - CHUNK 1 (MgO, CaO)
+Host: n011.hpc | Started: Mon Nov 10 06:47:00 PM KST 2025
+==========================================
+Python: /home/jsh9967/anaconda3/envs/fairchem_v2/bin/python
+Python version: Python 3.10.19
+Conda env: fairchem_v2
+
+
+================================================================================
+RESTART FAILED RELAXATIONS
+================================================================================
+
+================================================================================
+Loading FairChem calculator...
+================================================================================
+  Loading FairChem v2 calculator from: ../utility/uma-s-1p1.pt
+  Using device: cuda
+  ✓ Model loaded successfully
+✓ Calculator loaded - restart can proceed
+
+
+================================================================================
+Restarting: CeO2 Miller (1,0,0) - Termination 1
+================================================================================
+  Loaded structure: 288 atoms
+  Running LBFGS relaxation (max_steps=500)...
+  ✓ CONVERGED: ΔE = -0.4668 eV
+  Saved to: ./slabs_restarted/CeO2_miller100_term0_restarted.traj
+
+================================================================================
+Restarting: TiO2_rutile Miller (1,0,1) - Termination 1
+================================================================================
+  Loaded structure: 600 atoms
+  Running LBFGS relaxation (max_steps=500)...
+  ✓ CONVERGED: ΔE = -3.0625 eV
+  Saved to: ./slabs_restarted/TiO2_rutile_miller101_term0_restarted.traj
+
+================================================================================
+Restarting: ZnO Miller (0,0,1) - Termination 2
+================================================================================
+  Loaded structure: 576 atoms
+  Running LBFGS relaxation (max_steps=500)...
+  ✓ CONVERGED: ΔE = -0.0813 eV
+  Saved to: ./slabs_restarted/ZnO_miller001_term1_restarted.traj
+
+================================================================================
+Restarting: ZrO2 Miller (1,1,1) - Termination 3
+================================================================================
+  Loaded structure: 896 atoms
+  Running LBFGS relaxation (max_steps=500)...
+  ✓ CONVERGED: ΔE = -2.6521 eV
+  Saved to: ./slabs_restarted/ZrO2_miller111_term2_restarted.traj
+
+================================================================================
+Restarting: ZrO2 Miller (1,1,1) - Termination 4
+================================================================================
+  Loaded structure: 896 atoms
+  Running LBFGS relaxation (max_steps=500)...
+  ✓ CONVERGED: ΔE = -1.4401 eV
+  Saved to: ./slabs_restarted/ZrO2_miller111_term3_restarted.traj
+
+================================================================================
+Restarting: SiO2 Miller (1,0,1) - Termination 1
+================================================================================
+  Loaded structure: 1350 atoms
+  Running LBFGS relaxation (max_steps=500)...
+  ✓ CONVERGED: ΔE = -18.1294 eV
+  Saved to: ./slabs_restarted/SiO2_miller101_term0_restarted.traj
+
+================================================================================
+RESTART SUMMARY
+================================================================================
+Total restart attempts: 6
+Total converged: 6
+Total still unconverged: 0
+Convergence rate: 100.0%
+Output directory: ./slabs_restarted/
+Log file: ./restart_failed.log
+================================================================================
+
+✅ Chunk 1 completed successfully
+
+==========================================
+CHUNK 1 COMPLETED
+Runtime: 0h 3m 35s
+Finished: Mon Nov 10 06:50:35 PM KST 2025
+==========================================

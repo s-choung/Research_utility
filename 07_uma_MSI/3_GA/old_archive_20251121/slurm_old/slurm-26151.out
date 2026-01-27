@@ -1,0 +1,34 @@
+==========================================
+SUBMITTING GA CAMPAIGNS
+==========================================
+Metals: 7
+Slabs per metal: 10
+Total jobs: 7
+Script: /DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/slurm/run_metal_campaign.sh
+Logs: /DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/logs
+==========================================
+
+✓ Submitted: Ir campaign (Job ID: 26152)
+✓ Submitted: Pt campaign (Job ID: 26153)
+✓ Submitted: Au campaign (Job ID: 26154)
+✓ Submitted: Pd campaign (Job ID: 26155)
+✓ Submitted: Rh campaign (Job ID: 26156)
+✓ Submitted: Ni campaign (Job ID: 26157)
+✓ Submitted: Ru campaign (Job ID: 26158)
+
+==========================================
+SUBMISSION COMPLETE
+==========================================
+Submitted: 7 jobs
+Skipped: 0 jobs (already completed)
+Total: 7 metals
+
+Each job will process 10 oxide slabs sequentially
+Expected runtime: ~10-15 hours per job (30 metal atoms, fmax=0.05)
+
+Monitor jobs with:
+  squeue -u jsh9967
+  tail -f /DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/logs/campaign_ga_Pt_campaign_JOBID.out
+
+Check logs in: /DATA/user_scratch/jsh9967/5_uma_MSI/3_GA/logs
+==========================================
