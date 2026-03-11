@@ -37,10 +37,8 @@ TARGET_UNIVERSITIES = [
     "건국대", "건국대학교", "Konkuk",
     "경북대", "경북대학교", "Kyungpook",
     "부산대", "부산대학교", "Pusan National",
-    "울산대", "울산대학교", "University of Ulsan",
     "가톨릭대", "가톨릭대학교", "Catholic Univ",
     "서강대", "서강대학교", "Sogang",
-    "인하대", "인하대학교", "Inha",
     "전남대", "전남대학교", "Chonnam",
     "영남대", "영남대학교", "Yeungnam",
 ]
@@ -74,6 +72,7 @@ EXCLUDE_FIELDS = [
     "신학", "종교",
     "사범대학", "교육대학", "사범대",
     "경찰", "군사",
+    "바이오", "생명과학", "생물학", "Biology",
 ]
 
 
