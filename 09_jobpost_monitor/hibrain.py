@@ -37,8 +37,10 @@ TARGET_UNIVERSITIES = [
     "건국대", "건국대학교", "Konkuk",
     "경북대", "경북대학교", "Kyungpook",
     "부산대", "부산대학교", "Pusan National",
+    "울산대", "울산대학교", "University of Ulsan",
     "가톨릭대", "가톨릭대학교", "Catholic Univ",
     "서강대", "서강대학교", "Sogang",
+    "인하대", "인하대학교", "Inha",
     "전남대", "전남대학교", "Chonnam",
     "영남대", "영남대학교", "Yeungnam",
 ]
@@ -54,6 +56,10 @@ EXCLUDE_POSITION = [
     "박사후", "연구교수",
     "박사급 연구원", "박사급 인재", "연구원 모집", "연구원 채용",
     "전임연구원", "비전임",
+]
+
+# 분교/캠퍼스 키워드: "서울"이 함께 있으면 통과
+EXCLUDE_CAMPUS = [
     "세종캠퍼스", "세종캠", "ERICA", "에리카",
     "글로벌캠퍼스", "국제캠퍼스",
     "천안캠퍼스", "삼성캠퍼스",
@@ -72,7 +78,6 @@ EXCLUDE_FIELDS = [
     "신학", "종교",
     "사범대학", "교육대학", "사범대",
     "경찰", "군사",
-    "바이오", "생명과학", "생물학", "Biology",
 ]
 
 
@@ -88,6 +93,10 @@ def _is_excluded(title: str) -> bool:
     title_lower = title.lower()
     if any(kw.lower() in title_lower for kw in EXCLUDE_POSITION):
         return True
+    # 분교 키워드가 있어도 "서울"이 함께 있으면 통과
+    if any(kw.lower() in title_lower for kw in EXCLUDE_CAMPUS):
+        if "서울" not in title:
+            return True
     if any(kw in title for kw in EXCLUDE_FIELDS):
         return True
     return False
